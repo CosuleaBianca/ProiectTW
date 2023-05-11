@@ -45,12 +45,29 @@ footer{
     background-color:deepskyblue;
 }
 
-.optiuni{
+#nav-toggle {
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    padding: 0;
+}
+
+ul {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.options{
     display: flex;
     flex-direction: column;
 }
 
-.optiuni ul li{
+.options ul li{
     list-style-type: none;
 }
 
