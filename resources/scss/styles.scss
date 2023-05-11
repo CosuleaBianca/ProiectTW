@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+}
+
+section.pagina{
+    display:grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 150px 1fr 200px;
+    grid-template-columns: 200px 1fr;
+    /* gap: 5px 10px; */
+    grid-template-areas:
+    "meniu titlu"
+    "meniu continut"
+    "meniu subsol";
+}
+
+header{
+    grid-area: titlu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+nav{
+    grid-area: meniu;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+main{
+    grid-area: continut;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:violet;
+}
+
+footer{
+    grid-area: subsol;
+    display: flex;
+    justify-content: space-around;
+    background-color:deepskyblue;
+}
+
+.optiuni{
+    display: flex;
+    flex-direction: column;
+}
+
+.optiuni ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
