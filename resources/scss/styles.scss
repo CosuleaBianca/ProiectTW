@@ -3,28 +3,36 @@ body{
     height: 100vh;
 }
 
+.logo{
+    height: 90vh;
+    background-size: cover;
+    background-image: url("/logo.jpg");
+}
+
 div.page-band{
-    position: sticky;
-    top: 0;
-    background-color: rgb(141, 235, 166, 0.5);
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: rgba(15, 15, 15);
     padding: 20px;  
+    color: white;
+    opacity: 0.3;
 }
 
 
-div.pagina{
+div.page{
     display:grid;
     height: 100%;
     grid-template-rows: 150px 1fr 200px;
-    grid-template-columns: 200px 1fr;
-    /* gap: 5px 10px; */
+    grid-template-columns: 150px 1fr;
     grid-template-areas:
-    "meniu titlu"
-    "meniu continut"
-    "subsol subsol";
+    "menu title"
+    "menu content"
+    "footer footer";
 }
 
 header{
-    grid-area: titlu;
+    grid-area: title;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,14 +40,14 @@ header{
 }
 
 nav{
-    grid-area: meniu;
+    grid-area: menu;
     display: flex;
     flex-direction: column;
     background-color: aquamarine;
 }
 
 main{
-    grid-area: continut;
+    grid-area: content;
     display: flex;
     height: 1000px;
     flex-direction: column;
@@ -49,10 +57,11 @@ main{
 }
 
 footer{
-    grid-area: subsol;
+    grid-area: footer;
     display: flex;
     justify-content: space-around;
-    background-color:deepskyblue;
+    background-color:rgba(4, 7, 55);
+    color: white;
 }
 
 #nav-toggle {
@@ -73,6 +82,8 @@ ul {
 .options{
     display: flex;
     flex-direction: column;
+    position:sticky;
+    top:60px;
 }
 
 .options ul li{
@@ -98,15 +109,15 @@ a{
 }
 
 @media screen and (max-width: 600px) {
-    div.pagina{
+    div.page{
         grid-template-rows: 50px 100px 1fr 100px;
         grid-template-columns: 1fr;
         /* gap: 5px 10px; */
         grid-template-areas:
-        "meniu"
-        "titlu"
-        "continut"
-        "subsol";
+        "menu"
+        "title"
+        "content"
+        "footer";
     }
     
     #nav-toggle{
@@ -125,6 +136,8 @@ a{
     
     nav {
         padding: 10px;
+        position:sticky;
+        top:58px;
     }
-    
+
 }
