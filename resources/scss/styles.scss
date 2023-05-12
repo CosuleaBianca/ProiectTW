@@ -4,7 +4,7 @@ body{
 }
 
 .logo{
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-image: url("/logo.jpg");
 }
@@ -138,6 +138,10 @@ a{
         padding: 10px;
         position:sticky;
         top:58px;
+    }
+
+    .logo{
+        background-position: center;
     }
 
 }
