@@ -56,6 +56,8 @@ footer{
 
 ul {
     display: none;
+    margin: 0%;
+    padding:0%;
 }
 
 .show {
@@ -69,10 +71,20 @@ ul {
 
 .options ul li{
     list-style-type: none;
+    border-top: solid 2px green;
+    border-left: solid 2px green; 
+    border-right: solid 2px green; 
+}
+
+.options ul li:last-child{
+    border-bottom: solid 2px green; 
 }
 
 a{
+    display: block;
     text-decoration: none;
+    padding: 10px;
+    margin: 0%;
 }
 
 
