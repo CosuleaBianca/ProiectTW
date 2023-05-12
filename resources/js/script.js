@@ -10,7 +10,7 @@ navButton.addEventListener('click', () => {
 window.addEventListener("scroll", function () {
     let pb = document.getElementById("pb");
     let scrollTop = window.pageYOffset;
-    pb.style.opacity = 0.3+scrollTop/800;
+    pb.style.opacity = 0.3+scrollTop/930;
     // console.log(scrollTop);
-    // console.log( 0.3+scrollTop/830)
+    // console.log( pb.style.opacity)
  });
