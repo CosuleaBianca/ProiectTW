@@ -10,6 +10,7 @@ div.page-band{
     padding: 20px;  
 }
 
+
 div.pagina{
     display:grid;
     height: 100%;
@@ -19,7 +20,7 @@ div.pagina{
     grid-template-areas:
     "meniu titlu"
     "meniu continut"
-    "meniu subsol";
+    "subsol subsol";
 }
 
 header{
@@ -40,6 +41,8 @@ nav{
 main{
     grid-area: continut;
     display: flex;
+    height: 1000px;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color:violet;
@@ -53,7 +56,7 @@ footer{
 }
 
 #nav-toggle {
-    display: block;
+    display: none;
     background: transparent;
     cursor: pointer;
     width: 50px;
@@ -62,13 +65,9 @@ footer{
 }
 
 ul {
-    display: none;
+    display: block;
     margin: 0%;
     padding:0%;
-}
-
-.show {
-    display: block;
 }
 
 .options{
@@ -78,9 +77,9 @@ ul {
 
 .options ul li{
     list-style-type: none;
-    border-top: solid 2px green;
-    border-left: solid 2px green; 
-    border-right: solid 2px green; 
+    // border-top: solid 2px green;
+    // border-left: solid 2px green; 
+    // border-right: solid 2px green; 
 }
 
 .options ul li:hover{
@@ -88,14 +87,44 @@ ul {
 }
 
 .options ul li:last-child {
-    border-bottom: solid 2px green; 
+    // border-bottom: solid 2px green; 
 }
 
 a{
     display: block;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     margin: 0%;
 }
 
+@media screen and (max-width: 600px) {
+    div.pagina{
+        grid-template-rows: 50px 100px 1fr 100px;
+        grid-template-columns: 1fr;
+        /* gap: 5px 10px; */
+        grid-template-areas:
+        "meniu"
+        "titlu"
+        "continut"
+        "subsol";
+    }
+    
+    #nav-toggle{
+        display: block;
+    }
 
+    .options ul{
+        display: none;
+        background-color: bisque;
+        position: absolute;
+    }
+
+    .show {
+        display: block !important;
+    }
+    
+    nav {
+        padding: 10px;
+    }
+    
+}
