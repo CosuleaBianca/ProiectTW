@@ -1,11 +1,18 @@
 body {
   margin: 0%;
+  height: 100vh;
+}
+
+div.page-band {
+  position: sticky;
+  top: 0;
+  background-color: rgba(141, 235, 166, 0.5);
+  padding: 20px;
 }
 
 div.pagina {
   display: grid;
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
   grid-template-rows: 150px 1fr 200px;
   grid-template-columns: 200px 1fr;
   /* gap: 5px 10px; */
@@ -71,6 +78,10 @@ ul {
   border-top: solid 2px green;
   border-left: solid 2px green;
   border-right: solid 2px green;
+}
+
+.options ul li:hover {
+  background-color: antiquewhite;
 }
 
 .options ul li:last-child {
