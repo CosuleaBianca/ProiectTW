@@ -1,11 +1,43 @@
 const navButton = document.getElementById('nav-toggle');
 const navMenu = document.querySelector('div.options ul');
-console.log(navMenu);
+//console.log(navMenu);
 
 navButton.addEventListener('click', () => {
     navMenu.classList.toggle('show');
     // console.log('ascund')  
 })
+
+let navMenuOptions = navMenu.childNodes;
+console.log(navMenuOptions);
+for(i=0;i<navMenuOptions.length;i++){
+    let child=navMenuOptions[i];
+    if(child.nodeName == 'LI'){
+        //console.log(child);
+        child.addEventListener('click', () => {
+            if(child.innerText == 'Home'){
+                loadData("./resources/data/test1.json", homePageLoad);
+                //console.log('apas home')
+            }
+            else if(child.innerText == 'Books'){
+                loadData("./resources/data/test2.json", booksPageLoad);
+                //console.log('apas books')
+            }
+            else if(child.innerText == 'Films'){
+                loadData("./resources/data/test3.json", filmsPageLoad);
+                //console.log('apas films')
+            }
+            else if(child.innerText == 'Characters'){
+                loadData("./resources/data/test4.json", charactersPageLoad);
+                //console.log('apas Characters')
+            }
+            else if(child.innerText == 'Games'){
+                loadData("./resources/data/test5.json", gamesPageLoad);
+                //console.log('apas Games')
+            }
+            
+        })
+    }
+}
 
 window.addEventListener("scroll", function () {
     let pb = document.getElementById("pb");
@@ -27,6 +59,7 @@ async function homePageLoad(json){
     document.getElementById("section-title").innerText = data.title;
 
     const main = document.getElementById("content");
+    main.replaceChildren();
     const h1 = document.createElement("h1");
     h1.innerText = data.subtitle;
     main.appendChild(h1);
@@ -38,13 +71,14 @@ async function homePageLoad(json){
     p = document.createElement("p");
     p.innerText = data.content.content;
     main.appendChild(p);
- }
+}
 
- async function booksPageLoad(json){
+async function booksPageLoad(json){
     const data = await json;
     document.getElementById("section-title").innerText = data.title;
 
     const main = document.getElementById("content");
+    main.replaceChildren();
     const h1 = document.createElement("h1");
     h1.innerText = data.subtitle;
     main.appendChild(h1);
@@ -57,15 +91,66 @@ async function homePageLoad(json){
         ul.appendChild(li);
     }
     main.appendChild(ul);
+}
 
-    // const ul = document.createElement("ul");
-    // let li = document.createElement("li");
-    // li.innerText = (data.content)[0].title + ":" + (data.content)[0].description;
-    // ul.appendChild(li);
-    // li = document.createElement("li");
-    // li.innerText = (data.content)[1].title + ":" + (data.content)[1].description;
-    // ul.appendChild(li);
-    // main.appendChild(ul);
- }
+async function filmsPageLoad(json){
+    const data = await json;
+    document.getElementById("section-title").innerText = data.title;
 
- loadData("./resources/data/test2.json",booksPageLoad);
+    const main = document.getElementById("content");
+    main.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.subtitle;
+    main.appendChild(h1);
+
+    const ul = document.createElement("ul");
+    const films = data.content;
+    for (let i = 0; i < films.length; i++) {
+        let li = document.createElement("li");
+        li.innerText = films[i].title + ":" + films[i].description;
+        ul.appendChild(li);
+    }
+    main.appendChild(ul);
+}
+
+async function charactersPageLoad(json){
+    const data = await json;
+    document.getElementById("section-title").innerText = data.title;
+
+    const main = document.getElementById("content");
+    main.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.subtitle;
+    main.appendChild(h1);
+
+    const ul = document.createElement("ul");
+    const characters = data.content;
+    for (let i = 0; i < characters.length; i++) {
+        let li = document.createElement("li");
+        li.innerText = characters[i].name + ":" + characters[i].description;
+        ul.appendChild(li);
+    }
+    main.appendChild(ul);
+}
+
+async function gamesPageLoad(json){
+    const data = await json;
+    document.getElementById("section-title").innerText = data.title;
+
+    const main = document.getElementById("content");
+    main.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.subtitle;
+    main.appendChild(h1);
+
+    const ul = document.createElement("ul");
+    const games = data.content;
+    for (let i = 0; i < games.length; i++) {
+        let li = document.createElement("li");
+        li.innerText = games[i].name + ":" + games[i].description;
+        ul.appendChild(li);
+    }
+    main.appendChild(ul);
+}
+
+ loadData("./resources/data/test1.json",homePageLoad);
