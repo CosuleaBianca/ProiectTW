@@ -32,24 +32,24 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: rgb(10, 26, 51);
+  color: white;
 }
 
 nav {
   grid-area: menu;
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
+  background-color: rgb(93, 129, 186);
 }
 
 main {
   grid-area: content;
   display: flex;
-  height: 1000px;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: violet;
+  background-color: rgb(196, 199, 204);
 }
 
 footer {
