@@ -1,0 +1,18 @@
+{
+    "title":"Characters",
+    "subtitle":"Harry Potter Characters",
+    "content":[
+        {
+            "name":"Character1",
+            "description":"Character1 description"
+        },
+        {
+            "name":"Character2",
+            "description":"Character2 description"
+        },
+        {
+            "name":"Character3",
+            "description":"Character3 description"
+        }
+    ]
+}

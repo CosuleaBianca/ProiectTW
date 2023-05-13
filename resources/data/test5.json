@@ -1,0 +1,14 @@
+{
+    "title":"Games",
+    "subtitle":"Harry Potter Games",
+    "content":[
+        {
+            "name":"Game1",
+            "description":"Game1 description"
+        },
+        {
+            "name":"Game2",
+            "description":"Game2 description"
+        }
+    ]
+}
