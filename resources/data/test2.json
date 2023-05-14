@@ -1,14 +1,61 @@
 {
     "title":"Books",
-    "subtitle":"Harry Potter Books",
-    "content":[
-        {
-            "title":"Book1",
-            "description":"Book1 description"
+    "introduction":"This category is for all the books related to Harry Potter that appear in the real-world.\n Written by British author J. K. Rowling, these books chronicle the lives of those in the Harry Potter universe.",
+    "books":[
+        {   "coverURL":"url1",
+            "title":"Harry Potter and the Philosopher's Stone",
+            "description":"Harry Potter thinks he is an ordinary boy - until he is rescued by an owl, taken to Hogwarts School of Witchcraft and Wizardry, learns to play Quidditch and does battle in a deadly duel. The Reason ... HARRY POTTER IS A WIZARD!",
+            "numberOfPages":"223",
+            "dateOfPublication":"26 June 1997"
         },
         {
-            "title":"Book2",
-            "description":"Book2 description"
+            "coverURL":"url2",
+            "title":"Harry Potter and the Chamber of Secrets",
+            "description":"Ever since Harry Potter had come home for the summer, the Dursleys had been so mean and hideous that all Harry wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange impish creature who says that if Harry returns to Hogwarts, disaster will strike.\n\n And strike it does. For in Harry's second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor and a spirit who haunts the girls' bathroom. But then the real trouble begins - someone is turning Hogwarts students to stone. Could it be Draco Malfoy, a more poisonous rival than ever? Could it possibly be Hagrid, whose mysterious past is finally told? Or could it be the one everyone at Hogwarts most suspects… Harry Potter himself!",
+            "numberOfPages":"341",
+            "dateOfPublication":"2 July 1998"
+        },
+        {
+            "coverURL":"url3",
+            "title":"Harry Potter and the Prisoner of Azkaban",
+            "description":"Harry Potter, along with his best friends, Ron and Hermione, is about to start his third year at Hogwarts School of Witchcraft and Wizardry. Harry can't wait to get back to school after the summer holidays. (Who wouldn't if they lived with the horrible Dursleys?) But when Harry gets to Hogwarts, the atmosphere is tense. There's an escaped mass murderer on the loose, and the sinister prison guards of Azkaban have been called in to guard the school...",
+            "numberOfPages":"435",
+            "dateOfPublication":"8 July 1999"
+        },
+        {
+            "coverURL":"url4",
+            "title":"Harry Potter and the Goblet of Fire",
+            "description":"It is the summer holidays and soon Harry Potter will be starting his fourth year at Hogwarts School of Witchcraft and Wizardry. Harry is counting the days: there are new spells to be learnt, more Quidditch to be played, and Hogwarts castle to continue exploring. But Harry needs to be careful - there are unexpected dangers lurking...",
+            "numberOfPages":"734",
+            "dateOfPublication":"8 July 2000"
+        },
+        {
+            "coverURL":"url5",
+            "title":"Harry Potter and the Order of the Phoenix",
+            "description":"Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry. Unlike most schoolboys, Harry never enjoys his summer holidays, but this summer is even worse than usual. The Dursleys, of course, are making his life a misery, but even his best friends, Ron and Hermione, seem to be neglecting him.\n\n Harry has had enough. He is beginning to think he must do something, anything, to change his situation, when the summer holidays come to an end in a very dramatic fashion. What Harry is about to discover in his new year at Hogwarts will turn his world upside down...",
+            "numberOfPages":"912",
+            "dateOfPublication":"21 June 2003"
+        },
+        {
+            "coverURL":"url6",
+            "title":"Harry Potter and the Half-Blood Prince",
+            "description":"'There it was, hanging in the sky above the school: the blazing green skull with a serpent tongue, the mark Death Eaters left behind whenever they had entered a building … wherever they had murdered …'\n\n When Dumbledore arrives at Privet Drive one summer night to collect Harry Potter, his wand hand is blackened and shrivelled, but he does not reveal why. Secrets and suspicion are spreading through the wizarding world, and Hogwarts itself is not safe. Harry is convinced that Malfoy bears the Dark Mark: there is a Death Eater amongst them. Harry will need powerful magic and true friends as he explores Voldemort's darkest secrets, and Dumbledore prepares him to face his destiny ...",
+            "numberOfPages":"691",
+            "dateOfPublication":"16 July 2005"
+        },
+        {
+            "coverURL":"url7",
+            "title":"Harry Potter and the Deathly Hallows",
+            "description":"Harry has been burdened with a dark, dangerous and seemingly impossible task: that of locating and destroying Voldemort's remaining Horcruxes. Never has Harry felt so alone, or faced a future so full of shadows. But Harry must somehow find within himself the strength to complete the task he has been given. He must leave the warmth, safety and companionship of The Burrow and follow without fear or hesitation the inexorable path laid out for him...\n\n In this final, seventh installment of the Harry Potter series, J.K. Rowling unveils in spectacular fashion the answers to the many questions that have been so eagerly awaited.",
+            "numberOfPages":"759",
+            "dateOfPublication":"21 July 2007"
+        },
+        {
+            "coverURL":"url8",
+            "title":"Harry Potter and the Cursed Child: Parts One and Two",
+            "description":"The eighth story, nineteen years later...\n\n It was always difficult being Harry Potter, and it isn't much easier now that he is an overworked employee of the Ministry of Magic, a husband, and a father of three school-age children.\n\n While Harry grapples with a past that refuses to stay where it belongs, his youngest son, Albus, must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places.\n\n Based on an original new story by J.K. Rowling, Jack Thorne, and John Tiffany, a new play by Jack Thorne, 'Harry Potter and the Cursed Child' is the complete and official playscript of the original, award-winning West End production. This updated edition includes the final dialogue and stage directions, a conversation piece between director John Tiffany and playwright Jack Thorne, the Potter family tree, and a timeline of events in the wizarding world leading up to 'Harry Potter and the Cursed Child.'",
+            "numberOfPages":"343",
+            "dateOfPublication":"31 July 2016"
         }
     ]
 }

@@ -79,12 +79,12 @@ async function booksPageLoad(json){
 
     const main = document.getElementById("content");
     main.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.subtitle;
-    main.appendChild(h1);
+    const p = document.createElement("p");
+    p.innerText = data.introduction;
+    main.appendChild(p);
 
     const ul = document.createElement("ul");
-    const books = data.content;
+    const books = data.books;
     for (let i = 0; i < books.length; i++) {
         let li = document.createElement("li");
         li.innerText = books[i].title + ":" + books[i].description;
