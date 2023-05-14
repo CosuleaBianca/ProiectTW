@@ -99,9 +99,9 @@ async function filmsPageLoad(json){
 
     const main = document.getElementById("content");
     main.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.subtitle;
-    main.appendChild(h1);
+    const p = document.createElement("p");
+    p.innerText = data.introduction;
+    main.appendChild(p);
 
     const ul = document.createElement("ul");
     const films = data.content;
