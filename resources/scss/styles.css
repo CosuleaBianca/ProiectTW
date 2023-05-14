@@ -52,6 +52,24 @@ main {
   background-color: rgb(196, 199, 204);
 }
 
+.book-card {
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  width: 70%;
+  margin: 5px;
+}
+
+.book-card-content {
+  padding: 2px 16px;
+  text-align: justify;
+}
+
+.book-card img {
+  height: 40vh;
+  float: left;
+  margin: 10px;
+}
+
 footer {
   grid-area: footer;
   display: flex;

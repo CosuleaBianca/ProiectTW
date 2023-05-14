@@ -83,14 +83,34 @@ async function booksPageLoad(json){
     p.innerText = data.introduction;
     main.appendChild(p);
 
-    const ul = document.createElement("ul");
     const books = data.books;
     for (let i = 0; i < books.length; i++) {
-        let li = document.createElement("li");
-        li.innerText = books[i].title + ":" + books[i].description;
-        ul.appendChild(li);
+        let divCard = document.createElement("div");
+        divCard.classList.add("book-card");
+        let h1 = document.createElement("h1");
+        h1.innerText = books[i].title;
+        divCard.appendChild(h1);
+
+        let img = document.createElement("img");
+        img.setAttribute("src",books[i].coverURL);
+        img.setAttribute("alt","Book cover");
+        divCard.appendChild(img);
+
+        let div = document.createElement("div");
+        div.classList.add("book-card-content");
+        let p = document.createElement("p");
+        p.innerText = books[i].description;
+        div.appendChild(p);
+        p = document.createElement("p");
+        p.innerText = books[i].numberOfPages + " pages";
+        div.appendChild(p);
+        p = document.createElement("p");
+        p.innerText ="First published " + books[i].dateOfPublication;
+        div.appendChild(p);
+        divCard.appendChild(div);
+
+        main.appendChild(divCard);
     }
-    main.appendChild(ul);
 }
 
 async function filmsPageLoad(json){
