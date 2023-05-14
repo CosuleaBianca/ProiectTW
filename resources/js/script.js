@@ -16,22 +16,27 @@ for(i=0;i<navMenuOptions.length;i++){
         child.addEventListener('click', () => {
             if(child.innerText == 'Home'){
                 loadData("./resources/data/test1.json", homePageLoad);
+                navMenu.classList.toggle('show');
                 //console.log('apas home')
             }
             else if(child.innerText == 'Books'){
                 loadData("./resources/data/test2.json", booksPageLoad);
+                navMenu.classList.toggle('show');
                 //console.log('apas books')
             }
             else if(child.innerText == 'Films'){
                 loadData("./resources/data/test3.json", filmsPageLoad);
+                navMenu.classList.toggle('show');
                 //console.log('apas films')
             }
             else if(child.innerText == 'Characters'){
                 loadData("./resources/data/test4.json", charactersPageLoad);
+                navMenu.classList.toggle('show');
                 //console.log('apas Characters')
             }
             else if(child.innerText == 'Games'){
                 loadData("./resources/data/test5.json", gamesPageLoad);
+                navMenu.classList.toggle('show');
                 //console.log('apas Games')
             }
             
@@ -123,14 +128,34 @@ async function filmsPageLoad(json){
     p.innerText = data.introduction;
     main.appendChild(p);
 
-    const ul = document.createElement("ul");
-    const films = data.content;
-    for (let i = 0; i < films.length; i++) {
-        let li = document.createElement("li");
-        li.innerText = films[i].title + ":" + films[i].description;
-        ul.appendChild(li);
+    const films = data.films;
+    for(const film of films){
+        let divCard = document.createElement("div");
+        divCard.classList.add("film-card");
+        let h1 = document.createElement("h1");
+        h1.innerText = film.title;
+        divCard.appendChild(h1);
+
+        let img = document.createElement("img");
+        img.setAttribute("src",film.coverURL);
+        img.setAttribute("alt","Film cover");
+        divCard.appendChild(img);
+
+        let div = document.createElement("div");
+        div.classList.add("film-card-content");
+        let p = document.createElement("p");
+        p.innerText = film.description;
+        div.appendChild(p);
+        p = document.createElement("p");
+        p.innerText="Runtime: " + film.runtime;
+        div.appendChild(p);
+        p = document.createElement("p");
+        p.innerText="Release date " + film.releaseDate;
+        div.appendChild(p);
+        divCard.appendChild(div)
+        
+        main.appendChild(divCard);
     }
-    main.appendChild(ul);
 }
 
 async function charactersPageLoad(json){

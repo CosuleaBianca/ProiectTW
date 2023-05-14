@@ -70,6 +70,24 @@ main {
   margin: 10px;
 }
 
+.film-card {
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  width: 70%;
+  margin: 5px;
+}
+
+.film-card-content {
+  padding: 2px 16px;
+  text-align: justify;
+}
+
+.film-card img {
+  height: 40vh;
+  float: left;
+  margin: 10px;
+}
+
 footer {
   grid-area: footer;
   display: flex;
@@ -140,5 +158,11 @@ a {
   }
   .logo {
     background-position: center;
+  }
+  .book-card {
+    width: 100%;
+  }
+  .film-card {
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
