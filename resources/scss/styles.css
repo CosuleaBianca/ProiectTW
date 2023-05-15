@@ -6,7 +6,7 @@ body {
 .logo {
   height: 100vh;
   background-size: cover;
-  background-image: url("../../logo.jpg");
+  background-image: url("../images/bg-picture.jpg");
 }
 
 div.page-band {
@@ -145,6 +145,9 @@ a {
     width: 100%;
     /* gap: 5px 10px; */
     grid-template-areas: "menu" "title" "content" "footer";
+  }
+  .logo {
+    background-image: url("../images/bg-picture-mobile.jpg");
   }
   #nav-toggle {
     display: block;
