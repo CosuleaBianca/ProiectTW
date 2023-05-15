@@ -15,7 +15,7 @@ for(i=0;i<navMenuOptions.length;i++){
         //console.log(child);
         child.addEventListener('click', () => {
             if(child.innerText == 'Home'){
-                loadData("./resources/data/test1.json", homePageLoad);
+                loadData("./resources/data/first-page.json", homePageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas home')
             }
@@ -65,17 +65,23 @@ async function homePageLoad(json){
 
     const main = document.getElementById("content");
     main.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.subtitle;
-    main.appendChild(h1);
 
-    let p = document.createElement("p");
-    p.innerText = data.content.introduction;
-    main.appendChild(p);
+    const h2 = document.createElement("h2");
+    h2.innerText = data.subtitle;
+    main.appendChild(h2);
 
-    p = document.createElement("p");
-    p.innerText = data.content.content;
-    main.appendChild(p);
+    let h3 = document.createElement("h3");
+    h3.innerText = data.introduction.welcome;
+    main.appendChild(h3);
+
+    let introductionParagraphs = data.introduction.paragraphs;
+    for(const paragraph of introductionParagraphs){
+        let p = document.createElement("p");
+        p.innerText = paragraph;
+        main.appendChild(p);
+    }
+    
+    //add houses data
 }
 
 async function booksPageLoad(json){
@@ -198,4 +204,4 @@ async function gamesPageLoad(json){
     main.appendChild(ul);
 }
 
- loadData("./resources/data/test1.json",homePageLoad);
+ loadData("./resources/data/first-page.json",homePageLoad);
