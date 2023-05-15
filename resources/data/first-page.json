@@ -1,7 +1,7 @@
 {
-    "title": "The Harry Potter universe",
+    "title": "The Harry Potter Universe",
     "subtitle": "YOUR LEGACY IS WHAT YOU MAKE IT. LIVE THE UNWRITTEN",
-    "introduction":[
+    "introduction":
         {
             "welcome":"Welcome to the Wizarding World of Harry Potter!",
             "paragraphs": [
@@ -11,16 +11,17 @@
                 "Apart from the novels, the Harry Potter universe has also expanded into various media including movies, video games, theme parks, and merchandise. The series has become a cultural phenomenon, with a massive fan base, known as Potterheads, who have created their own fan fiction, artwork, and cosplay.",
                 "Overall, the Harry Potter universe is a magical world that has captured the imaginations of people of all ages and continues to inspire new generations of fans."
             ]
-        }
-    ],
+        },
+    
     "houses":{
        
        "details":{
             "title":"Hogwarts Houses",
             "introduction":"Hogwarts School of Witchcraft and Wizardry was divided into four Houses: Gryffindor, founded by Godric Gryffindor; Hufflepuff, founded by Helga Hufflepuff; Ravenclaw, founded by Rowena Ravenclaw; and Slytherin, founded by Salazar Slytherin."
         },
-        "house_systems":{
-                "Gryffindor":{
+        "houses_system":[
+            {
+                    "name":"Gryffindor",
                     "founder": "Godric Gryffindor",
                     "colors": [
                         "scarlet",
@@ -61,113 +62,118 @@
                         "Dennis Creevey",
                         "Romilda Vane"
                     ]
-                },
-                "Hufflepuff": {
-                    "founder": "Helga Hufflepuff",
-                    "colors": [
-                        "Yellow",
-                        "Black"
-                    ],
-                    "animal": "Badger",
-                    "traits": [
-                        "Loyal",
-                        "Patient",
-                        "Hardworking", 
-                        "Fair", 
-                        "Kind"
-                    ],
-                    "ghost": "The Fat Friar",
-                    "common_room": "Hufflepuff Basement",
-                    "head_of_house": "unknown",
-                    "members": [
-                        "Cedric Diggory",
-                        "Nymphadora Tonks",
-                        "Pomona Sprout",
-                        "Newton Scamander",
-                        "Cedric Diggory's father",
-                        "Hannah Abbott",
-                        "Ernie Macmillan",
-                        "Justin Finch-Fletchley",
-                        "Susan Bones",
-                        "Zacharias Smith",
-                        "Eleanor Branstone",
-                        "Owen Cauldwell",
-                        "Laura Madley",
-                        "Damara Dodderidge",
-                        "Artemisia Lufkin",
-                        "Grogan Stump",
-                        "Helga Hufflepuff"
-                    ]
-                
-                },
-                "Ravenclaw":{
-                    "founder": "Rowena Ravenclaw",
-                    "animal": "Eagle",
-                    "colors": [
-                        "Blue", 
-                        "Bronze"
-                    ],
-                    "traits": [
-                        "Intelligence",
-                        "Wit",
-                        "Wisdom",
-                        "Creativity",
-                        "Originality"
-                    ],
-                    "common_room_location": "Ravenclaw Tower",
-                    "ghost": "The Grey Lady",
-                    "members": [
-                        "Luna Lovegood",
-                        "Gilderoy Lockhart",
-                        "Cho Chang",
-                        "Filius Flitwick",
-                        "Marietta Edgecombe",
-                        "Mandy Brocklehurst",
-                        "Penelope Clearwater",
-                        "Michael Corner",
-                        "Padma Patil",
-                        "Terry Boot",
-                        "Roger Davies",
-                        "Laverne de Montmorency",
-                        "Myrtle Warren"
-                    ]
-                },
-                "Slytherin":{
-                    "founder": "Salazar Slytherin",
-                    "animal": "Serpent",
-                    "colors": [
-                      "Green",
-                      "Silver"
-                    ],
-                    "traits": [
-                      "Cunning",
-                      "Ambition",
-                      "Resourcefulness",
-                      "Cleverness",
-                      "Determination"
-                    ],
-                    "common_room_location": "Dungeon",
-                    "ghost": "The Bloody Baron",
-                    "members": [
-                        "Severus Snape",
-                        "Tom Riddle",
-                        "Draco Malfoy",
-                        "Vincent Crabbe",
-                        "Gregory Goyle",
-                        "Pansy Parkinson",
-                        "Millicent Bulstrode",
-                        "Theodore Nott",
-                        "Blaise Zabini",
-                        "Daphne Greengrass",
-                        "Marcus Flint",
-                        "Adrian Pucey",
-                        "Tracey Davis",
-                        "Terence Higgs",
-                        "Lucius Malfoy",
-                        "Bellatrix Lestrange",
-                        "Regulus Black"
-                    ]
-                }
-        }   
+            },
+            
+            {
+                "name":"Hufflepuff",
+                "founder": "Helga Hufflepuff",
+                "colors": [
+                    "Yellow",
+                    "Black"
+                ],
+                "animal": "Badger",
+                "traits": [
+                    "Loyal",
+                    "Patient",
+                    "Hardworking", 
+                    "Fair", 
+                    "Kind"
+                ],
+                "ghost": "The Fat Friar",
+                "common_room": "Hufflepuff Basement",
+                "head_of_house": "unknown",
+                "members": [
+                    "Cedric Diggory",
+                    "Nymphadora Tonks",
+                    "Pomona Sprout",
+                    "Newton Scamander",
+                    "Cedric Diggory's father",
+                    "Hannah Abbott",
+                    "Ernie Macmillan",
+                    "Justin Finch-Fletchley",
+                    "Susan Bones",
+                    "Zacharias Smith",
+                    "Eleanor Branstone",
+                    "Owen Cauldwell",
+                    "Laura Madley",
+                    "Damara Dodderidge",
+                    "Artemisia Lufkin",
+                    "Grogan Stump",
+                    "Helga Hufflepuff"
+                ]
+            },
+            
+            {
+                "name":"Ravenclaw",
+                "founder": "Rowena Ravenclaw",
+                "animal": "Eagle",
+                "colors": [
+                    "Blue", 
+                    "Bronze"
+                ],
+                "traits": [
+                    "Intelligence",
+                    "Wit",
+                    "Wisdom",
+                    "Creativity",
+                    "Originality"
+                ],
+                "common_room_location": "Ravenclaw Tower",
+                "ghost": "The Grey Lady",
+                "members": [
+                    "Luna Lovegood",
+                    "Gilderoy Lockhart",
+                    "Cho Chang",
+                    "Filius Flitwick",
+                    "Marietta Edgecombe",
+                    "Mandy Brocklehurst",
+                    "Penelope Clearwater",
+                    "Michael Corner",
+                    "Padma Patil",
+                    "Terry Boot",
+                    "Roger Davies",
+                    "Laverne de Montmorency",
+                    "Myrtle Warren"
+                ]
+            },
+
+            {
+                "name":"Slytherin",
+                "founder": "Salazar Slytherin",
+                "animal": "Serpent",
+                "colors": [
+                    "Green",
+                    "Silver"
+                ],
+                "traits": [
+                    "Cunning",
+                    "Ambition",
+                    "Resourcefulness",
+                    "Cleverness",
+                    "Determination"
+                ],
+                "common_room_location": "Dungeon",
+                "ghost": "The Bloody Baron",
+                "members": [
+                    "Severus Snape",
+                    "Tom Riddle",
+                    "Draco Malfoy",
+                    "Vincent Crabbe",
+                    "Gregory Goyle",
+                    "Pansy Parkinson",
+                    "Millicent Bulstrode",
+                    "Theodore Nott",
+                    "Blaise Zabini",
+                    "Daphne Greengrass",
+                    "Marcus Flint",
+                    "Adrian Pucey",
+                    "Tracey Davis",
+                    "Terence Higgs",
+                    "Lucius Malfoy",
+                    "Bellatrix Lestrange",
+                    "Regulus Black"
+                ]
+            }
+        ]   
     }
 }
