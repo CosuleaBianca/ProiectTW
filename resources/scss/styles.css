@@ -68,6 +68,7 @@ main {
   height: 40vh;
   float: left;
   margin: 10px;
+  border-radius: 2%;
 }
 
 .film-card {
@@ -133,10 +134,15 @@ a {
   margin: 0%;
 }
 
+#content {
+  padding: 5px 10px;
+}
+
 @media screen and (max-width: 600px) {
   div.page {
     grid-template-rows: 50px 100px 1fr 100px;
     grid-template-columns: 1fr;
+    width: 100%;
     /* gap: 5px 10px; */
     grid-template-areas: "menu" "title" "content" "footer";
   }
@@ -161,8 +167,16 @@ a {
   }
   .book-card {
     width: 100%;
+    margin: 0;
   }
   .film-card {
     width: 100%;
+    margin: 0;
+  }
+  .book-card img {
+    height: 20vh;
+  }
+  .film-card img {
+    height: 20vh;
   }
 }/*# sourceMappingURL=styles.css.map */
