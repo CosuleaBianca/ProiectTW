@@ -8,7 +8,7 @@
             "description":"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard. Thus, he attends Hogwarts to practise magic under the guidance of the kindly headmaster Albus Dumbledore and other school professors along with his best friends Ron Weasley and Hermione Granger. Harry also discovers that he is already famous throughout the novel's magical community, and that his fate is tied with that of Lord Voldemort - the internationally feared Dark Wizard and murderer of his parents, James and Lily Potter. The book and film series revolve around Harry's struggle to adapt to the wizarding world and defeat Voldemort.",
             "personal-details":{
                 "full-name":"Harry James Potter",
-                "nicknames":"The Boy Who Lived /nThe Chosen One",
+                "aliases":"The Boy Who Lived \nThe Chosen One",
                 "family":"James Potter \nLily Potter",
                 "spouse":"Ginny Weasley",
                 "children":"James Sirius Potter \nAlbus Severus Potter \nLily Luna Potter",
@@ -23,31 +23,52 @@
             "name":"Albus Dumbledore",
             "description":"Prof. Albus Percival Wulfric Brian Dumbledore is a fictional character in J. K. Rowling's Harry Potter series. For most of the series, he is the headmaster of the wizarding school Hogwarts. As part of his backstory, it is revealed that he is the founder and leader of the Order of the Phoenix, an organisation dedicated to fighting Lord Voldemort, the main antagonist of the series.\n Rowling stated she chose the name Dumbledore, which is a dialectal word for \"bumblebee\", because of Dumbledore's love of music: she imagined him walking around 'humming to himself a lot'",
             "personal-details":{
-                "full-name":"Harry James Potter",
-                "nicknames":"The Boy Who Lived /nThe Chosen One",
-                "family":"James Potter \nLily Potter",
-                "spouse":"Ginny Weasley",
-                "children":"James Sirius Potter \nAlbus Severus Potter \nLily Luna Potter",
-                "relatives":"Fleamont Potter (grandfather) \nEuphemia Potter (grandmother) \nPetunia Dursley (aunt) \nVernon Dursley (uncle) \nDudley Dursley (cousin) \n",
+                "full-name":"Albus Percival Wulfric Brian Dumbledore",
+                "aliases":"",
+                "occupation":"Headmaster of Hogwarts School of Witchcraft and Wizardry (1960s-1997) \nChief Warlock of the Wizengamot (1978-1997) \nSupreme Mugwump of the International Confederation of Wizards (1983-1995) \nTransfiguration Professor of Hogwarts (1930-1956) \nDefence Against the Dark Arts Professor of Hogwarts (1910s-1930)",
+                "family":"Percival Dumbledore (father) \nKendra Dumbledore (mother) \nAberforth Dumbledore (brother) \nAriana Dumbledore (sister) \nAurelius Dumbledore (nephew)",
+                "spouse":"",
+                "children":"",
+                "relatives":"",
                 "nationality":"British",
                 "house":"Gryffindor",
-                "dateOfBirth":"31 July 1980"
+                "dateOfBirth":"August 1881",
+                "dateOfDeath":"30 June 1997"
             }
         },
         {
             "portraitURL":"url3",
-            "name":"Harry Potter",
-            "description":"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard. Thus, he attends Hogwarts to practise magic under the guidance of the kindly headmaster Albus Dumbledore and other school professors along with his best friends Ron Weasley and Hermione Granger. Harry also discovers that he is already famous throughout the novel's magical community, and that his fate is tied with that of Lord Voldemort - the internationally feared Dark Wizard and murderer of his parents, James and Lily Potter. The book and film series revolve around Harry's struggle to adapt to the wizarding world and defeat Voldemort.",
+            "name":"Lord Voldemort",
+            "description":"Lord Voldemort is a sobriquet for Tom Marvolo Riddle, a character and the main antagonist in J. K. Rowling's series of Harry Potter novels. The character first appeared in Harry Potter and the Philosopher's Stone, which was published in 1997, and returned either in person or in flashbacks in each book and its film adaptation in the series except the third, Harry Potter and the Prisoner of Azkaban, in which he is only mentioned. \nVoldemort is the archenemy of Harry Potter, who according to a prophecy has \"the power to vanquish the Dark Lord\". He attempts to murder the boy, but instead kills his parents, Lily and James Potter, and leaves Harry with a scar on his forehead in the shape of a lightning bolt. Nearly every witch or wizard dares not utter his name and refers to him instead with such monikers as \"You-Know-Who\", \"He Who Must Not Be Named\", or \"the Dark Lord\". Voldemort's obsession with blood purity signifies his aim to rid the wizarding world of Muggle (non-magical) heritage and to conquer both worlds, Muggle and wizarding, to achieve pure-blood dominance. Through his mother's family, he is the last descendant of the wizard Salazar Slytherin, one of the four founders of Hogwarts School of Witchcraft and Wizardry. He is the leader of the Death Eaters, a group of evil wizards and witches dedicated to ridding the Wizarding World of Muggles and establishing Voldemort as its supreme ruler.",
             "personal-details":{
-                "full-name":"Harry James Potter",
-                "nicknames":"The Boy Who Lived /nThe Chosen One",
-                "family":"James Potter \nLily Potter",
-                "spouse":"Ginny Weasley",
+                "full-name":"Tom Marvolo Riddle",
+                "aliases":"The Heir of Slytherin \nThe Dark Lord \nYou-Know-Who \nHe-Who-Must-Not-Be-Named",
+                "family":"Tom Riddle (father) \nMerope Gaunt (mother)",
+                "spouse":"",
                 "children":"James Sirius Potter \nAlbus Severus Potter \nLily Luna Potter",
-                "relatives":"Fleamont Potter (grandfather) \nEuphemia Potter (grandmother) \nPetunia Dursley (aunt) \nVernon Dursley (uncle) \nDudley Dursley (cousin) \n",
+                "relatives":"Thomas Riddle (paternal grandfather) \nMary Riddle (paternal grandmother) \nMarvolo Gaunt (maternal grandfather) \nMorfin Gaunt (maternal uncle) ",
                 "nationality":"British",
-                "house":"Gryffindor",
-                "dateOfBirth":"31 July 1980"
+                "house":"Slytherin",
+                "dateOfBirth":"31 December 1926",
+                "dateOfDeath":"2 May 1998"
+            }
+        },
+        {
+            "portraitURL":"url4",
+            "name":"Severus Snape",
+            "description":"Severus Snape is a fictional character in J. K. Rowling's Harry Potter series. He is an exceptionally skilled wizard whose extremely cold and resentful exterior conceals deep emotions and anguish. A Professor at Hogwarts School of Witchcraft and Wizardry, Snape is hostile to Harry due to his resemblance to his father James Potter, who bullied Snape during their time together at Hogwarts. \n Snape's character has been widely acclaimed by readers and critics. Rowling described him as \"a gift of a character\" whose story she had known since the first book. Elizabeth Hand of The Washington Post explained that Snape's life \"is the most heartbreaking, surprising and satisfying of all of Rowling's achievements\".",
+            "personal-details":{
+                "full-name":"Severus Snape",
+                "aliases":"The Half-Blood Prince \nThe Potions Master",
+                "occupation":"Headmaster of Hogwarts School of Witchcraft and Wizardry (1997-1998) \nDefence Against the Dark Arts Professor of Hogwarts (1996-1997) \nPotions Professor of Hogwarts (1981-1996)",
+                "family":"Tobias Snape (father) \nEileen Snape née Prince (mother)",
+                "spouse":"",
+                "children":"",
+                "relatives":"",
+                "nationality":"British",
+                "house":"Slytherin",
+                "dateOfBirth":"9 January 1960",
+                "dateOfDeath":"2 May 1998"
             }
         }
     ]
