@@ -70,6 +70,60 @@
                 "dateOfBirth":"9 January 1960",
                 "dateOfDeath":"2 May 1998"
             }
+        },
+        {
+            "portraitURL":"url5",
+            "name":"Sirius Black",
+            "description":"Sirius Black is a character in J. K. Rowling's Harry Potter series. Sirius was first mentioned briefly in Harry Potter and the Philosopher's Stone as a wizard who lent Rubeus Hagrid a flying motorbike shortly after Lord Voldemort killed James and Lily Potter. His character becomes prominent in Harry Potter and the Prisoner of Azkaban, in which he is the titular prisoner, and is also revealed to be the godfather of the central character Harry Potter.",
+            "personal-details":{
+                "full-name":"Sirius Black III",
+                "aliases":"Padfoot",
+                "occupation":"",
+                "family":"Orion Black (father) \nWalburga Black (mother) \nRegulus Black (brother)",
+                "spouse":"",
+                "children":"",
+                "relatives":"Harry Potter (godson) \nBellatrix Lestrange (cousin) \nAndromeda Tonks (cousin) \nNarcissa Malfoy (cousin) \nNymphadora Tonks (first cousin once removed) \nPhineas Nigellus Black (great-great-grandfather)",
+                "nationality":"British",
+                "house":"Gryffindor",
+                "dateOfBirth":"3 November 1959",
+                "dateOfDeath":"18 June 1996"
+            }
+        },
+        {
+            "portraitURL":"url6",
+            "name":"Hermione Granger",
+            "description":"Hermione Jean Granger is a fictional character in J. K. Rowling's Harry Potter series. She first appears in the novel Harry Potter and the Philosopher's Stone (1997), on the Hogwarts express as a first year student on her way to Hogwarts. After Harry and Ron save her from a mountain troll in the girls' restroom, she becomes best friends with them and often uses her quick wit, deft recall, and encyclopaedic knowledge to lend aid in dire situations. Rowling has stated that Hermione resembles herself as a young girl, with her insecurity and fear of failure.",
+            "personal-details":{
+                "full-name":"Hermione Jean Granger",
+                "aliases":"",
+                "occupation":"",
+                "family":"",
+                "spouse":"Ron Weasley",
+                "children":"Rose Granger-Weasley \nHugo Granger-Weasley",
+                "relatives":"",
+                "nationality":"British",
+                "house":"Gryffindor",
+                "dateOfBirth":"19 September 1979",
+                "dateOfDeath":""
+            }
+        },
+        {
+            "portraitURL":"url7",
+            "name":"Draco Malfoy",
+            "description":"Draco Lucius Malfoy is a fictional character in J. K. Rowling's Harry Potter series. He is a student in Harry Potter's year belonging in the Slytherin house. He is frequently accompanied by his two cronies, Vincent Crabbe and Gregory Goyle, who act as henchmen. Draco is characterised as a cowardly bully who tricks and hurts people to get what he wants; he is also a cunning user of magic.",
+            "personal-details":{
+                "full-name":"Draco Lucius Malfoy",
+                "aliases":"",
+                "occupation":"",
+                "family":"Lucius Malfoy (father) \nNarcissa Malfoy (mother)",
+                "spouse":"Astoria Greengrass",
+                "children":"Scorpius Malfoy (son)",
+                "relatives":"Andromeda Tonks (aunt) \nBellatrix Lestrange (aunt) \nNymphadora Tonks (cousin)",
+                "nationality":"British",
+                "house":"Slytherin",
+                "dateOfBirth":"5 June 1980",
+                "dateOfDeath":""
+            }
         }
     ]
 }
