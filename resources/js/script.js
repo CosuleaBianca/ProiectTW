@@ -170,15 +170,15 @@ async function charactersPageLoad(json){
 
     const main = document.getElementById("content");
     main.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.subtitle;
-    main.appendChild(h1);
+    const p = document.createElement("p");
+    p.innerText = data.introduction;
+    main.appendChild(p);
 
     const ul = document.createElement("ul");
-    const characters = data.content;
+    const characters = data.characters;
     for (let i = 0; i < characters.length; i++) {
         let li = document.createElement("li");
-        li.innerText = characters[i].name + ":" + characters[i].description;
+        li.innerText = characters[i].name;
         ul.appendChild(li);
     }
     main.appendChild(ul);
