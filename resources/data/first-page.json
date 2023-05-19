@@ -29,16 +29,12 @@
                     ],
                     "animal": "lion",
                     "values": [
-                        "Daring",
-                        "Nerve",
-                        "Chivalry",
-                        "Courage",
-                        "Bravery",
-                        "Determination"
+                      "chivalry",
+                      "courage",
+                      "bravery"
                     ],
                     "ghost": "Nearly Headless Nick",
                     "common_room": "Gryffindor Tower",
-                    "head_of_house": "Minerva McGonagall",
                     "element": "fire",
                     "members": [
                         "Harry Potter",
@@ -68,20 +64,18 @@
                 "name":"Hufflepuff",
                 "founder": "Helga Hufflepuff",
                 "colors": [
-                    "Yellow",
-                    "Black"
+                    "yellow",
+                    "black"
                 ],
-                "animal": "Badger",
-                "traits": [
-                    "Loyal",
-                    "Patient",
-                    "Hardworking", 
-                    "Fair", 
-                    "Kind"
+                "animal": "badger",
+                "values": [
+                    "loyal",
+                    "patient",
+                    "hardworking"
                 ],
                 "ghost": "The Fat Friar",
                 "common_room": "Hufflepuff Basement",
-                "head_of_house": "unknown",
+                "element":"earth",
                 "members": [
                     "Cedric Diggory",
                     "Nymphadora Tonks",
@@ -106,19 +100,18 @@
             {
                 "name":"Ravenclaw",
                 "founder": "Rowena Ravenclaw",
-                "animal": "Eagle",
+                "animal": "eagle",
                 "colors": [
-                    "Blue", 
-                    "Bronze"
+                    "blue", 
+                    "bronze"
                 ],
-                "traits": [
-                    "Intelligence",
-                    "Wit",
-                    "Wisdom",
-                    "Creativity",
-                    "Originality"
+                "values": [
+                    "intelligence",
+                    "wit",
+                    "wisdom"
                 ],
                 "common_room_location": "Ravenclaw Tower",
+                "element":"air",
                 "ghost": "The Grey Lady",
                 "members": [
                     "Luna Lovegood",
@@ -140,19 +133,18 @@
             {
                 "name":"Slytherin",
                 "founder": "Salazar Slytherin",
-                "animal": "Serpent",
+                "animal": "serpent",
                 "colors": [
-                    "Green",
-                    "Silver"
+                    "green",
+                    "silver"
                 ],
-                "traits": [
-                    "Cunning",
-                    "Ambition",
-                    "Resourcefulness",
-                    "Cleverness",
-                    "Determination"
+                "values": [
+                    "cunning",
+                    "ambition",
+                    "cleverness"
                 ],
                 "common_room_location": "Dungeon",
+                "element":"water",
                 "ghost": "The Bloody Baron",
                 "members": [
                     "Severus Snape",
