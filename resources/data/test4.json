@@ -5,70 +5,361 @@
         {
             "portraitURL":"url1",
             "name":"Harry Potter",
+            "quote":"\"You are protected, in short, by your ability to love! The only protection that can possibly work against the lure of power like Voldemort's! In spite of all the temptation you have endured, all the suffering, you remain pure of heart, just as pure as you were at the age of eleven, when you stared into a mirror that reflected your heart's desire, and it showed you only the way to thwart Lord Voldemort, and not immortality or riches. Harry, have you any idea how few wizards could have seen what you saw in that mirror?\" — Albus Dumbledore describing Harry's rare nature",
             "description":"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard. Thus, he attends Hogwarts to practise magic under the guidance of the kindly headmaster Albus Dumbledore and other school professors along with his best friends Ron Weasley and Hermione Granger. Harry also discovers that he is already famous throughout the novel's magical community, and that his fate is tied with that of Lord Voldemort - the internationally feared Dark Wizard and murderer of his parents, James and Lily Potter. The book and film series revolve around Harry's struggle to adapt to the wizarding world and defeat Voldemort.",
             "personal-details":{
                 "full-name":"Harry James Potter",
-                "aliases":"The Boy Who Lived \nThe Chosen One",
-                "family":"James Potter \nLily Potter",
-                "spouse":"Ginny Weasley",
-                "children":"James Sirius Potter \nAlbus Severus Potter \nLily Luna Potter",
-                "relatives":"Fleamont Potter (grandfather) \nEuphemia Potter (grandmother) \nPetunia Dursley (aunt) \nVernon Dursley (uncle) \nDudley Dursley (cousin) \n",
-                "nationality":"British",
-                "house":"Gryffindor",
-                "dateOfBirth":"31 July 1980"
+                "dateOfBirth":"31 July 1980",
+                "alive":"true",
+                "dateOfDeath":"",
+                "bloodStatus":"Half-blood",
+                "maritalStatus":"true",
+                "titles":[
+                    "Triwizard Champion",
+                    "Seeker",
+                    "Quidditch Captain",
+                    "Master of Death"
+                ],
+                "species":"Human",
+                "gender":"Male",
+                "family":[
+                    "James Potter (father)",
+                    "Lily Potter (mother)",
+                    "Ginny Weasley (wife)",
+                    "James Sirius Potter (son)",
+                    "Albus Severus Potter (son)",
+                    "Lily Luna Potter (daughter)",
+                    "Fleamont Potter (grandfather)",
+                    "Euphemia Potter (grandmother)",
+                    "Petunia Dursley (aunt)",
+                    "Vernon Dursley (uncle)",
+                    "Dudley Dursley (cousin)"
+                ],
+                "occupation":[
+                    "Head of British Auror Office",
+                    "Guest lecturer on Defence Against the Dark Arts",
+                    "Head of the Department of Magical Law Enforcement"
+                ],
+                "house":"Gryffindor"
             }
         },
         {
             "portraitURL":"url2",
             "name":"Albus Dumbledore",
-            "description":"Prof. Albus Percival Wulfric Brian Dumbledore is a fictional character in J. K. Rowling's Harry Potter series. For most of the series, he is the headmaster of the wizarding school Hogwarts. As part of his backstory, it is revealed that he is the founder and leader of the Order of the Phoenix, an organisation dedicated to fighting Lord Voldemort, the main antagonist of the series.\n Rowling stated she chose the name Dumbledore, which is a dialectal word for \"bumblebee\", because of Dumbledore's love of music: she imagined him walking around 'humming to himself a lot'",
+            "quote":"\"Albus Dumbledore was never proud or vain; he could find something to value in anyone, however apparently insignificant or wretched, and I believe that his early losses endowed him with great humanity and sympathy. I shall miss his friendship more than I can say, but my loss is as nothing compared to the wizarding world's. That he was the most inspiring and the best loved of all Hogwarts headmasters cannot be in question. He died as he lived: working always for the greater good and, to his last hour, as willing to stretch out a hand to a small boy with dragon pox as he was on the day that I met him.\" — Albus Dumbledore's obituary by Elphias Doge",
+            "description":"Prof. Albus Percival Wulfric Brian Dumbledore is a fictional character in J. K. Rowling's Harry Potter series. For most of the series, he is the headmaster of the wizarding school Hogwarts. As part of his backstory, it is revealed that he is the founder and leader of the Order of the Phoenix, an organisation dedicated to fighting Lord Voldemort, the main antagonist of the series.\n Rowling stated she chose the name Dumbledore, which is a dialectal word for \"bumblebee\", because of Dumbledore's love of music: she imagined him walking around \"humming to himself a lot\"",
             "personal-details":{
                 "full-name":"Albus Percival Wulfric Brian Dumbledore",
-                "aliases":"",
-                "occupation":"Headmaster of Hogwarts School of Witchcraft and Wizardry (1960s-1997) \nChief Warlock of the Wizengamot (1978-1997) \nSupreme Mugwump of the International Confederation of Wizards (1983-1995) \nTransfiguration Professor of Hogwarts (1930-1956) \nDefence Against the Dark Arts Professor of Hogwarts (1910s-1930)",
-                "family":"Percival Dumbledore (father) \nKendra Dumbledore (mother) \nAberforth Dumbledore (brother) \nAriana Dumbledore (sister) \nAurelius Dumbledore (nephew)",
-                "spouse":"",
-                "children":"",
-                "relatives":"",
-                "nationality":"British",
-                "house":"Gryffindor",
                 "dateOfBirth":"August 1881",
-                "dateOfDeath":"30 June 1997"
+                "alive":"false",
+                "dateOfDeath":"30 June 1997",
+                "bloodStatus":"Half-blood",
+                "maritalStatus":"false",
+                "titles":[
+                    "Prefect",
+                    "Professor",
+                    "Headmaster",
+                    "Supreme Mugwump"
+                ],
+                "species":"Human",
+                "gender":"Male",
+                "family":[
+                    "Percival Dumbledore (father)",
+                    "Kendra Dumbledore (mother)",
+                    "Aberforth Dumbledore (brother)",
+                    "Ariana Dumbledore (sister)",
+                    "Aurelius Dumbledore (nephew)"
+                ],
+                "occupation":[
+                    "Headmaster of Hogwarts School of Witchcraft and Wizardry (1960s-1997)",
+                    "Chief Warlock of the Wizengamot (1978-1997)",
+                    "Supreme Mugwump of the International Confederation of Wizards (1983-1995)",
+                    "Transfiguration Professor of Hogwarts (1930-1956)",
+                    "Defence Against the Dark Arts Professor of Hogwarts (1910s-1930)"
+                ],
+                "house":"Gryffindor"
             }
         },
         {
             "portraitURL":"url3",
             "name":"Lord Voldemort",
+            "quote":"\"You see? It was a name I was already using at Hogwarts, to my most intimate friends only, of course. You think I was going to use my filthy Muggle father's name forever? I, in whose veins runs the blood of Salazar Slytherin himself, through my mother's side? I, keep the name of a foul, common Muggle, who abandoned me even before I was born, just because he found out his wife was a witch? No, Harry. I fashioned myself a new name, a name I knew wizards everywhere would one day fear to speak, when I had become the greatest sorcerer in the world!\" — Tom Riddle's transformation into Lord Voldemort",
             "description":"Lord Voldemort is a sobriquet for Tom Marvolo Riddle, a character and the main antagonist in J. K. Rowling's series of Harry Potter novels. The character first appeared in Harry Potter and the Philosopher's Stone, which was published in 1997, and returned either in person or in flashbacks in each book and its film adaptation in the series except the third, Harry Potter and the Prisoner of Azkaban, in which he is only mentioned. \nVoldemort is the archenemy of Harry Potter, who according to a prophecy has \"the power to vanquish the Dark Lord\". He attempts to murder the boy, but instead kills his parents, Lily and James Potter, and leaves Harry with a scar on his forehead in the shape of a lightning bolt. Nearly every witch or wizard dares not utter his name and refers to him instead with such monikers as \"You-Know-Who\", \"He Who Must Not Be Named\", or \"the Dark Lord\". Voldemort's obsession with blood purity signifies his aim to rid the wizarding world of Muggle (non-magical) heritage and to conquer both worlds, Muggle and wizarding, to achieve pure-blood dominance. Through his mother's family, he is the last descendant of the wizard Salazar Slytherin, one of the four founders of Hogwarts School of Witchcraft and Wizardry. He is the leader of the Death Eaters, a group of evil wizards and witches dedicated to ridding the Wizarding World of Muggles and establishing Voldemort as its supreme ruler.",
             "personal-details":{
                 "full-name":"Tom Marvolo Riddle",
-                "aliases":"The Heir of Slytherin \nThe Dark Lord \nYou-Know-Who \nHe-Who-Must-Not-Be-Named",
-                "family":"Tom Riddle (father) \nMerope Gaunt (mother)",
-                "spouse":"",
-                "children":"James Sirius Potter \nAlbus Severus Potter \nLily Luna Potter",
-                "relatives":"Thomas Riddle (paternal grandfather) \nMary Riddle (paternal grandmother) \nMarvolo Gaunt (maternal grandfather) \nMorfin Gaunt (maternal uncle) ",
-                "nationality":"British",
-                "house":"Slytherin",
                 "dateOfBirth":"31 December 1926",
-                "dateOfDeath":"2 May 1998"
+                "alive":"false",
+                "dateOfDeath":"2 May 1998",
+                "bloodStatus":"Half-blood",
+                "maritalStatus":"false",
+                "titles":[
+                    "Prefect",
+                    "Head Boy",
+                    "Heir of Slytherin",
+                    "Dark Lord",
+                    "Master"
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    "Tom Riddle Senior (father)",
+                    "Merope Gaunt (mother)",
+                    "Thomas Riddle (paternal grandfather)",
+                    "Mary Riddle (paternal grandmother)",
+                    "Marvolo Gaunt (maternal grandfather)",
+                    "Morfin Gaunt (maternal uncle)"
+                ],
+                "occupation":[
+                    "Shop assistant at Borgin and Burkes"
+                ],
+                "house":"Slytherin"
             }
-        },
-        {
+        },{
             "portraitURL":"url4",
             "name":"Severus Snape",
+            "quote":"\"Albus Severus, you were named for two headmasters of Hogwarts. One of them was a Slytherin. And he was the bravest man I've ever known.\" — Harry Potter's high opinion of Snape's character",
             "description":"Severus Snape is a fictional character in J. K. Rowling's Harry Potter series. He is an exceptionally skilled wizard whose extremely cold and resentful exterior conceals deep emotions and anguish. A Professor at Hogwarts School of Witchcraft and Wizardry, Snape is hostile to Harry due to his resemblance to his father James Potter, who bullied Snape during their time together at Hogwarts. \n Snape's character has been widely acclaimed by readers and critics. Rowling described him as \"a gift of a character\" whose story she had known since the first book. Elizabeth Hand of The Washington Post explained that Snape's life \"is the most heartbreaking, surprising and satisfying of all of Rowling's achievements\".",
             "personal-details":{
                 "full-name":"Severus Snape",
-                "aliases":"The Half-Blood Prince \nThe Potions Master",
-                "occupation":"Headmaster of Hogwarts School of Witchcraft and Wizardry (1997-1998) \nDefence Against the Dark Arts Professor of Hogwarts (1996-1997) \nPotions Professor of Hogwarts (1981-1996)",
-                "family":"Tobias Snape (father) \nEileen Snape née Prince (mother)",
-                "spouse":"",
-                "children":"",
-                "relatives":"",
-                "nationality":"British",
-                "house":"Slytherin",
                 "dateOfBirth":"9 January 1960",
-                "dateOfDeath":"2 May 1998"
+                "alive":"false",
+                "dateOfDeath":"2 May 1998",
+                "bloodStatus":"Half-blood",
+                "maritalStatus":"false",
+                "titles":[
+                    "Professor",
+                    "Head of Slytherin House",
+                    "Headmaster"
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    "Tobias Snape (father)",
+                    "Eileen Snape (mother)"
+                ],
+                "occupation":[
+                    "Potions Master at Hogwarts (1981-1996)",
+                    "Head of Slytherin House (1981-1997)",
+                    "Professor of Defence Against the Dark Arts at Hogwarts (1996-1997)",
+                    "Headmaster of Hogwarts (1997-1998)"
+                ],
+                "house":"Slytherin"
+            }
+        },{
+            "portraitURL":"url5",
+            "name":"",
+            "quote":"",
+            "description":"",
+            "personal-details":{
+                "full-name":"",
+                "dateOfBirth":"",
+                "alive":"",
+                "dateOfDeath":"",
+                "bloodStatus":"",
+                "maritalStatus":"",
+                "titles":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    " (father)",
+                    " (mother)",
+                    " (brother)",
+                    " (sister)",
+                    ""
+                ],
+                "occupation":[
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "house":""
+            }
+        },{
+            "portraitURL":"url6",
+            "name":"",
+            "quote":"",
+            "description":"",
+            "personal-details":{
+                "full-name":"",
+                "dateOfBirth":"",
+                "alive":"",
+                "dateOfDeath":"",
+                "bloodStatus":"",
+                "maritalStatus":"",
+                "titles":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    " (father)",
+                    " (mother)",
+                    " (brother)",
+                    " (sister)",
+                    ""
+                ],
+                "occupation":[
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "house":""
+            }
+        },{
+            "portraitURL":"url7",
+            "name":"",
+            "quote":"",
+            "description":"",
+            "personal-details":{
+                "full-name":"",
+                "dateOfBirth":"",
+                "alive":"",
+                "dateOfDeath":"",
+                "bloodStatus":"",
+                "maritalStatus":"",
+                "titles":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    " (father)",
+                    " (mother)",
+                    " (brother)",
+                    " (sister)",
+                    ""
+                ],
+                "occupation":[
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "house":""
+            }
+        },{
+            "portraitURL":"url8",
+            "name":"",
+            "quote":"",
+            "description":"",
+            "personal-details":{
+                "full-name":"",
+                "dateOfBirth":"",
+                "alive":"",
+                "dateOfDeath":"",
+                "bloodStatus":"",
+                "maritalStatus":"",
+                "titles":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    " (father)",
+                    " (mother)",
+                    " (brother)",
+                    " (sister)",
+                    ""
+                ],
+                "occupation":[
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "house":""
+            }
+        },{
+            "portraitURL":"url9",
+            "name":"",
+            "quote":"",
+            "description":"",
+            "personal-details":{
+                "full-name":"",
+                "dateOfBirth":"",
+                "alive":"",
+                "dateOfDeath":"",
+                "bloodStatus":"",
+                "maritalStatus":"",
+                "titles":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    " (father)",
+                    " (mother)",
+                    " (brother)",
+                    " (sister)",
+                    ""
+                ],
+                "occupation":[
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "house":""
+            }
+        },{
+            "portraitURL":"url10",
+            "name":"",
+            "quote":"",
+            "description":"",
+            "personal-details":{
+                "full-name":"",
+                "dateOfBirth":"",
+                "alive":"",
+                "dateOfDeath":"",
+                "bloodStatus":"",
+                "maritalStatus":"",
+                "titles":[
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "species":"Human",
+                "gender":"",
+                "family":[
+                    " (father)",
+                    " (mother)",
+                    " (brother)",
+                    " (sister)",
+                    ""
+                ],
+                "occupation":[
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "house":""
             }
         },
         {
@@ -122,6 +413,42 @@
                 "nationality":"British",
                 "house":"Slytherin",
                 "dateOfBirth":"5 June 1980",
+                "dateOfDeath":""
+            }
+        },
+        {
+            "portraitURL":"url8",
+            "name":"Rubeus Hagrid",
+            "description":"Rubeus Hagrid is a fictional character in the Harry Potter book series written by J. K. Rowling. He is introduced in Harry Potter and the Philosopher's Stone as a half-giant and half-human who is the gamekeeper and Keeper of Keys and Grounds of Hogwarts, the primary setting for the first six novels. In the third novel Harry Potter and the Prisoner of Azkaban, Hagrid is promoted to Care of Magical Creatures professor, and is later revealed to be a member of the Order of the Phoenix. A loyal, friendly, softhearted personality who is easily brought to tears, he is also known for his thick West Country accent.",
+            "personal-details":{
+                "full-name":"Rubeus Hagrid",
+                "aliases":"",
+                "occupation":"",
+                "family":"Fridwulfa (mother) \nGrawp (half-brother)",
+                "spouse":"Olympe Maxime",
+                "children":"",
+                "relatives":"",
+                "nationality":"British",
+                "house":"Gryffindor",
+                "dateOfBirth":"6 December 1928",
+                "dateOfDeath":""
+            }
+        }, 
+        {
+            "portraitURL":"url9",
+            "name":"Neville Longbottom",
+            "description":"Neville Longbottom is a fictional character in J. K. Rowling's Harry Potter book series. He is described as a round-faced Gryffindor student in the central character Harry Potter's year. Throughout the series, Neville is often portrayed as a bumbling and disorganised character, and a rather mediocre student, though he is highly gifted at Herbology. However, the character's personality appears to undergo a transition after he joins Dumbledore's Army in Harry Potter and the Order of the Phoenix. The encouragement he receives gives him confidence in his magical abilities, turning him into a more competent wizard. Eventually, Neville becomes the leader of Dumbledore's Army during Harry, Ron and Hermione's absence searching for Horcruxes. Neville is instrumental in the downfall of Lord Voldemort and eventually destroys the final Horcrux, which allows Harry to defeat The Dark Lord once and for all. ",
+            "personal-details":{
+                "full-name":"Neville Longbottom",
+                "aliases":"",
+                "occupation":"",
+                "family":"Fridwulfa (mother) \nGrawp (half-brother)",
+                "spouse":"Olympe Maxime",
+                "children":"",
+                "relatives":"",
+                "nationality":"British",
+                "house":"Gryffindor",
+                "dateOfBirth":"6 December 1928",
                 "dateOfDeath":""
             }
         }
