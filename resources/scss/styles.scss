@@ -176,10 +176,37 @@ ul {
 }
 
 a{
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
-    padding: 20px;
-    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.character-link {
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/bg/characters.jpg");
+}
+
+
+
+.character-link ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.character-link ul li {
+    list-style: none;
+    flex: 33.33333%
+}
+
+.character-link ul li a img {
+    width: 200px;
+    height: 200px;
 }
 
 // #content{

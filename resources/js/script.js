@@ -243,6 +243,8 @@ async function charactersPageLoad(json){
     main.appendChild(p);
 
     const ul = document.createElement("ul");
+    let div = document.createElement("div");
+    div.classList.add('character-link');
     const characters = data.characters;
     for (let i = 0; i < characters.length; i++) {
         let li = document.createElement("li");
@@ -259,7 +261,8 @@ async function charactersPageLoad(json){
         li.setAttribute("id","ch"+i);
         ul.appendChild(li);
     }
-    main.appendChild(ul);
+    div.appendChild(ul);
+    main.appendChild(div);
 }
 
 async function gamePageLoad(json){
