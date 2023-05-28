@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<title>
+    Game
+    </title>
+<subtitle>
+    Hogwarts Legacy
+    </subtitle>
+<details>
+	<name>Hogwarts Legacy</name>
+	<developer>Avalanche Software</developer>
+	<platforms>
+		<platform>PlayStation4</platform>
+		<platform>PlayStation5</platform>
+		<platform>Xbox One</platform>
+		<platform>Xbox Series X/S</platform>
+		<platform>PC</platform>
+		<platform>Nintendo Switch</platform>
+	</platforms>
+	<genre>Action RPG</genre>
+	<releaseDate>10-02-2023</releaseDate>
+	<introduction>Hogwarts Legacy is an open-world action role-playing game set in the late 19th century within the wizarding world. Developed by Avalanche Software and published by Warner Bros. Interactive Entertainment under the Portkey Games label, the game released on February 10, 2023 on PlayStation 5, Xbox X|S, and PC, and on May 5, 2023 for PlayStation 4 and Xbox One, and November 14, 2023 on the Nintendo Switch.</introduction>
+	<description>Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. For the first time, experience Hogwarts in the 1800s. Your character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart. Now you can take control of the action and be at the center of your own adventure in the wizarding world. Your legacy is what you make of it.</description>
+	<features>
+		<feature>
+			<title>Explore an Open World</title>
+			<description>The wizarding world awaits you. Freely roam Hogwarts, Hogsmeade, the Forbidden Forest, and the surrounding Overland area.</description>
+		</feature>
+		<feature>
+			<title>Be the Witch or Wizard You Want to be</title>
+			<description>Learn spells, brew potions, grow plants, and tend to magical beasts along your journey. Get sorted into your house, forge relationships, and master skills to become the witch or wizard you want to be.</description>
+		</feature>
+		<feature>
+			<title>Experience a New Wizarding World Adventure</title>
+			<description>Experience the wizarding world in an unexplored era to uncover a hidden truth from its past. Battle against trolls, Dark Wizards, goblins, and more as you face a dangerous villain threatening the fate of the wizarding world.</description>
+		</feature>
+	</features>
+</details>

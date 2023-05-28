@@ -1,14 +1,24 @@
 {
-    "title":"Games",
-    "subtitle":"Harry Potter Games",
-    "content":[
+    "title":"Game",
+    "subtitle":"Hogwarts Legacy",
+    "details":
         {
-            "name":"Game1",
-            "description":"Game1 description"
-        },
-        {
-            "name":"Game2",
-            "description":"Game2 description"
+            "name":"Hogwarts Legacy",
+            "developer":"Avalanche Software",
+            "platforms":[
+                "PlayStation4",
+                "PlayStation5",
+                "Xbox One",
+                "Xbox Series X/S",
+                "PC",
+                "Nintendo Switch"
+            ],
+            "genre":"Action RPG",
+            "releaseDate":"10-02-2023",
+            "introduction":"Hogwarts Legacy is an open-world action role-playing game set in the late 19th century within the wizarding world. Developed by Avalanche Software and published by Warner Bros. Interactive Entertainment under the Portkey Games label, the game released on February 10, 2023 on PlayStation 5, Xbox X|S, and PC, and on May 5, 2023 for PlayStation 4 and Xbox One, and November 14, 2023 on the Nintendo Switch.",
+            "description":"Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. For the first time, experience Hogwarts in the 1800s. Your character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart. Now you can take control of the action and be at the center of your own adventure in the wizarding world. Your legacy is what you make of it."
+            
         }
-    ]
+       
+    
 }
