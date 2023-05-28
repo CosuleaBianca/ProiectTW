@@ -57,7 +57,8 @@
                         "Colin Creevey",
                         "Dennis Creevey",
                         "Romilda Vane"
-                    ]
+                    ],
+                    "logo":"./resources/images/gryffindor.png"
             },
             
             {
@@ -94,7 +95,8 @@
                     "Artemisia Lufkin",
                     "Grogan Stump",
                     "Helga Hufflepuff"
-                ]
+                ],
+                "logo":"./resources/images/hufflepuff.png"
             },
             
             {
@@ -127,7 +129,8 @@
                     "Roger Davies",
                     "Laverne de Montmorency",
                     "Myrtle Warren"
-                ]
+                ],
+                "logo":"./resources/images/ravenclaw.png"
             },
 
             {
@@ -164,7 +167,8 @@
                     "Lucius Malfoy",
                     "Bellatrix Lestrange",
                     "Regulus Black"
-                ]
+                ],
+                "logo":"./resources/images/slytherin.png"
             }
         ]   
     }

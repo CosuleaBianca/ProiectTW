@@ -94,18 +94,20 @@ async function homePageLoad(json){
     p.innerText= data.houses.details.introduction;
     div.appendChild(p);
 
-    let houseContainer = document.createElement("div");
+    let houseContainer = document.createElement("div");    
     for(const house of houses){
         houseContainer = document.createElement("div");
+        houseContainer.classList.add("house");
+        houseContainer.classList.add(house.name.toLowerCase())
+        let textContainer = document.createElement("div");
         h3 = document.createElement("h3");
-        h3.innerText = house.name + "House";
-        houseContainer.appendChild(h3);
+        h3.innerText = house.name + " House";
+        textContainer.appendChild(h3);
     
         let pre = document.createElement("p");
         pre.style.whiteSpace = "pre-wrap";
-        pre.style.width = "50vw";
         pre.innerText = `\t${house.name} valued ${house.values[0]}, ${house.values[1]} and ${house.values[2]}. It's emblematic animal was the ${house.animal}, and it's colors were ${house.colors[0]}, and ${house.colors[1]}. \n\t${house.ghost} was the House Ghost, and the founder of the house was ${house.founder}. \n\t${house.name} correspounded to the element of ${house.element}, and the common room was ${house.common_room}. Some of the notable members of the house were: `;
-        houseContainer.appendChild(pre);
+        textContainer.appendChild(pre);
         
         let ul = document.createElement("ul");
         let li = document.createElement("li");
@@ -114,7 +116,12 @@ async function homePageLoad(json){
             li.innerText = member;
             ul.appendChild(li)
         }
-        houseContainer.appendChild(ul);
+        textContainer.appendChild(ul);
+        let logo = document.createElement("img");
+        logo.setAttribute("src", house.logo);
+        logo.classList.add("house-logo")
+        houseContainer.appendChild(textContainer);
+        houseContainer.appendChild(logo)
         div.appendChild(houseContainer);
     }
     main.appendChild(div);
