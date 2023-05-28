@@ -42,21 +42,7 @@
                         "Ron Weasley",
                         "Ginny Weasley",
                         "Neville Longbottom",
-                        "Lavender Brown",
-                        "Seamus Finnigan",
-                        "Dean Thomas",
-                        "Parvati Patil",
-                        "Padma Patil",
-                        "Oliver Wood",
-                        "Angelina Johnson",
-                        "Alicia Spinnet",
-                        "Katie Bell",
-                        "Lee Jordan",
-                        "Fred Weasley",
-                        "George Weasley",
-                        "Colin Creevey",
-                        "Dennis Creevey",
-                        "Romilda Vane"
+                        "Lavender Brown"
                     ],
                     "logo":"./resources/images/gryffindor.png"
             },
@@ -83,17 +69,6 @@
                     "Pomona Sprout",
                     "Newton Scamander",
                     "Cedric Diggory's father",
-                    "Hannah Abbott",
-                    "Ernie Macmillan",
-                    "Justin Finch-Fletchley",
-                    "Susan Bones",
-                    "Zacharias Smith",
-                    "Eleanor Branstone",
-                    "Owen Cauldwell",
-                    "Laura Madley",
-                    "Damara Dodderidge",
-                    "Artemisia Lufkin",
-                    "Grogan Stump",
                     "Helga Hufflepuff"
                 ],
                 "logo":"./resources/images/hufflepuff.png"
@@ -121,14 +96,7 @@
                     "Cho Chang",
                     "Filius Flitwick",
                     "Marietta Edgecombe",
-                    "Mandy Brocklehurst",
-                    "Penelope Clearwater",
-                    "Michael Corner",
-                    "Padma Patil",
-                    "Terry Boot",
-                    "Roger Davies",
-                    "Laverne de Montmorency",
-                    "Myrtle Warren"
+                    "Mandy Brocklehurst"
                 ],
                 "logo":"./resources/images/ravenclaw.png"
             },
@@ -153,20 +121,9 @@
                     "Severus Snape",
                     "Tom Riddle",
                     "Draco Malfoy",
-                    "Vincent Crabbe",
-                    "Gregory Goyle",
-                    "Pansy Parkinson",
-                    "Millicent Bulstrode",
-                    "Theodore Nott",
-                    "Blaise Zabini",
-                    "Daphne Greengrass",
-                    "Marcus Flint",
-                    "Adrian Pucey",
-                    "Tracey Davis",
-                    "Terence Higgs",
                     "Lucius Malfoy",
-                    "Bellatrix Lestrange",
-                    "Regulus Black"
+                    "Regulus Black",
+                    "Bellatrix Lestrange" 
                 ],
                 "logo":"./resources/images/slytherin.png"
             }
