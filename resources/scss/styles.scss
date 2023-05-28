@@ -8,7 +8,7 @@ body{
 .logo{
     height: 100vh;
     background-size: cover;
-    background-image: url("../images/bg-picture.jpg");
+    background-image: url("../images/bg/bg-picture.jpg");
 }
 
 div.page-band{
@@ -233,7 +233,7 @@ a{
     }
 
     .logo {
-        background-image: url("../images/bg-picture-mobile.jpg");
+        background-image: url("../images//bg/bg-picture-mobile.jpg");
     }
     
     #nav-toggle{

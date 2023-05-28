@@ -15,27 +15,27 @@ for(i=0;i<navMenuOptions.length;i++){
         //console.log(child);
         child.addEventListener('click', () => {
             if(child.innerText == 'Home'){
-                loadData("./resources/data/first-page.json", homePageLoad);
+                loadData("./resources/data/home.json", homePageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas home')
             }
             else if(child.innerText == 'Books'){
-                loadData("./resources/data/test2.json", booksPageLoad);
+                loadData("./resources/data/books.json", booksPageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas books')
             }
             else if(child.innerText == 'Films'){
-                loadData("./resources/data/test3.json", filmsPageLoad);
+                loadData("./resources/data/films.json", filmsPageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas films')
             }
             else if(child.innerText == 'Characters'){
-                loadData("./resources/data/test4.json", charactersPageLoad);
+                loadData("./resources/data/characters.json", charactersPageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas Characters')
             }
-            else if(child.innerText == 'Games'){
-                loadData("./resources/data/test5.json", gamesPageLoad);
+            else if(child.innerText == 'Game'){
+                loadData("./resources/data/game.json", gamePageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas Games')
             }
@@ -248,7 +248,13 @@ async function charactersPageLoad(json){
         let li = document.createElement("li");
         let a = document.createElement("a");
         a.setAttribute("href","character.html");
-        a.innerText = characters[i].name;
+        let img = document.createElement("img");
+        img.setAttribute("src",characters[i].portraitURL);
+        img.setAttribute("alt","Portrait");
+        a.appendChild(img)
+        let span = document.createElement("span");
+        span.innerText = characters[i].name;
+        a.appendChild(span);
         li.appendChild(a);
         li.setAttribute("id","ch"+i);
         ul.appendChild(li);
@@ -256,7 +262,7 @@ async function charactersPageLoad(json){
     main.appendChild(ul);
 }
 
-async function gamesPageLoad(json){
+async function gamePageLoad(json){
     sessionStorage.setItem("section", 5);
 
     const data = await json;
@@ -285,10 +291,10 @@ async function gamesPageLoad(json){
 function pageLoad(){
     page=sessionStorage.getItem("section");
 
-    if(page==2) loadData("./resources/data/test2.json", booksPageLoad);
-    else if(page==3) loadData("./resources/data/test3.json", filmsPageLoad);
-    else if(page==4) loadData("./resources/data/test4.json", charactersPageLoad);
-    else if(page==5) loadData("./resources/data/test5.json", gamesPageLoad);
-    else loadData("./resources/data/first-page.json",homePageLoad);
+    if(page==2) loadData("./resources/data/books.json", booksPageLoad);
+    else if(page==3) loadData("./resources/data/films.json", filmsPageLoad);
+    else if(page==4) loadData("./resources/data/characters.json", charactersPageLoad);
+    else if(page==5) loadData("./resources/data/game.json", gamePageLoad);
+    else loadData("./resources/data/home.json",homePageLoad);
 }
  

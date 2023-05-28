@@ -44,7 +44,7 @@
                         "Neville Longbottom",
                         "Lavender Brown"
                     ],
-                    "logo":"./resources/images/gryffindor.png"
+                    "logo":"./resources/images/houses/gryffindor.png"
             },
             
             {
@@ -71,7 +71,7 @@
                     "Cedric Diggory's father",
                     "Helga Hufflepuff"
                 ],
-                "logo":"./resources/images/hufflepuff.png"
+                "logo":"./resources/images/houses/hufflepuff.png"
             },
             
             {
@@ -98,7 +98,7 @@
                     "Marietta Edgecombe",
                     "Mandy Brocklehurst"
                 ],
-                "logo":"./resources/images/ravenclaw.png"
+                "logo":"./resources/images/houses/ravenclaw.png"
             },
 
             {
@@ -125,7 +125,7 @@
                     "Regulus Black",
                     "Bellatrix Lestrange" 
                 ],
-                "logo":"./resources/images/slytherin.png"
+                "logo":"./resources/images/houses/slytherin.png"
             }
         ]   
     }
