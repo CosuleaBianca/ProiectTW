@@ -60,6 +60,8 @@ async function loadData(url,callBackFnJSON){
 }
 
 async function homePageLoad(json){
+    sessionStorage.setItem("section", 1);
+
     const data = await json;
     document.getElementById("section-title").innerText = data.title;
 
@@ -128,6 +130,8 @@ async function homePageLoad(json){
 }
 
 async function booksPageLoad(json){
+    sessionStorage.setItem("section", 2);
+
     const data = await json;
     document.getElementById("section-title").innerText = data.title;
 
@@ -168,6 +172,8 @@ async function booksPageLoad(json){
 }
 
 async function filmsPageLoad(json){
+    sessionStorage.setItem("section", 3);
+
     const data = await json;
     document.getElementById("section-title").innerText = data.title;
 
@@ -208,6 +214,8 @@ async function filmsPageLoad(json){
 }
 
 async function charactersPageLoad(json){
+    sessionStorage.setItem("section", 4);
+
     const data = await json;
     document.getElementById("section-title").innerText = data.title;
 
@@ -221,13 +229,19 @@ async function charactersPageLoad(json){
     const characters = data.characters;
     for (let i = 0; i < characters.length; i++) {
         let li = document.createElement("li");
-        li.innerText = characters[i].name;
+        let a = document.createElement("a");
+        a.setAttribute("href","character.html");
+        a.innerText = characters[i].name;
+        li.appendChild(a);
+        li.setAttribute("id","ch"+i);
         ul.appendChild(li);
     }
     main.appendChild(ul);
 }
 
 async function gamesPageLoad(json){
+    sessionStorage.setItem("section", 5);
+
     const data = await json;
     document.getElementById("section-title").innerText = data.title;
 
@@ -247,4 +261,13 @@ async function gamesPageLoad(json){
     main.appendChild(ul);
 }
 
- loadData("./resources/data/first-page.json",homePageLoad);
+function pageLoad(){
+    page=sessionStorage.getItem("section");
+
+    if(page==2) loadData("./resources/data/test2.json", booksPageLoad);
+    else if(page==3) loadData("./resources/data/test3.json", filmsPageLoad);
+    else if(page==4) loadData("./resources/data/test4.json", charactersPageLoad);
+    else if(page==5) loadData("./resources/data/test5.json", gamesPageLoad);
+    else loadData("./resources/data/first-page.json",homePageLoad);
+}
+ 
