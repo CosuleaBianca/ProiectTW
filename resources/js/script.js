@@ -63,7 +63,11 @@ async function homePageLoad(json){
     sessionStorage.setItem("section", 1);
 
     const data = await json;
-    document.getElementById("section-title").innerText = data.title;
+    const section = document.getElementById("section-title");
+    section.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.title;
+    section.appendChild(h1);
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -133,7 +137,12 @@ async function booksPageLoad(json){
     sessionStorage.setItem("section", 2);
 
     const data = await json;
-    document.getElementById("section-title").innerText = data.title;
+    const section = document.getElementById("section-title");
+    section.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.title;
+    section.appendChild(h1);
+
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -145,9 +154,9 @@ async function booksPageLoad(json){
     for (let i = 0; i < books.length; i++) {
         let divCard = document.createElement("div");
         divCard.classList.add("book-card");
-        let h1 = document.createElement("h1");
-        h1.innerText = books[i].title;
-        divCard.appendChild(h1);
+        let h2 = document.createElement("h2");
+        h2.innerText = books[i].title;
+        divCard.appendChild(h2);
 
         let img = document.createElement("img");
         img.setAttribute("src",books[i].coverURL);
@@ -175,7 +184,11 @@ async function filmsPageLoad(json){
     sessionStorage.setItem("section", 3);
 
     const data = await json;
-    document.getElementById("section-title").innerText = data.title;
+    const section = document.getElementById("section-title");
+    section.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.title;
+    section.appendChild(h1);
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -187,9 +200,9 @@ async function filmsPageLoad(json){
     for(const film of films){
         let divCard = document.createElement("div");
         divCard.classList.add("film-card");
-        let h1 = document.createElement("h1");
-        h1.innerText = film.title;
-        divCard.appendChild(h1);
+        let h2 = document.createElement("h2");
+        h2.innerText = film.title;
+        divCard.appendChild(h2);
 
         let img = document.createElement("img");
         img.setAttribute("src",film.coverURL);
@@ -217,7 +230,11 @@ async function charactersPageLoad(json){
     sessionStorage.setItem("section", 4);
 
     const data = await json;
-    document.getElementById("section-title").innerText = data.title;
+    const section = document.getElementById("section-title");
+    section.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.title;
+    section.appendChild(h1);
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -243,13 +260,17 @@ async function gamesPageLoad(json){
     sessionStorage.setItem("section", 5);
 
     const data = await json;
-    document.getElementById("section-title").innerText = data.title;
+    const section = document.getElementById("section-title");
+    section.replaceChildren();
+    const h1 = document.createElement("h1");
+    h1.innerText = data.title;
+    section.appendChild(h1);
 
     const main = document.getElementById("content");
     main.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.subtitle;
-    main.appendChild(h1);
+    const h2 = document.createElement("h2");
+    h2.innerText = data.subtitle;
+    main.appendChild(h2);
 
     const ul = document.createElement("ul");
     const games = data.content;
