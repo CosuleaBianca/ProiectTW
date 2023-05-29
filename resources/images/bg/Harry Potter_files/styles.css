@@ -176,8 +176,8 @@ a {
 
 .character-link ul li {
   list-style: none;
+  flex: 33.33333%;
   position: relative;
-  margin: 5vh 3vw;
 }
 
 .character-link ul li a img {
