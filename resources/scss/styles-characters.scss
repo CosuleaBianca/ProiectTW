@@ -16,8 +16,15 @@ body {
     
 }
 
+#portraitURL {
+    width: 300px;
+    //padding-top: 20px;
+    //align-self: center;
+    //border-radius: 70%;
+}
+
 .info-box {
-    width: 250px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +62,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border-top: 2px solid $secondary-color;
-    padding: 5px 10px;
+    padding: 0px 10px;
     
 }
 
