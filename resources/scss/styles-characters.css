@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #5D81BA;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10vh 10vw;
+  background-color: #0A1A33;
+  margin: 10vh 5vw;
+}
+
+.info-box {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #5D81BA;
+}
+
+.info-box h2, h3 {
+  display: inherit;
+  justify-content: inherit;
+}
+
+.section:nth-child(even) {
+  background-color: #0f0f0f;
+}
+
+.section div:nth-child(odd) {
+  background-color: #050505;
+}
+
+.info-box h3 {
+  border-top: 2px solid #5D81BA;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.list {
+  display: flex;
+  align-items: baseline !important;
+}
+
+.info-box-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #5D81BA;
+  padding: 5px 10px;
+}
+
+.gryffindor {
+  background-color: #4d0506;
+}
+
+.slytherin {
+  background-color: #25581f;
+}
+
+.none {
+  background-color: gray;
+}
+
+.content {
+  width: 40vw;
+}
+
+.content p {
+  width: 40vw;
+}/*# sourceMappingURL=styles-characters.css.map */
