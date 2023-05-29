@@ -29,8 +29,6 @@
                     "James Sirius Potter (son)",
                     "Albus Severus Potter (son)",
                     "Lily Luna Potter (daughter)",
-                    "Fleamont Potter (grandfather)",
-                    "Euphemia Potter (grandmother)",
                     "Petunia Dursley (aunt)",
                     "Vernon Dursley (uncle)",
                     "Dudley Dursley (cousin)"
@@ -102,8 +100,6 @@
                     "William Weasley (older brother)",
                     "Charles Weasley (older brother)",
                     "Percy Weasley (older brother)",
-                    "Fred Weasley I (older brother)",
-                    "George Weasley (older brother)",
                     "Ginevra Potter (younger sister)",
                     "Hermione Granger (wife)",
                     "Harry Potter (brother-in-law)"
@@ -138,9 +134,6 @@
                     "Molly Weasley (mother)",
                     "William Weasley (older brother)",
                     "Charles Weasley (older brother)",
-                    "Percy Weasley (older brother)",
-                    "Fred Weasley I (older brother)",
-                    "George Weasley (older brother)",
                     "Ronald Weasley (older brother)",
                     "Harry Potter (husband)",
                     "James Potter II[ (son)",
@@ -378,9 +371,7 @@
                     "Harry Potter (godson)",
                     "Bellatrix Lestrange (cousin)",
                     "Andromeda Tonks (cousin)",
-                    "Narcissa Malfoy (cousin)",
-                    "Nymphadora Tonks (first cousin once removed)",
-                    "Phineas Nigellus Black (great-great-grandfather)"
+                    "Narcissa Malfoy (cousin)"
                 ],
                 "occupation":[
                     "Member of The Order of the Phoenix"
@@ -483,7 +474,6 @@
                 "occupation":[
                     "Department of Magical Law Enforcement employee",
                     "Professor of Transfiguration at Hogwarts School of Witchcraft and Wizardry",
-                    "Head of the Transfiguration department at Hogwarts School of Witchcraft and Wizardry",
                     "Head of Gryffindor House (1975-1998)",
                     "Deputy Headmistress of Hogwarts School of Witchcraft and Wizardry",
                     "Headmistress of Hogwarts School of Witchcraft and Wizardry"
