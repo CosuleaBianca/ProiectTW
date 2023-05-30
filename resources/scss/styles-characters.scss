@@ -7,20 +7,31 @@ body {
     color:aliceblue;
 }
 
+div.page-band{
+    width: 100%;
+    background-color: rgba(15, 15, 15);
+    padding: 20px;  
+    color: white;
+}
+
 .container {
     @include flex(row);
     justify-content:space-between;
     padding: 10vh 10vw;
     background-color: $primary-color;
-    margin: 10vh 5vw;
+    margin: 0 5vw;
+    border-radius: 10px;
     
 }
 
 #portraitURL {
     width: 300px;
-    //padding-top: 20px;
-    //align-self: center;
-    //border-radius: 70%;
+}
+
+#name {
+    margin: 0;
+    text-align: center;
+    padding: 50px 0px;
 }
 
 .info-box {
@@ -87,4 +98,9 @@ body {
 
 .content p {
     width: 40vw;;
+}
+
+.title {
+    padding: 10px 10px;
+    margin: 0;
 }

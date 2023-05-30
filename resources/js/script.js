@@ -97,10 +97,20 @@ window.addEventListener("scroll", function () {
  });
 
  //incarcare date din JSON 
-async function loadData(url,callBackFnJSON){
+async function loadDataJSON(url,callBackFnJSON){
     await fetch(url)
         .then(response => response.json())
         .then(json => callBackFnJSON(json));
+}
+
+function loadDataXML(url,callBackFnXML){
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200)
+            callBackFnXML(this.responseXML);
+    };
+    xhttp.open("GET",url, true);
+    xhttp.send();
 }
 
 async function homePageLoad(json){
@@ -341,13 +351,32 @@ async function gamePageLoad(json){
     main.appendChild(ul);
 }
 
+function gamePageLoadXML(xml){
+    sessionStorage.setItem("section",5);
+
+    const game = xml.getElementByTagName("game")[0];
+    let title = game.getElementByTagName("title")[0].innerText;
+    let subtitle = game.getElementByTagName("subtitle")[0].innerText;
+    let details = game.getElementByTagName("details")[0];
+    let name = game.getElementByTagName("name")[0].innerText;
+    let developer = game.getElementByTagName("developer")[0].innerText;
+    let platforms = game.querySelectorAll("platforms platform");
+    let genre = game.getElementByTagName("genre")[0].innerText;
+    let releaseDate = game.getElementByTagName("releaseDate")[0].innerText;
+    let introduction = game.getElementByTagName("introduction")[0].innerText;
+    let description = game.getElementByTagName("description")[0].innerText;
+    let features = game.querySelectorAll("features feature");
+        
+
+}
+
 function pageLoad(){
     page=sessionStorage.getItem("section");
 
-    if(page==2) loadData("./resources/data/books.json", booksPageLoad);
-    else if(page==3) loadData("./resources/data/films.json", filmsPageLoad);
-    else if(page==4) loadData("./resources/data/characters.json", charactersPageLoad);
-    else if(page==5) loadData("./resources/data/game.json", gamePageLoad);
-    else loadData("./resources/data/home.json",homePageLoad);
+    if(page==2) loadDataJSON("./resources/data/books.json", booksPageLoad);
+    else if(page==3) loadDataJSON("./resources/data/films.json", filmsPageLoad);
+    else if(page==4) loadDataJSON("./resources/data/characters.json", charactersPageLoad);
+    else if(page==5) loadDataJSON("./resources/data/game.json", gamePageLoad);
+    else loadDataJSON("./resources/data/home.json",homePageLoad);
 }
  

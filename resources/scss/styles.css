@@ -154,6 +154,7 @@ ul {
 
 .options ul li {
   list-style-type: none;
+  cursor: pointer;
 }
 
 .options ul li:hover {
