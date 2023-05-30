@@ -88,7 +88,7 @@
         },
         {
             "portraitURL":"./resources/images/characters/character3.webp",
-            "firtsName":"Ronald Bilius",
+            "firstName":"Ronald Bilius",
             "lastName":"Weasley",
             "dateOfBirth":"1 March 1980",
             "alive":"true",
@@ -209,7 +209,7 @@
         },
         {
             "portraitURL":"./resources/images/characters/character6.webp",
-            "firtsName":"Tom Marvolo",
+            "firstName":"Tom Marvolo",
             "lastName":"Riddle",
             "dateOfBirth":"31 December 1926",
             "alive":"false",
@@ -286,7 +286,7 @@
         },
         {
             "portraitURL":"./resources/images/characters/character8.webp",
-            "firtsName":"Draco Lucius",
+            "firstName":"Draco Lucius",
             "lastName":"Malfoy",
             "dateOfBirth":"5 June 1980",
             "alive":"true",

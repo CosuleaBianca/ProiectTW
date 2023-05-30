@@ -12,23 +12,44 @@ class Book {
 class Character {
     constructor(character){
         this.portraitURL = character.portraitURL;  
-        this.name = character.name;
+        this.firstName = character.firstName;
+        this.lastName = character.lastName;
+        this.dateOfBirth = character.dateOfBirth;
+        this.alive = character.alive;
+        this.dateOfDeath = character.dateOfDeath;
+        this.bloodStatus = character.bloodStatus;
+        this.maritalStatus = character.maritalStatus;
+        this.titles = character.titles;
+        this.species = character.species;
+        this.gender = character.gender;
+        this.family = character.family;
+        this.occupation = character.occupation;
+        this.house = character.house;
         this.quote = character.quote;
         this.description = character.description;
-            this.fullName = character.personalDetails.fullName;
-            this.dateOfBirth = character.personalDetails.dateOfBirth;
-            this.alive = character.personalDetails.alive;
-            this.dateOfDeath = character.personalDetails.dateOfDeath;
-            this.bloodStatus = character.personalDetails.bloodStatus;
-            this.maritalStatus = character.personalDetails.maritalStatus;
-            this.titles = character.personalDetails.titles;
-            this.species = character.personalDetails.species;
-            this.gender = character.personalDetails.gender;
-            this.family = character.personalDetails.family;
-            this.occupation = character.personalDetails.occupation;
-            this.house = character.personalDetails.house;
     }
     // TODO: metode
+    getShortName(){
+        let firstNames = this.firstName.split(" ");
+        let shortName = firstNames[0] + " " + this.lastName;
+        return shortName; 
+    }
+
+    getFullName(){
+        let fullName = this.firstName+" " + this.lastName;
+        return fullName;
+    }
+
+    getDeathDate(){
+        if(this.alive == true) deathDate = "-";
+        else{
+            bd = this.dateOfBirth.split(" ");
+            dd= this.dateOfDeath.split(" ");
+            years = parseInt(bd[2]) - parseInt(dd[2]);
+
+            deathDate = this.dateOfDeath + "(" + years.toString() + ")";
+        }
+    }
 }
 
 class Film {
@@ -59,27 +80,27 @@ for(i=0;i<navMenuOptions.length;i++){
         //console.log(child);
         child.addEventListener('click', () => {
             if(child.innerText == 'Home'){
-                loadData("./resources/data/home.json", homePageLoad);
+                loadDataJSON("./resources/data/home.json", homePageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas home')
             }
             else if(child.innerText == 'Books'){
-                loadData("./resources/data/books.json", booksPageLoad);
+                loadDataJSON("./resources/data/books.json", booksPageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas books')
             }
             else if(child.innerText == 'Films'){
-                loadData("./resources/data/films.json", filmsPageLoad);
+                loadDataJSON("./resources/data/films.json", filmsPageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas films')
             }
             else if(child.innerText == 'Characters'){
-                loadData("./resources/data/characters.json", charactersPageLoad);
+                loadDataJSON("./resources/data/characters.json", charactersPageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas Characters')
             }
             else if(child.innerText == 'Game'){
-                loadData("./resources/data/game.json", gamePageLoad);
+                loadDataJSON("./resources/data/game.json", gamePageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas Games')
             }
@@ -312,7 +333,7 @@ async function charactersPageLoad(json){
         img.setAttribute("alt","Portrait");
         a.appendChild(img)
         let span = document.createElement("span");
-        span.innerText = character.name;
+        span.innerText = character.getShortName();
         a.appendChild(span);
         li.appendChild(a);
         li.setAttribute("id","ch"+i);
