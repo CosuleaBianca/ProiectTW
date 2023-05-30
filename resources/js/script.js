@@ -370,7 +370,6 @@ function gamePageLoadXML(xml){
     let platforms = details.getElementsByTagName("platforms")[0];
     let platformsArray = platforms.getElementsByTagName("platform");
     let genre = details.getElementsByTagName("genre")[0].innerHTML;
-    let releaseDate = details.getElementsByTagName("releaseDate")[0].innerHTML;
     let introduction = details.getElementsByTagName("introduction")[0].innerHTML;
     let description = details.getElementsByTagName("description")[0].innerHTML;
     let features = details.getElementsByTagName("features")[0];
