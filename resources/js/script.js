@@ -40,7 +40,7 @@ class Character {
         return fullName;
     }
 
-    getDeathDate(){
+    getDateOfDeath(){
         if(this.alive == true) deathDate = "-";
         else{
             bd = this.dateOfBirth.split(" ");

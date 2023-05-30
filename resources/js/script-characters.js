@@ -1,25 +1,44 @@
 class Character {
     constructor(character){
         this.portraitURL = character.portraitURL;  
-        this.name = character.name;
+        this.firstName = character.firstName;
+        this.lastName = character.lastName;
+        this.dateOfBirth = character.dateOfBirth;
+        this.alive = character.alive;
+        this.dateOfDeath = character.dateOfDeath;
+        this.bloodStatus = character.bloodStatus;
+        this.maritalStatus = character.maritalStatus;
+        this.titles = character.titles;
+        this.species = character.species;
+        this.gender = character.gender;
+        this.family = character.family;
+        this.occupation = character.occupation;
+        this.house = character.house;
         this.quote = character.quote;
         this.description = character.description;
-            this.fullName = character.fullName;
-            this.dateOfBirth = character.dateOfBirth;
-            this.alive = character.alive;
-            this.dateOfDeath = character.dateOfDeath;
-            this.bloodStatus = character.bloodStatus;
-            this.maritalStatus = character.maritalStatus;
-            this.titles = character.titles;
-            this.species = character.species;
-            this.gender = character.gender;
-            this.family = character.family;
-            this.occupation = character.occupation;
-            this.house = character.house;
     }
     // TODO: metode
+    getShortName(){
+        let firstNames = this.firstName.split(" ");
+        let shortName = firstNames[0] + " " + this.lastName;
+        return shortName; 
+    }
+
+    getFullName(){
+        let fullName = this.firstName + " " + this.lastName;
+        return fullName;
+    }
+
     getDateOfDeath(){
-        if(!this.alive) return this.dateOfDeath
+        if(this.alive == "true") var deathDate = "-";
+        else{
+            let bd = this.dateOfBirth.split(" ");
+            let dd= this.dateOfDeath.split(" ");
+            let years = parseInt(dd[2]) - parseInt(bd[2]);
+
+            var deathDate = this.dateOfDeath + " (" + years.toString() + " yrs)";
+        }
+        return deathDate;
     }
 }
 
@@ -27,14 +46,11 @@ function loadPage(){
     let characterJSON = localStorage.getItem("character");
     if(characterJSON != null) {
         var character = new Character(JSON.parse(localStorage.getItem("character")));
-        console.log(character);
     }
     document.getElementById("portraitURL").setAttribute("src",character.portraitURL);
-    document.getElementById("full-name").innerText = character.fullName;
+    document.getElementById("full-name").innerText = character.getFullName();
     document.getElementById("dateOfBirth").innerText = character.dateOfBirth;
-    if(character.alive == "true")
-        document.getElementById("dateOfDeath").innerText = '-';
-    else document.getElementById("dateOfDeath").innerText = character.dateOfDeath;
+    document.getElementById("dateOfDeath").innerText = character.getDateOfDeath();
     document.getElementById("bloodStatus").innerText = character.bloodStatus;
     document.getElementById("maritalStatus").innerText = character.maritalStatus;
     let titlesList = document.getElementById("titles");
@@ -61,9 +77,15 @@ function loadPage(){
         occupationList.appendChild(li);
     }
     document.getElementById("house").innerText = character.house;
-    document.getElementById("name").innerText = character.name;
+    document.getElementById("name").innerText = character.getShortName();
     document.getElementById("quote").innerText = character.quote;
-    document.getElementById("description").innerText = character.description;
+    let descriptionList=document.getElementById("description");
+    descriptionList.replaceChildren();
+    for(description of character.description){
+        let p=document.createElement("p");
+        p.innerText = description;
+        descriptionList.appendChild(p);
+    }
 }
 
 loadPage();
