@@ -201,6 +201,56 @@ a {
   z-index: 900;
 }
 
+.game-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.game-list h4 {
+  display: flex;
+  align-self: baseline;
+}
+
+.game-list ul {
+  -webkit-margin-before: 1em;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  margin: auto;
+}
+
+.game-container h4, p {
+  align-self: center;
+}
+
+.game-container img {
+  width: 50vw;
+}
+
+.game-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+}
+
+.game-card img {
+  width: 200px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   div.page {
     grid-template-rows: 50px 100px 1fr 100px;

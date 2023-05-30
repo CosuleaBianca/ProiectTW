@@ -101,7 +101,8 @@ for(i=0;i<navMenuOptions.length;i++){
                 //console.log('apas Characters')
             }
             else if(child.innerText == 'Game'){
-                loadDataJSON("./resources/data/game.json", gamePageLoad);
+                loadDataXML("./resources/data/games.xml",gamePageLoadXML);
+                // loadDataJSON("./resources/data/game.json", gamePageLoad);
                 navMenu.classList.toggle('show');
                 //console.log('apas Games')
             }
@@ -139,11 +140,7 @@ async function homePageLoad(json){
     sessionStorage.setItem("section", 1);
 
     const data = await json;
-    const section = document.getElementById("section-title");
-    section.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.title;
-    section.appendChild(h1);
+    document.getElementById("section-title").innerText = data.title;
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -213,12 +210,7 @@ async function booksPageLoad(json){
     sessionStorage.setItem("section", 2);
 
     const data = await json;
-    const section = document.getElementById("section-title");
-    section.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.title;
-    section.appendChild(h1);
-
+    document.getElementById("section-title").innerText = data.title;
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -261,11 +253,7 @@ async function filmsPageLoad(json){
     sessionStorage.setItem("section", 3);
 
     const data = await json;
-    const section = document.getElementById("section-title");
-    section.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.title;
-    section.appendChild(h1);
+    document.getElementById("section-title").innerText = data.title;
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -307,11 +295,7 @@ async function charactersPageLoad(json){
     sessionStorage.setItem("section", 4);
 
     const data = await json;
-    const section = document.getElementById("section-title");
-    section.replaceChildren();
-    const h1 = document.createElement("h1");
-    h1.innerText = data.title;
-    section.appendChild(h1);
+    document.getElementById("section-title").innerText = data.title;
 
     const main = document.getElementById("content");
     main.replaceChildren();
@@ -376,20 +360,108 @@ async function gamePageLoad(json){
 function gamePageLoadXML(xml){
     sessionStorage.setItem("section",5);
 
-    const game = xml.getElementByTagName("game")[0];
-    let title = game.getElementByTagName("title")[0].innerText;
-    let subtitle = game.getElementByTagName("subtitle")[0].innerText;
-    let details = game.getElementByTagName("details")[0];
-    let name = game.getElementByTagName("name")[0].innerText;
-    let developer = game.getElementByTagName("developer")[0].innerText;
-    let platforms = game.querySelectorAll("platforms platform");
-    let genre = game.getElementByTagName("genre")[0].innerText;
-    let releaseDate = game.getElementByTagName("releaseDate")[0].innerText;
-    let introduction = game.getElementByTagName("introduction")[0].innerText;
-    let description = game.getElementByTagName("description")[0].innerText;
-    let features = game.querySelectorAll("features feature");
-        
+    const game = xml.getElementsByTagName("game")[0];
+    let title = game.getElementsByTagName("title")[0].innerHTML;
+    let subtitileImg = game.getElementsByTagName("subtitleImg")[0].innerHTML;
+    let backgroundImg = game.getElementsByTagName("backgroundImg")[0].innerHTML;
+    let details = game.getElementsByTagName("details")[0];
+    let name = details.getElementsByTagName("name")[0].innerHTML;
+    let developer = details.getElementsByTagName("developer")[0].innerHTML;
+    let platforms = details.getElementsByTagName("platforms")[0];
+    let platformsArray = platforms.getElementsByTagName("platform");
+    let genre = details.getElementsByTagName("genre")[0].innerHTML;
+    let releaseDate = details.getElementsByTagName("releaseDate")[0].innerHTML;
+    let introduction = details.getElementsByTagName("introduction")[0].innerHTML;
+    let description = details.getElementsByTagName("description")[0].innerHTML;
+    let features = details.getElementsByTagName("features")[0];
+    let featuresArray = features.getElementsByTagName("feature");
 
+
+    document.getElementById("section-title").innerHTML = title;
+
+    const main = document.getElementById("content");
+    main.replaceChildren();
+    main.setAttribute("style","background-image: "+backgroundImg)
+    
+    let div = document.createElement("div");
+    div.className = "game-details";
+    let h4 = document.createElement("h4");
+    h4.innerText = "Game:";
+    div.appendChild(h4);
+    let span = document.createElement("span");
+    span.innerText = name;
+    div.appendChild(span);
+    main.appendChild(div);
+
+    div = document.createElement("div");
+    div.className = "game-details";
+    h4 = document.createElement("h4");
+    h4.innerText = "Developer:";
+    div.appendChild(h4);
+    span = document.createElement("span");
+    span.innerText = developer;
+    div.appendChild(span);
+    main.appendChild(div);
+    
+    div = document.createElement("div");
+    div.className = "game-details";
+    div.classList.add("game-list")
+    h4 = document.createElement("h4");
+    h4.innerText = "Platforms:";
+    div.appendChild(h4);
+    let ul = document.createElement("ul");
+    for(let i=0;i<platformsArray.length;i++){
+       let li = document.createElement("li");
+       li.innerText = platformsArray[i].innerHTML;
+       ul.appendChild(li);
+    }
+    div.appendChild(ul);
+    main.appendChild(div);
+
+    div = document.createElement("div");
+    div.className = "game-details";
+    h4 = document.createElement("h4");
+    h4.innerText = "Genre:";
+    div.appendChild(h4);
+    span = document.createElement("span");
+    span.innerText = genre;
+    div.appendChild(span);
+
+    main.appendChild(div);
+
+    let p = document.createElement("p");
+    p.innerText = introduction;
+    main.appendChild(p);
+
+    p = document.createElement("p");
+    p.innerText = description;
+    main.appendChild(p);
+
+    divContainer = document.createElement("div");
+    divContainer.className ="game-container";
+    let img = document.createElement("img");
+    img.setAttribute("src",subtitileImg);
+    divContainer.appendChild(img);
+    let divCards = document.createElement("div");
+    divCards.className = "game-cards";
+    for(let i=0;i<featuresArray.length;i++){
+        let divCard = document.createElement("div");
+        divCard.className = "game-card";
+        let h4 = document.createElement("h4");
+        h4.innerText = featuresArray[i].getElementsByTagName("title")[0].innerHTML;
+        let p = document.createElement("p");
+        p.innerText = featuresArray[i].getElementsByTagName("description")[0].innerHTML;
+        let img = document.createElement("img");
+        img.setAttribute("src",featuresArray[i].getElementsByTagName("image")[0].innerHTML);
+        divCard.appendChild(img);
+        divCard.appendChild(h4);
+        divCard.appendChild(p);
+        divCards.appendChild(divCard);
+    }
+    divContainer.appendChild(divCards);
+    main.appendChild(divContainer);
+
+        
 }
 
 function pageLoad(){
@@ -398,7 +470,8 @@ function pageLoad(){
     if(page==2) loadDataJSON("./resources/data/books.json", booksPageLoad);
     else if(page==3) loadDataJSON("./resources/data/films.json", filmsPageLoad);
     else if(page==4) loadDataJSON("./resources/data/characters.json", charactersPageLoad);
-    else if(page==5) loadDataJSON("./resources/data/game.json", gamePageLoad);
+    //else if(page==5) loadDataJSON("./resources/data/game.json", gamePageLoad);
+    else if(page==5) loadDataXML("./resources/data/games.xml",gamePageLoadXML);
     else loadDataJSON("./resources/data/home.json",homePageLoad);
 }
  

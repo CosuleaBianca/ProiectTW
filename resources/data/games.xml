@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
 	<title>
-		Game
-		</title>
-	<subtitle>
 		Hogwarts Legacy
-		</subtitle>
+		</title>
+	<subtitleImg>./resources/images/game/live-the-unwritten.webp</subtitleImg>
+	<backgroundImg>url(./resources/images/game/bg-bottom.webp)</backgroundImg>
 	<details>
 		<name>Hogwarts Legacy</name>
 		<developer>Avalanche Software</developer>
@@ -25,14 +24,17 @@
 			<feature>
 				<title>Explore an Open World</title>
 				<description>The wizarding world awaits you. Freely roam Hogwarts, Hogsmeade, the Forbidden Forest, and the surrounding Overland area.</description>
+				<image>./resources/images/game/cards/card1-frame.png</image>
 			</feature>
 			<feature>
 				<title>Be the Witch or Wizard You Want to be</title>
 				<description>Learn spells, brew potions, grow plants, and tend to magical beasts along your journey. Get sorted into your house, forge relationships, and master skills to become the witch or wizard you want to be.</description>
+				<image>./resources/images/game/cards/card2-frame.png</image>
 			</feature>
 			<feature>
 				<title>Experience a New Wizarding World Adventure</title>
 				<description>Experience the wizarding world in an unexplored era to uncover a hidden truth from its past. Battle against trolls, Dark Wizards, goblins, and more as you face a dangerous villain threatening the fate of the wizarding world.</description>
+				<image>./resources/images/game/cards/card3-frame.png</image>
 			</feature>
 		</features>
 	</details>
