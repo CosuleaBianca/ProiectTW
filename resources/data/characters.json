@@ -4,508 +4,568 @@
     "characters":[
         {
             "portraitURL":"./resources/images/characters/character1.webp",
-            "name":"Harry Potter",
+            "firstName":"Harry James",
+            "lastName":"Potter",
+            "dateOfBirth":"31 July 1980",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Half-blood",
+            "maritalStatus":"Married",
+            "titles":[
+                "Triwizard Champion",
+                "Seeker",
+                "Quidditch Captain",
+                "Master of Death"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "James Potter (father)",
+                "Lily Potter (mother)",
+                "Ginny Weasley (wife)",
+                "James Sirius Potter (son)",
+                "Albus Severus Potter (son)",
+                "Lily Luna Potter (daughter)",
+                "Petunia Dursley (aunt)",
+                "Vernon Dursley (uncle)",
+                "Dudley Dursley (cousin)"
+            ],
+            "occupation":[
+                "Head of British Auror Office",
+                "Guest lecturer on Defence Against the Dark Arts",
+                "Head of the Department of Magical Law Enforcement"
+            ],
+            "house":"Gryffindor",
             "quote":"\"You are protected, in short, by your ability to love! The only protection that can possibly work against the lure of power like Voldemort's! In spite of all the temptation you have endured, all the suffering, you remain pure of heart, just as pure as you were at the age of eleven, when you stared into a mirror that reflected your heart's desire, and it showed you only the way to thwart Lord Voldemort, and not immortality or riches. Harry, have you any idea how few wizards could have seen what you saw in that mirror?\" — Albus Dumbledore describing Harry's rare nature",
-            "description":"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard. Thus, he attends Hogwarts to practise magic under the guidance of the kindly headmaster Albus Dumbledore and other school professors along with his best friends Ron Weasley and Hermione Granger. Harry also discovers that he is already famous throughout the novel's magical community, and that his fate is tied with that of Lord Voldemort - the internationally feared Dark Wizard and murderer of his parents, James and Lily Potter. The book and film series revolve around Harry's struggle to adapt to the wizarding world and defeat Voldemort.",
-            "personalDetails":{
-                "fullName":"Harry James Potter",
-                "dateOfBirth":"31 July 1980",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Half-blood",
-                "maritalStatus":"Married",
-                "titles":[
-                    "Triwizard Champion",
-                    "Seeker",
-                    "Quidditch Captain",
-                    "Master of Death"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "James Potter (father)",
-                    "Lily Potter (mother)",
-                    "Ginny Weasley (wife)",
-                    "James Sirius Potter (son)",
-                    "Albus Severus Potter (son)",
-                    "Lily Luna Potter (daughter)",
-                    "Petunia Dursley (aunt)",
-                    "Vernon Dursley (uncle)",
-                    "Dudley Dursley (cousin)"
-                ],
-                "occupation":[
-                    "Head of British Auror Office",
-                    "Guest lecturer on Defence Against the Dark Arts",
-                    "Head of the Department of Magical Law Enforcement"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Harry James Potter was an English half-blood wizard, and one of the most famous wizards of modern times. The only child and son of James and Lily Potter (née Evans), Harry's birth was overshadowed by a prophecy, naming either himself or Neville Longbottom as the one with the power to vanquish Lord Voldemort, the most powerful and feared Dark wizard in the world. After half of the prophecy was reported to Voldemort, courtesy of Severus Snape, Harry was chosen as the target due to his many similarities with the Dark Lord. In turn, this caused the Potter family to go into hiding.",
+                "Voldemort made his first attempt to circumvent the prophecy when Harry was a year and three months old. During this attempt, he murdered Harry's parents as they tried to protect him, but this unsuccessful attempt to kill Harry led to Voldemort's first downfall. This downfall marked the end of the First Wizarding War, and to Harry henceforth being known as \"The Boy Who Lived\", as he was the only known survivor of the Killing Curse due to being magically protected by his mother's loving sacrifice. In accordance with the terms of the prophecy, this attempt on his life also established him, not Neville, as Voldemort's nemesis.",
+                "One consequence of Lily's sacrifice was that her orphaned son had to be raised by her only remaining blood relative, his Muggle aunt Petunia Dursley, and her husband, uncle Vernon Dursley. While in their care, he would be protected from Lord Voldemort due to the Bond of Blood charm that Albus Dumbledore placed upon him. This powerful charm would protect him until he either came of age, or no longer called his aunt's house home. Due to Petunia's resentment of her sister and her magical abilities, Harry grew up abused and neglected.",
+                "Shortly before Harry's eleventh birthday, there were several attempts from Hogwarts School of Witchcraft and Wizardry to send him a letter inviting him to not only come to Hogwarts, but also to explain his magical heritage. Though Vernon Dursley ultimately made the decision to leave their residence at 4 Privet Drive temporarily to evade the letters, his attempts were ultimately for naught. On his eleventh birthday, Harry learned from Rubeus Hagrid that he was a wizard. Rubeus Hagrid took Harry from the Dursley family the next day to Diagon Alley. This is where Harry withdrew some of his money from Gringotts Wizarding Bank, where Hagrid bought Harry's snow-white owl, Hedwig. While he was in Diagon Alley, Harry also got his school supplies (i.e., books from Flourish and Blotts, his robes from Madam Malkin's Robes for All Occasions, and his potion equipment from Slug & Jiggers Apothecary).",
+                "Harry began attending Hogwarts in 1991. The Sorting Hat told Harry that he would do well in Slytherin House, but Harry pleaded \"not Slytherin\". The Hat heeded this plea and sorted the young wizard into Gryffindor House. At school, Harry became best friends with Ron Weasley and Hermione Granger. He was also the youngest Seeker in a century, making the house team in his first year when Minerva McGonagall introduced him to Oliver Wood, Gryffindor's Quidditch captain at the time. He later became the captain of the Gryffindor Quidditch Team in his sixth year, winning two Quidditch Cups. While in school, Harry also demonstrated an extraordinary talent for Defence Against the Dark Arts.",
+                "He became even better-known in his early years for protecting the Philosopher's Stone from Voldemort, saving Ron's sister Ginny Weasley, solving the mystery of the Chamber of Secrets, slaying Salazar Slytherin's basilisk, and learning how to conjure a corporeal Patronus at the age of thirteen, which took the form of a stag. In his fourth year, Harry won the Triwizard Tournament, although the person had to be seventeen to enter, and Harry was only fourteen. The competition ended with the tragic death of Cedric Diggory and the return of Lord Voldemort. During the next school year, in defiance of Dolores Umbridge's and the Ministry of Magic's strict regime against the teaching of Defence Against the Dark Arts and the continued introduction of the new Educational Decree, Ronald Weasley and Hermione Granger first had the idea of creating an illegal Defence Against the Dark Arts group called Dumbledore's Army. Harry was initially reluctant to the idea, but he gradually came to like it and eventually agreed to start the group. He also fought in the Battle of the Department of Mysteries, during which he lost his godfather, Sirius Black, and the prophecy was destroyed."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character2.webp",
-            "name":"Hermione Granger",
+            "firstName":"Hermione Jean",
+            "lastName":"Granger",
+            "dateOfBirth":"19 September 1979",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Muggle-born",
+            "maritalStatus":"Married",
+            "titles":[
+                "Prefect",
+                "Deputy Head of the Department of Magical Law Enforcement",
+                "Senior Minister[",
+                "Minister for Magic"
+            ],
+            "species":"Human",
+            "gender":"Female",
+            "family":[
+                "Mr Granger (father)",
+                "Mrs Granger (mother)",
+                "Ron Weasley (husband)",
+                "Rose Granger-Weasley (daughter)",
+                "Hugo Granger-Weasley (son)"
+            ],
+            "occupation":[
+                "Employee of the Department for the Regulation and Control of Magical Creatures",
+                "Deputy Head of the Department of Magical Law Enforcement",
+                "Minister for Magic"
+            ],
+            "house":"Gryffindor",
             "quote":"Harry Potter: \"But why's she got to go to the library?\" \nRonald Weasley: \"Because that's what Hermione does. When in doubt, go to the library.\" — Hermione's dependency on books",
-            "description":"Hermione Jean Granger is a fictional character in J. K. Rowling's Harry Potter series. She first appears in the novel Harry Potter and the Philosopher's Stone (1997), on the Hogwarts express as a first year student on her way to Hogwarts. After Harry and Ron save her from a mountain troll in the girls' restroom, she becomes best friends with them and often uses her quick wit, deft recall, and encyclopaedic knowledge to lend aid in dire situations. Rowling has stated that Hermione resembles herself as a young girl, with her insecurity and fear of failure.",
-            "personalDetails":{
-                "fullName":"Hermione Jean Granger",
-                "dateOfBirth":"19 September 1979",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Muggle-born",
-                "maritalStatus":"Married",
-                "titles":[
-                    "Prefect",
-                    "Deputy Head of the Department of Magical Law Enforcement",
-                    "Senior Minister[",
-                    "Minister for Magic"
-                ],
-                "species":"Human",
-                "gender":"Female",
-                "family":[
-                    "Mr Granger (father)",
-                    "Mrs Granger (mother)",
-                    "Ron Weasley (husband)",
-                    "Rose Granger-Weasley (daughter)",
-                    "Hugo Granger-Weasley (son)"
-                ],
-                "occupation":[
-                    "Employee of the Department for the Regulation and Control of Magical Creatures",
-                    "Deputy Head of the Department of Magical Law Enforcement",
-                    "Minister for Magic"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Minister Hermione Jean Granger was an English Muggle-born witch born to Mr and Mrs Granger. At the age of eleven, she learned about her magical nature and was accepted into Hogwarts School of Witchcraft and Wizardry. Hermione began attending Hogwarts in 1991 and was Sorted into Gryffindor House. She possessed a brilliant academic mind and proved to be a gifted student in almost every subject that she studied, to the point where she was nearly made a Ravenclaw by the Sorting Hat.",
+                "Hermione first met her future best friends Harry Potter and Ron Weasley aboard the Hogwarts Express, and initially they found her unfriendly and somewhat of an \"insufferable know-it-all\", an impression reinforced by her constant correct answers and eagerness to please the professors. However, she stepped in to take the blame from the boys after they had saved her from a troll on Hallowe'en in 1991, surprising them in a grateful way, which led to them quickly becoming friends. She later played a crucial role in protecting the Philosopher's Stone from Voldemort.",
+                "In her second year, Hermione had a key role in the discovery of the Chamber of Secrets, before falling victim to the Basilisk unleashed upon Hogwarts following the opening of the Chamber. However, she recovered from the petrification under the care of Madam Pomfrey with Professor Sprout's Mandrake Restorative Draught. The next year, Hermione was granted permission to use a Time-Turner from the Ministry of Magic to facilitate her volition to study far more subjects than were possible without time travel, though she and Harry later used it to rescue Sirius Black from the Dementor's Kiss and Buckbeak the hippogriff from execution.",
+                "During her fourth year, Hermione became an advocate for the better treatment of house-elves, forming the association S.P.E.W., and helped in Harry's preparation for the Triwizard Tournament. In her fifth year, Hermione was the driving force behind the creation of Dumbledore's Army and fought alongside fellow D.A. members in the Battle of the Department of Mysteries. In her sixth year, Hermione continued her role as Prefect and fought in the Battle of the Astronomy Tower.",
+                "Hermione played a significant role in many other battles of the Second Wizarding War, as well. In 1997, she fought in the Battle of the Seven Potters, alongside the Order of the Phoenix. Hermione and Ron decided not to return to Hogwarts for their final year of studies, instead choosing to accompany Harry on his quest to find and destroy Lord Voldemort's Horcruxes, a quest in which several of her actions were essential. She destroyed Hufflepuff's Cup, a Horcrux, with Ron using a Basilisk fang found in the Chamber of Secrets. Hermione then fought in the Battle of Hogwarts, helping in the defeat of the Death Eater who tortured her: Bellatrix Lestrange.",
+                "Following the Second Wizarding War, Hermione went back to Hogwarts to complete her education. She later found employment with the Ministry of Magic, furthering the cause for the better treatment of house-elves. Afterward, she was promoted to the Department of Magical Law Enforcement, where she dedicated herself to eradicating old laws that were biased in favour of pure-bloods. Hermione eventually married Ron Weasley and together they had two children, Rose and Hugo. She became the godmother of Harry and Ginny Potter's eldest son James. By the year 2019, Hermione had become the Minister for Magic."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character3.webp",
-            "name":"Ron Weasley",
+            "firtsName":"Ronald Bilius",
+            "lastName":"Weasley",
+            "dateOfBirth":"1 March 1980",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Pure-blood",
+            "maritalStatus":"Married",
+            "titles":[
+                "Prefect",
+                "Keeper"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Arthur Weasley (father)",
+                "Molly Weasley (mother)",
+                "William Weasley (older brother)",
+                "Charles Weasley (older brother)",
+                "Percy Weasley (older brother)",
+                "Ginevra Potter (younger sister)",
+                "Hermione Granger (wife)",
+                "Harry Potter (brother-in-law)"
+            ],
+            "occupation":[
+                "Auror ",
+                "Weasleys' Wizard Wheezes co-manager"
+            ],
+            "house":"Gryffindor",
             "quote":"\"I'm the sixth in our family to go to Hogwarts. You could say I got a lot to live up to. Bill and Charlie have already left — Bill was Head Boy and Charlie was captain of Quidditch. Now Percy's a prefect. Fred and George mess around a lot, but they still get really good marks and everyone thinks they're really funny. Everyone expects me to do as well as the others, but if I do, it's no big deal, because they did it first.\" — Ron's family and others' expectations",
-            "description":"Ronald Bilius Weasley is a fictional character in J. K. Rowling's Harry Potter fantasy novel series. His first appearance was in the first book of the series, Harry Potter and the Philosopher's Stone, as the best friend of Harry Potter and Hermione Granger. He is a member of the Weasley family, a pure blood family that resides in \"The Burrow\" outside Ottery St. Catchpole. Being the only member of the three main characters raised in magical society, he also provides insight into the Wizarding World's magical customs and traditions. Along with Harry and Hermione, he is a member of Gryffindor house and is present for most of the action throughout the series.",
-            "personalDetails":{
-                "fullName":"Ronald Bilius Weasley",
-                "dateOfBirth":"1 March 1980",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Pure-blood",
-                "maritalStatus":"Married",
-                "titles":[
-                    "Prefect",
-                    "Keeper"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "Arthur Weasley (father)",
-                    "Molly Weasley (mother)",
-                    "William Weasley (older brother)",
-                    "Charles Weasley (older brother)",
-                    "Percy Weasley (older brother)",
-                    "Ginevra Potter (younger sister)",
-                    "Hermione Granger (wife)",
-                    "Harry Potter (brother-in-law)"
-                ],
-                "occupation":[
-                    "Auror ",
-                    "Weasleys' Wizard Wheezes co-manager"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Ronald Bilius \"Ron\" Weasley was an English pure-blood wizard, the sixth and youngest son of Arthur and Molly Weasley (née Prewett). He was also the younger brother of Bill, Charlie, Percy, Fred, George, and the elder brother of Ginny. Ron and his siblings lived at the The Burrow, on the outskirts of Ottery St Catchpole, Devon.",
+                "Ron began attending Hogwarts School of Witchcraft and Wizardry in 1991 and was Sorted into Gryffindor House. He soon became close friends with fellow student Harry Potter and later Hermione Granger. Together, they made the Golden trio and faced many challenges during their adolescence, including keeping the Philosopher's Stone from Professor Quirinus Quirrell, rescuing Ginny from the Basilisk in the Chamber of Secrets, saving Harry's godfather Sirius Black from the Dementors of Azkaban, and guiding Harry through the Triwizard Tournament.",
+                "He also helped form Dumbledore's Army and fought in numerous battles of the Second Wizarding War. These battles included the Battle of the Department of Mysteries (1996), Battle of the Astronomy Tower (1997), and Battle of the Seven Potters (1997). Ron also became a Gryffindor prefect and a Keeper on the Gryffindor Quidditch team during his fifth year at Hogwarts.",
+                "He skipped his last year of school in order to accompany Harry and Hermione on a hunt to destroy all of Lord Voldemort's Horcruxes and fought in the Battle of Hogwarts in 1998, during which he lost his brother Fred, a loss which devastated him and his family, especially George, Fred's twin.",
+                "After the war, Ron became an Auror and helped reform and revolutionise the Ministry of Magic. After two years as an Auror, he went to work at Weasleys' Wizard Wheezes with his brother George. He and Hermione eventually married and had two children, Rose and Hugo Granger-Weasley. Ron was also named the godfather of James Sirius Potter, his sister Ginny Weasley's and Harry Potter's eldest child."
+            ]   
         },
         {
             "portraitURL":"./resources/images/characters/character4.webp",
-            "name":"Ginny Weasley",
+            "firstName":"Ginevra Molly",
+            "lastName":"Weasley",
+            "dateOfBirth":"11 August 1981",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Pure-blood",
+            "maritalStatus":"Married",
+            "titles":[
+                "Chaser",
+                "Seeker"
+            ],
+            "species":"Human",
+            "gender":"Female",
+            "family":[
+                "Arthur Weasley (father)",
+                "Molly Weasley (mother)",
+                "William Weasley (older brother)",
+                "Charles Weasley (older brother)",
+                "Ronald Weasley (older brother)",
+                "Harry Potter (husband)",
+                "James Potter II (son)",
+                "Albus Potter (son)",
+                "Lily L. Potter (daughter)"
+            ],
+            "occupation":[
+                "Chaser for the Holyhead Harpies",
+                "Senior Quidditch Correspondent for the Daily Prophet",
+                "Sports editor for the Daily Prophet"
+            ],
+            "house":"Gryffindor",
             "quote":"\"Yeah, size is no guarantee of power. Look at Ginny...\" — Ginny's impressive Bat-Bogey Hex",
-            "description":"Ginny Weasley is a fictional character in J. K. Rowling's Harry Potter novel series. Ginny is introduced in the first book Harry Potter and the Philosopher's Stone, as the youngest sibling and only daughter of Arthur and Molly Weasley. She becomes Harry's main love interest and eventually marries him at the end of the series.",
-            "personalDetails":{
-                "fullName":"Ginevra Molly Weasley",
-                "dateOfBirth":"11 August 1981",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Pure-blood",
-                "maritalStatus":"Married",
-                "titles":[
-                    "Chaser",
-                    "Seeker"
-                ],
-                "species":"Human",
-                "gender":"Female",
-                "family":[
-                    "Arthur Weasley (father)",
-                    "Molly Weasley (mother)",
-                    "William Weasley (older brother)",
-                    "Charles Weasley (older brother)",
-                    "Ronald Weasley (older brother)",
-                    "Harry Potter (husband)",
-                    "James Potter II[ (son)",
-                    "Albus Potter (son)",
-                    "Lily L. Potter (daughter)"
-                ],
-                "occupation":[
-                    "Chaser for the Holyhead Harpies",
-                    "Senior Quidditch Correspondent for the Daily Prophet",
-                    "Sports editor for the Daily Prophet"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Ginevra Molly \"Ginny\" Potter (née Weasley) occasionally known as Gin by Harry Potter, was an English pure-blood witch, the only daughter of Arthur and Molly Weasley (née Prewett), and the younger sister of Bill, Charlie, Percy, the late Fred, George and Ron. She was the first female to be born into the Weasley line for several generations. She and her older brothers grew up in The Burrow on the outskirts of Ottery St Catchpole in Devon.",
+                "Ginny attended Hogwarts School of Witchcraft and Wizardry from 1992 to 1999, a year beneath the famous Harry Potter, and was sorted into Gryffindor House. During her first year, she developed a long-standing crush on Harry Potter and came under the influence of the memory of Tom Riddle's sixteen-year-old self, who was preserved in a diary, which forced Ginny to re-open the Chamber of Secrets, endangering the lives of many students, including her own.",
+                "Following that ordeal, Ginny grew into a confident young woman, becoming an important member of Dumbledore's Army, an organisation taught and led by Harry Potter in her fourth year. She would later fight in the Battle of the Department of Mysteries (1996), the Battle of the Astronomy Tower (1997), and the Battle of Hogwarts (1998). She was also an accomplished Quidditch player, playing Chaser and Seeker at different times for the Gryffindor Quidditch team.",
+                "After the Second Wizarding War, Ginny became a professional Quidditch player for the Holyhead Harpies. Upon retiring from the Harpies, she became the senior Quidditch correspondent for the Daily Prophet. Ginny eventually married Harry Potter and the couple had three children; James Sirius (named after Harry's father and godfather), Albus Severus (named after Albus Dumbledore and Severus Snape), and Lily Luna Potter (named after Harry's mother and their friend Luna Lovegood). By 2020, Ginny had become the sports editor for the Daily Prophet."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character5.webp",
-            "name":"Albus Dumbledore",
+            "firstName":"Albus Percival Wulfric Brian",
+            "lastName":"Dumbledore",
+            "dateOfBirth":"1 August 1881",
+            "alive":"false",
+            "dateOfDeath":"30 June 1997",
+            "bloodStatus":"Half-blood",
+            "maritalStatus":"Single",
+            "titles":[
+                "Prefect",
+                "Professor",
+                "Headmaster",
+                "Supreme Mugwump"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Percival Dumbledore (father)",
+                "Kendra Dumbledore (mother)",
+                "Aberforth Dumbledore (brother)",
+                "Ariana Dumbledore (sister)",
+                "Aurelius Dumbledore (nephew)"
+            ],
+            "occupation":[
+                "Headmaster of Hogwarts School of Witchcraft and Wizardry (1960s-1997)",
+                "Chief Warlock of the Wizengamot (1978-1997)",
+                "Supreme Mugwump of the International Confederation of Wizards (1983-1995)",
+                "Transfiguration Professor of Hogwarts (1930-1956)",
+                "Defence Against the Dark Arts Professor of Hogwarts (1910s-1930)"
+            ],
+            "house":"Gryffindor",
             "quote":"\"Albus Dumbledore was never proud or vain; he could find something to value in anyone, however apparently insignificant or wretched, and I believe that his early losses endowed him with great humanity and sympathy. I shall miss his friendship more than I can say, but my loss is as nothing compared to the wizarding world's. That he was the most inspiring and the best loved of all Hogwarts headmasters cannot be in question. He died as he lived: working always for the greater good and, to his last hour, as willing to stretch out a hand to a small boy with dragon pox as he was on the day that I met him.\" — Albus Dumbledore's obituary by Elphias Doge",
-            "description":"Prof. Albus Percival Wulfric Brian Dumbledore is a fictional character in J. K. Rowling's Harry Potter series. For most of the series, he is the headmaster of the wizarding school Hogwarts. As part of his backstory, it is revealed that he is the founder and leader of the Order of the Phoenix, an organisation dedicated to fighting Lord Voldemort, the main antagonist of the series.\n Rowling stated she chose the name Dumbledore, which is a dialectal word for \"bumblebee\", because of Dumbledore's love of music: she imagined him walking around \"humming to himself a lot\"",
-            "personalDetails":{
-                "fullName":"Albus Percival Wulfric Brian Dumbledore",
-                "dateOfBirth":"August 1881",
-                "alive":"false",
-                "dateOfDeath":"30 June 1997",
-                "bloodStatus":"Half-blood",
-                "maritalStatus":"Single",
-                "titles":[
-                    "Prefect",
-                    "Professor",
-                    "Headmaster",
-                    "Supreme Mugwump"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "Percival Dumbledore (father)",
-                    "Kendra Dumbledore (mother)",
-                    "Aberforth Dumbledore (brother)",
-                    "Ariana Dumbledore (sister)",
-                    "Aurelius Dumbledore (nephew)"
-                ],
-                "occupation":[
-                    "Headmaster of Hogwarts School of Witchcraft and Wizardry (1960s-1997)",
-                    "Chief Warlock of the Wizengamot (1978-1997)",
-                    "Supreme Mugwump of the International Confederation of Wizards (1983-1995)",
-                    "Transfiguration Professor of Hogwarts (1930-1956)",
-                    "Defence Against the Dark Arts Professor of Hogwarts (1910s-1930)"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Professor Albus Percival Wulfric Brian Dumbledore was an English half-blood wizard. He was the Defence Against the Dark Arts Professor, later the Transfiguration Professor, and later the Headmaster of Hogwarts School of Witchcraft and Wizardry. He also served as Supreme Mugwump of the International Confederation of Wizards and Chief Warlock of the Wizengamot. A Muggle-supporting wizard, though the complete opposite in his earlier years, he was considered to have been the greatest wizard of modern times.",
+                "He was the son of Percival and Kendra Dumbledore, and the elder brother of Aberforth and Ariana. His father died in Azkaban when Albus was young, while his mother and sister were later accidentally killed. His early losses greatly affected him early on, even at his death many years later, but, in turn, made him a better person",
+                "While initially unable to directly act against Gellert Grindelwald due to their past blood pact, the Ministry's surveillance of him, his love for Grindelwald, and his lingering guilt over his sister's death, Dumbledore sent Newt Scamander to New York to release the Thunderbird Frank, and later sent Newt to Paris to rescue Credence Barebone. After the tragic death of Leta Lestrange in Paris, Dumbledore became determined to contribute helpful advice to the resistance against Grindelwald, notably Newt, Theseus, Tina, Jacob, Yusuf, and Nagini in the global wizarding war. Initially unbeknownst to Dumbledore, however, Grindelwald intended to use the former's alleged Obscurial relative, Aurelius Dumbledore, as a weapon against him.",
+                "Following the global wizarding war, regardless of Aurelius's fate, Dumbledore became most famous for defeating Grindelwald in what was considered to be the most epic duel of all time. He also gained much more recognition with his involvement in the discovery of the twelve uses of dragon's blood and his work on alchemy with Nicolas Flamel.",
+                "It was through Dumbledore that resistance to the rise of Lord Voldemort was formed. He founded and led the Order of the Phoenix during the First Wizarding War. Following Voldemort's return and the start of the Second Wizarding War after the resignation of Cornelius Fudge, Dumbledore swiftly formed and led the second Order of the Phoenix. He would also support Jacob's sibling in the latter's quest for the Cursed Vaults, and consistently aid Harry Potter, Ron Weasley, and Hermione Granger during their first six years at Hogwarts, thus leading them to name Dumbledore's Army after him.",
+                "Due to the fact that he had a keen mind and was a legendary figure, Dumbledore became the only wizard that Voldemort ever feared. He was the wielder and the master of the Elder Wand from 1945 until 1997, and considered by many as the greatest Hogwarts Headmaster. As he was about to die by a cursed ring, Dumbledore planned his own death with Severus Snape. Per the plan, Dumbledore was killed by Snape during the Battle of the Astronomy Tower."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character6.webp",
-            "name":"Lord Voldemort",
+            "firtsName":"Tom Marvolo",
+            "lastName":"Riddle",
+            "dateOfBirth":"31 December 1926",
+            "alive":"false",
+            "dateOfDeath":"2 May 1998",
+            "bloodStatus":"Half-blood",
+            "maritalStatus":"Single",
+            "titles":[
+                "Prefect",
+                "Head Boy",
+                "Heir of Slytherin",
+                "Dark Lord",
+                "Master"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Tom Riddle Senior (father)",
+                "Merope Gaunt (mother)",
+                "Thomas Riddle (paternal grandfather)",
+                "Mary Riddle (paternal grandmother)",
+                "Marvolo Gaunt (maternal grandfather)",
+                "Morfin Gaunt (maternal uncle)"
+            ],
+            "occupation":[
+                "Shop assistant at Borgin and Burkes"
+            ],
+            "house":"Slytherin",
             "quote":"\"You see? It was a name I was already using at Hogwarts, to my most intimate friends only, of course. You think I was going to use my filthy Muggle father's name forever? I, in whose veins runs the blood of Salazar Slytherin himself, through my mother's side? I, keep the name of a foul, common Muggle, who abandoned me even before I was born, just because he found out his wife was a witch? No, Harry. I fashioned myself a new name, a name I knew wizards everywhere would one day fear to speak, when I had become the greatest sorcerer in the world!\" — Tom Riddle's transformation into Lord Voldemort",
-            "description":"Lord Voldemort is a sobriquet for Tom Marvolo Riddle, a character and the main antagonist in J. K. Rowling's series of Harry Potter novels. The character first appeared in Harry Potter and the Philosopher's Stone, which was published in 1997, and returned either in person or in flashbacks in each book and its film adaptation in the series except the third, Harry Potter and the Prisoner of Azkaban, in which he is only mentioned. \nVoldemort is the archenemy of Harry Potter, who according to a prophecy has \"the power to vanquish the Dark Lord\". He attempts to murder the boy, but instead kills his parents, Lily and James Potter, and leaves Harry with a scar on his forehead in the shape of a lightning bolt. Nearly every witch or wizard dares not utter his name and refers to him instead with such monikers as \"You-Know-Who\", \"He Who Must Not Be Named\", or \"the Dark Lord\". Voldemort's obsession with blood purity signifies his aim to rid the wizarding world of Muggle (non-magical) heritage and to conquer both worlds, Muggle and wizarding, to achieve pure-blood dominance. Through his mother's family, he is the last descendant of the wizard Salazar Slytherin, one of the four founders of Hogwarts School of Witchcraft and Wizardry. He is the leader of the Death Eaters, a group of evil wizards and witches dedicated to ridding the Wizarding World of Muggles and establishing Voldemort as its supreme ruler.",
-            "personalDetails":{
-                "fullName":"Tom Marvolo Riddle",
-                "dateOfBirth":"31 December 1926",
-                "alive":"false",
-                "dateOfDeath":"2 May 1998",
-                "bloodStatus":"Half-blood",
-                "maritalStatus":"Single",
-                "titles":[
-                    "Prefect",
-                    "Head Boy",
-                    "Heir of Slytherin",
-                    "Dark Lord",
-                    "Master"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "Tom Riddle Senior (father)",
-                    "Merope Gaunt (mother)",
-                    "Thomas Riddle (paternal grandfather)",
-                    "Mary Riddle (paternal grandmother)",
-                    "Marvolo Gaunt (maternal grandfather)",
-                    "Morfin Gaunt (maternal uncle)"
-                ],
-                "occupation":[
-                    "Shop assistant at Borgin and Burkes"
-                ],
-                "house":"Slytherin"
-            }
+            "description":[
+                "Tom Marvolo Riddle, later known as Lord Voldemort or, alternatively as the Dark Lord, You-Know-Who, or He-Who-Must-Not-Be-Named was an English half-blood wizard considered to have been the most powerful and dangerous Dark wizard of all time. He was amongst the greatest wizards to have ever lived, rivalled only by Albus Dumbledore. Descended from Salazar Slytherin on his mother's side through the House of Gaunt, Tom Riddle was conceived whilst his father, Tom Riddle Senior, was under the effects of a love potion supplied by his mother, Merope Gaunt. When the enchantment was lifted, Tom's father abandoned his pregnant wife and returned to Little Hangleton. His mother died moments after giving birth to and naming him. She named him after his father (Tom) and maternal grandfather, Marvolo Gaunt. Tom was raised in the Muggle-run Wool's Orphanage.",
+                "Tom began attending Hogwarts School of Witchcraft and Wizardry in 1938 and was sorted into Slytherin house. During this time, Tom discovered his heritage and adopted pure-blood supremacist ideals. Tom opened the Chamber of Secrets and used its monster, the Basilisk, to attack Muggle-born students, resulting in Myrtle Warren's death. He began his quest to attain immortality between the years of 1943 and 1998, creating his first Horcrux at the age of sixteen. While attending Hogwarts, Tom Riddle was made a prefect in 1942 until his graduation in 1945.",
+                "Tom spent several months as a purchasing agent for the Dark artefacts shop Borgin and Burkes before disappearing. Splitting his own spirit into a total of eight fragments, Tom created an unprecedented seven Horcruxes, with one made later in his life, unintentionally and without his knowledge — Harry Potter. Tom re-emerged several decades later having abandoned his 'Muggle' name and becoming the self-proclaimed Lord Voldemort, which is an anagram of his birth name. In the First and Second Wizarding Wars, he commanded a veritable army of wizards and Dark creatures; committed countless murders and atrocities; and eventually succeeded in taking over the British Ministry of Magic.",
+                "Voldemort was ripped from his body in 1981 after attempting to kill Harry Potter. Although unable to die, he was not able to regain a permanent and physical body until 1995, thus spending the intervening fourteen years as 'a shell, less than the meanest ghost'. He was finally killed by his own backfiring curse after Harry Potter and Albus Dumbledore succeeded in destroying all of his Horcruxes.",
+                "Unknown to most, however, Voldemort's legacy and bloodline would live on through his daughter Delphini, whom he conceived with his loyal follower Bellatrix Lestrange. The conception is thought to have occurred sometime after the Battle of the Department of Mysteries in 1996 and before Voldemort's death at the hands of Harry in 1998 .",
+                "Riddle's broken and mutilated soul was then trapped in Limbo for eternity, unable to move on to the afterlife or even return as a disembodied spirit."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character7.webp",
-            "name":"Neville Longbottom",  
+            "firstName":"Neville",
+            "lastName":"Longbottom",
+            "dateOfBirth":"30 July 1980",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Pure-blood",
+            "maritalStatus":"Married",
+            "titles":[
+                "Professor",
+                "Head of Gryffindor House"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Frank Longbottom (father)",
+                "Alice Longbottom (mother)",
+                "Hannah Abbott (wife)",
+                "Mr Longbottom (paternal grandfather)",
+                "Augusta Longbottom (paternal grandmother)"
+            ],
+            "occupation":[
+                "Auror",
+                "Professor of Herbology at Hogwarts School of Witchcraft and Wizardry",
+                "Head of Gryffindor House"
+            ],
+            "house":"Gryffindor",
             "quote":"\"I'll join you when hell freezes over! Dumbledore's Army!\" — Neville bravely rejecting Voldemort's offer to join him",          
-            "description":"Neville Longbottom is a fictional character in J. K. Rowling's Harry Potter book series. He is described as a round-faced Gryffindor student in the central character Harry Potter's year. Throughout the series, Neville is often portrayed as a bumbling and disorganised character, and a rather mediocre student, though he is highly gifted at Herbology. However, the character's personality appears to undergo a transition after he joins Dumbledore's Army in Harry Potter and the Order of the Phoenix. The encouragement he receives gives him confidence in his magical abilities, turning him into a more competent wizard. Eventually, Neville becomes the leader of Dumbledore's Army during Harry, Ron and Hermione's absence searching for Horcruxes. Neville is instrumental in the downfall of Lord Voldemort and eventually destroys the final Horcrux, which allows Harry to defeat The Dark Lord once and for all. ",
-            "personalDetails":{
-                "fullName":"Neville Longbottom",
-                "dateOfBirth":"30 July 1980",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Pure-blood",
-                "maritalStatus":"Married",
-                "titles":[
-                    "Professor",
-                    "Head of Gryffindor House"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "Frank Longbottom (father)",
-                    "Alice Longbottom (mother)",
-                    "Hannah Abbott (wife)",
-                    "Mr Longbottom (paternal grandfather)",
-                    "Augusta Longbottom (paternal grandmother)"
-                ],
-                "occupation":[
-                    "Auror",
-                    "Professor of Herbology at Hogwarts School of Witchcraft and Wizardry",
-                    "Head of Gryffindor House"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Professor Neville Longbottom was a British pure-blood wizard, the only child and son of Frank and Alice Longbottom. Neville's parents were well-respected Aurors and members of the original Order of the Phoenix until they were tortured into insanity by Bellatrix Lestrange and three other Death Eaters with the Cruciatus Curse when he was about sixteen months old. They were placed in the Janus Thickey Ward at St Mungo's Hospital for Magical Maladies and Injuries, leaving Neville to be raised by his paternal grandmother, Augusta Longbottom.",
+                "At the time of his birth, Neville was marked by a prophecy as being one of two children with the potential to defeat Lord Voldemort, the most powerful and feared Dark wizard in the world. However, Voldemort's first attempt to circumvent the prophecy by killing Neville's later friend and classmate Harry Potter, ultimately established Harry as Voldemort's nemesis.",
+                "Neville began school at Hogwarts School of Witchcraft and Wizardry in 1991 and was sorted into Gryffindor House, along with Harry Potter, Hermione Granger, and Ronald Weasley. Throughout his school years, he was mostly a shy, clumsy, introverted boy who was constantly being told by his grandmother that he was not good enough or living up to his parents' accomplishments. However, in his later years, he showed that he possessed great courage and perseverance: he became an important member of Dumbledore's Army, an organisation taught and led by Harry Potter with the goal of helping other students learn spells to attack and defend themselves.",
+                "Neville would later fight in the Battle of the Department of Mysteries (1996), the Battle of the Astronomy Tower (1997), and the Battle of Hogwarts (1998). During the Battle of Hogwarts, having refused Voldemort's invitation to join the Death Eaters, he destroyed the seventh and final Horcrux when he beheaded the snake Nagini. He also co-led the D.A. during his final year in opposition to the Death Eater professors.",
+                "After the end of the Second Wizarding War, Neville briefly served as an Auror, before becoming the Herbology professor and the Head of Gryffindor House at Hogwarts and marrying Hannah Abbott from Hufflepuff. He was also the godfather of Harry and Ginny's second son, Albus Potter."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character8.webp",
-            "name":"Draco Malfoy",
+            "firtsName":"Draco Lucius",
+            "lastName":"Malfoy",
+            "dateOfBirth":"5 June 1980",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Pure-blood",
+            "maritalStatus":"Widowed",
+            "titles":[
+                "Seeker",
+                "Prefect"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Lucius Malfoy (father)",
+                "Narcissa Malfoy (mother)",
+                "Astoria Greengrass (wife)",
+                "Scorpius Malfoy (son)",
+                "Andromeda Tonks (aunt)",
+                "Bellatrix Lestrange (aunt)",
+                "Nymphadora Tonks (cousin)"
+            ],
+            "occupation":[
+                "Family Business"
+            ],
+            "house":"Slytherin",
             "quote":"\"I really don't think they should let the other sort in, do you? They're just not the same, they've never been brought up to know our ways. Some of them have never even heard of Hogwarts until they get the letter, I imagine. I think they should keep it in the old wizarding families.\" — Draco showing his prejudice at a young age",
-            "description":"Draco Lucius Malfoy is a fictional character in J. K. Rowling's Harry Potter series. He is a student in Harry Potter's year belonging in the Slytherin house. He is frequently accompanied by his two cronies, Vincent Crabbe and Gregory Goyle, who act as henchmen. Draco is characterised as a cowardly bully who tricks and hurts people to get what he wants; he is also a cunning user of magic.",
-            "personalDetails":{
-                "fullName":"Draco Lucius Malfoy",
-                "dateOfBirth":"5 June 1980",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Pure-blood",
-                "maritalStatus":"Widowed",
-                "titles":[
-                    "Seeker",
-                    "Prefect"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "Lucius Malfoy (father)",
-                    "Narcissa Malfoy (mother)",
-                    "Astoria Greengrass (wife)",
-                    "Scorpius Malfoy (son)",
-                    "Andromeda Tonks (aunt)",
-                    "Bellatrix Lestrange (aunt)",
-                    "Nymphadora Tonks (cousin)"
-                ],
-                "occupation":[
-                    "Family Business"
-                ],
-                "house":"Slytherin"
-            }
+            "description":[
+                "Draco Lucius Malfoy was a British pure-blood wizard and the only son of Lucius and Narcissa Malfoy (née Black). The son of a Death Eater, Draco was raised to strongly believe in the importance of blood purity. He looked down on half-bloods and Muggle-borns.",
+                "Draco attended Hogwarts School of Witchcraft and Wizardry from 1991-1998. He was sorted into Slytherin House the moment the Sorting Hat touched his head. During his years at Hogwarts, he became friends with Vincent Crabbe, Gregory Goyle, Pansy Parkinson, and other fellow Slytherins, but he quickly developed a rivalry with Harry Potter.",
+                "He was made a prefect of his house and was a member of the Inquisitorial Squad during his fifth year, at the end of which his father was imprisoned in Azkaban following the Battle of the Department of Mysteries. Lord Voldemort charged Draco with making up for Lucius's failure, and he became a Death Eater at age sixteen but was quickly disillusioned with the lifestyle.",
+                "Draco was unable to complete his task of murdering Albus Dumbledore, which was later taken over by Severus Snape, and only performed his other duties fearfully and reluctantly. He and his family defected hours before the end of the Second Wizarding War, fearing for their lives.",
+                "By 2017, Draco had married Astoria Greengrass and had one child, Scorpius Hyperion Malfoy."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character9.webp",
-            "name":"Severus Snape",
+            "firstName":"Severus",
+            "lastName":"Snape",
+            "dateOfBirth":"9 January 1960",
+            "alive":"false",
+            "dateOfDeath":"2 May 1998",
+            "bloodStatus":"Half-blood",
+            "maritalStatus":"Single",
+            "titles":[
+                "Professor",
+                "Head of Slytherin House",
+                "Headmaster"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Tobias Snape (father)",
+                "Eileen Snape (mother)"
+            ],
+            "occupation":[
+                "Potions Master at Hogwarts (1981-1996)",
+                "Head of Slytherin House (1981-1997)",
+                "Professor of Defence Against the Dark Arts at Hogwarts (1996-1997)",
+                "Headmaster of Hogwarts (1997-1998)"
+            ],
+            "house":"Slytherin",
             "quote":"\"Albus Severus, you were named for two headmasters of Hogwarts. One of them was a Slytherin. And he was the bravest man I've ever known.\" — Harry Potter's high opinion of Snape's character",
-            "description":"Severus Snape is a fictional character in J. K. Rowling's Harry Potter series. He is an exceptionally skilled wizard whose extremely cold and resentful exterior conceals deep emotions and anguish. A Professor at Hogwarts School of Witchcraft and Wizardry, Snape is hostile to Harry due to his resemblance to his father James Potter, who bullied Snape during their time together at Hogwarts. \n Snape's character has been widely acclaimed by readers and critics. Rowling described him as \"a gift of a character\" whose story she had known since the first book. Elizabeth Hand of The Washington Post explained that Snape's life \"is the most heartbreaking, surprising and satisfying of all of Rowling's achievements\".",
-            "personalDetails":{
-                "fullName":"Severus Snape",
-                "dateOfBirth":"9 January 1960",
-                "alive":"false",
-                "dateOfDeath":"2 May 1998",
-                "bloodStatus":"Half-blood",
-                "maritalStatus":"Single",
-                "titles":[
-                    "Professor",
-                    "Head of Slytherin House",
-                    "Headmaster"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "Tobias Snape (father)",
-                    "Eileen Snape (mother)"
-                ],
-                "occupation":[
-                    "Potions Master at Hogwarts (1981-1996)",
-                    "Head of Slytherin House (1981-1997)",
-                    "Professor of Defence Against the Dark Arts at Hogwarts (1996-1997)",
-                    "Headmaster of Hogwarts (1997-1998)"
-                ],
-                "house":"Slytherin"
-            }
+            "description":[
+                "Professor Severus Snape was an English half-blood wizard serving as Potions Master (1981-1996), Head of Slytherin House (1981-1997), Defence Against the Dark Arts professor (1996-1997), and Headmaster (1997-1998) of the Hogwarts School of Witchcraft and Wizardry as well as a member of the Order of the Phoenix and a Death Eater. His double life played an extremely important role in both of the Wizarding Wars against Voldemort.",
+                "The only child of Muggle Tobias Snape and witch Eileen Snape (née Prince), Severus was raised in the Muggle dwelling of Spinner's End, which was in close proximity to the home of the Evans family, though in a poorer area. He met Lily and Petunia Evans when he was nine. He fell deeply in love with Lily upon their meeting and became a close friend of hers.",
+                "Severus started at Hogwarts with Lily in 1971, where he was sorted into Slytherin House. This put him in the same year as Lily but unfortunately for him she was sorted into Gryffindor House. Severus became the immediate enemy of James Potter and Sirius Black and was a frequent victim of their bullying. This led him to be irritable towards James's son Harry when he was a professor. Snape, when young, developed a passion for the Dark Arts, which increased as his desire for revenge against his bullies grew stronger.",
+                "Snape became involved with the bullies in Slytherin House, many of whom were pure-blood supremacists. This put his friendship with Lily, a Muggle-born, under great strain until it was eventually broken in their fifth year. In a misguided attempt to win back Lily's affections, Snape joined the Death Eaters along with a group of his fellow Slytherins.",
+                "Severus was made a member of the Slug Club presumably because of his talent in Potion-making. Horace Slughorn even kept a picture of him as a student, clutching his copy of Advanced Potion-Making. However, Horace did not actually have many hopes for Severus's future, as his photograph was kept behind many others.",
+                "As an active Death Eater, one of Snape's biggest contributions was letting Lord Voldemort know about the prophecy Sybill Trelawney made to Dumbledore. This part of the prophecy could have applied to either Harry Potter or Neville Longbottom, who was also born at the end of July 1980 to parents who were members of the Order. Once Lord Voldemort decided to target the Potters over the Longbottoms, Snape begged Voldemort to at least spare Lily. Voldemort agreed, then did not follow through on this promise."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character10.webp",
-            "name":"Rubeus Hagrid",
+            "firstName":"Rubeus",
+            "lastName":"Hagrid",
+            "dateOfBirth":"6 December 1928",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Part-human (half-giant)",
+            "maritalStatus":"Single",
+            "titles":[
+                "Professor",
+                "Keeper of Keys and Grounds of Hogwarts"
+            ],
+            "species":"Half-human/half-giant",
+            "gender":"Male",
+            "family":[
+                "Fridwulfa (mother)",
+                "Grawp (half-brother)"
+            ],
+            "occupation":[
+                "Keeper of Keys and Grounds at Hogwarts School of Witchcraft and Wizardry",
+                "Professor of Care of Magical Creatures at Hogwarts School of Witchcraft and Wizardry"
+            ],
+            "house":"Gryffindor",
             "quote":"\"I would trust Hagrid with my life.\" — Albus Dumbledore's trust in Hagrid",
-            "description":"Rubeus Hagrid is a fictional character in the Harry Potter book series written by J. K. Rowling. He is introduced in Harry Potter and the Philosopher's Stone as a half-giant and half-human who is the gamekeeper and Keeper of Keys and Grounds of Hogwarts, the primary setting for the first six novels. In the third novel Harry Potter and the Prisoner of Azkaban, Hagrid is promoted to Care of Magical Creatures professor, and is later revealed to be a member of the Order of the Phoenix. A loyal, friendly, softhearted personality who is easily brought to tears, he is also known for his thick West Country accent.",
-            "personalDetails":{
-                "fullName":"Rubeus Hagrid",
-                "dateOfBirth":"6 December 1928",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Part-human (half-giant)",
-                "maritalStatus":"Single",
-                "titles":[
-                    "Professor",
-                    "Keeper of Keys and Grounds of Hogwarts"
-                ],
-                "species":"Half-human/half-giant",
-                "gender":"Male",
-                "family":[
-                    "Fridwulfa (mother)",
-                    "Grawp (half-brother)"
-                ],
-                "occupation":[
-                    "Keeper of Keys and Grounds at Hogwarts School of Witchcraft and Wizardry",
-                    "Professor of Care of Magical Creatures at Hogwarts School of Witchcraft and Wizardry"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Professor Rubeus Hagrid  was an English half-giant wizard, son of Mr Hagrid and the giantess Fridwulfa, and elder half-brother of the giant Grawp. Hagrid stood at eleven feet, six inches tall.",
+                "Hagrid attended Hogwarts School of Witchcraft and Wizardry in 1940 and was sorted into Gryffindor house. In Hagrid's third year, he was framed by Tom Riddle for the crime of opening the Chamber of Secrets and using his pet Acromantula to attack several Muggle-born students and eventually killing one of them. Though Hagrid's wand was snapped and he was expelled, he was trained as gamekeeper of Hogwarts and allowed to live on the school grounds at the request of Albus Dumbledore.",
+                "In 1991, Hagrid was given the task of reintroducing Harry Potter to the wizarding world. In 1993, Hagrid would assume the post of Care of Magical Creatures professor after the retirement of Professor Silvanus Kettleburn. As a member of both the original and the reinstated Order of the Phoenix, Hagrid fought in several battles of the First and the Second Wizarding Wars, including the Battle of Hogwarts in 1998.",
+                "It can be assumed that Hagrid kept in contact with the trio after the war. By 2017 he was still living, and presumably still teaching and tending to his gamekeeping duties at Hogwarts. When Harry's son, Albus Severus, started school he invited him for tea, just as Hagrid had done for his father and his friends Ron Weasley and Hermione Granger."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character11.webp",
-            "name":"Sirius Black",
+            "firstName":"Sirius",
+            "lastName":"Black",
+            "dateOfBirth":"3 November 1959",
+            "alive":"false",
+            "dateOfDeath":"18 June 1996",
+            "bloodStatus":"Pure-blood",
+            "maritalStatus":"Single",
+            "titles":[
+                "Padfoot"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Orion Black (father)",
+                "Walburga Black (mother)",
+                "Regulus Black (brother)",
+                "Harry Potter (godson)",
+                "Bellatrix Lestrange (cousin)",
+                "Andromeda Tonks (cousin)",
+                "Narcissa Malfoy (cousin)"
+            ],
+            "occupation":[
+                "Member of The Order of the Phoenix"
+            ],
+            "house":"Gryffindor",
             "quote":"\"I don't know how I did it. I think the only reason I never lost my mind is that I knew I was innocent. That wasn't a happy thought, so the Dementors couldn't suck it out of me... but it kept me sane and knowing who I am... helped me keep my powers... so when it all became... too much... I could transform in my cell... become a dog.\" — How Sirius survived in Azkaban",
-            "description":"Sirius Black is a character in J. K. Rowling's Harry Potter series. Sirius was first mentioned briefly in Harry Potter and the Philosopher's Stone as a wizard who lent Rubeus Hagrid a flying motorbike shortly after Lord Voldemort killed James and Lily Potter. His character becomes prominent in Harry Potter and the Prisoner of Azkaban, in which he is the titular prisoner, and is also revealed to be the godfather of the central character Harry Potter.",
-            "personalDetails":{
-                "fullName":"Sirius Black III",
-                "dateOfBirth":"3 November 1959",
-                "alive":"false",
-                "dateOfDeath":"18 June 1996",
-                "bloodStatus":"Pure-blood",
-                "maritalStatus":"Single",
-                "titles":[
-                    "Padfoot"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                    "Orion Black (father)",
-                    "Walburga Black (mother)",
-                    "Regulus Black (brother)",
-                    "Harry Potter (godson)",
-                    "Bellatrix Lestrange (cousin)",
-                    "Andromeda Tonks (cousin)",
-                    "Narcissa Malfoy (cousin)"
-                ],
-                "occupation":[
-                    "Member of The Order of the Phoenix"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Sirius Black III, also known as Padfoot or Snuffles (in his Animagus form), was an English pure-blood wizard, the older son of Orion and Walburga Black, the older brother of Regulus Black, and godfather of Harry Potter. Although he was the heir of the House of Black, Sirius disagreed with his family's belief in blood purity and defied tradition when he was Sorted into Gryffindor House instead of Slytherin at Hogwarts School of Witchcraft and Wizardry, which he attended from 1971 to 1978. As the rest of his family had been in Slytherin, he was the odd one out.",
+                "As Sirius's relationship with his relatives deteriorated, he gained a lifelong friendship with James Potter and Remus Lupin. He was also friends with Peter Pettigrew. The four friends, also known as the Marauders, joined the Order of the Phoenix to fight against Lord Voldemort and his Death Eaters during the First Wizarding War. Sirius was named the godfather of Harry James Potter, the only son of James and Lily Potter. When Pettigrew betrayed the Potters to Voldemort, Sirius sought to get revenge on Pettigrew. However, Pettigrew was able to frame Sirius for his betrayal of the Potters, the murder of twelve Muggles, and the staged murder of Pettigrew before Sirius could accomplish this.",
+                "Sirius was sent to Azkaban and, after twelve years, became the only known person to escape the prison unassisted. He did it by transforming into his Animagus form of a massive black dog often confused with a \"Grim\", an omen said to cause death. Sirius exposed Pettigrew's treachery to his old friend Remus and his godson Harry. Unfortunately, Dementors attacked the group and allowed Pettigrew to escape. With the Minister for Magic Cornelius Fudge wanting to have Sirius kissed and Sirius's proof of innocence gone, he was forced to go on the run.",
+                "After Lord Voldemort returned in 1995, Sirius rejoined the Order. He was killed by his cousin Bellatrix Lestrange during the Battle of the Department of Mysteries and subsequently cleared of all charges by the Ministry of Magic, though it was too late for him to enjoy his freedom. Eventually, his death was avenged by Molly Weasley.",
+                "He briefly appeared again to Harry through the Resurrection Stone on 2 May 1998, along with James and Lily Potter, and Remus Lupin. Harry later named his first son James Sirius Potter after him and his father James Potter I."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character12.webp",
-            "name":"Remus Lupin",
+            "firstName":"Remus John",
+            "lastName":"Lupin",
+            "dateOfBirth":"10 March 1960",
+            "alive":"false",
+            "dateOfDeath":"2 May 1998",
+            "bloodStatus":"Half-blood",
+            "maritalStatus":"Married or widowed",
+            "titles":[
+                "Prefect",
+                "Professor"
+            ],
+            "species":"Human (Werewolf)",
+            "gender":"Male",
+            "family":[
+                "Lyall Lupin (father)",
+                "Hope Lupin (mother)",
+                "Nymphadora Tonks (wife)",
+                "Edward Lupin (son)"
+            ],
+            "occupation":[
+                "Professor of Defence Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry (1993-1994)"
+            ],
+            "house":"Gryffindor",
             "quote":"\"I was a very small boy when I received the bite. My parents tried everything, but in those days there was no cure. The Potion that Professor Snape has been making for me is a very recent discovery. It makes me safe, you see. As long as I take it in the week preceding the full moon, I keep my mind when I transform... I am able to curl up in my office, a harmless wolf, and wait for the moon to wane again. Before the Wolfsbane Potion was discovered, however, I became a fully fledged monster once a month. It seemed impossible that I would be able to come to Hogwarts. Other parents weren't likely to want their children exposed to me.\" — Lupin's life as a werewolf",
-            "description":"Remus John Lupin is a fictional character in the Harry Potter book series written by J. K. Rowling. He first appears in Harry Potter and the Prisoner of Azkaban as the new Defence Against the Dark Arts professor. Lupin remains in the story following his resignation from this post, serving as a friend and ally of the central character, Harry Potter.",
-            "personalDetails":{
-                "fullName":"Remus John Lupin",
-                "dateOfBirth":"10 March 1960",
-                "alive":"false",
-                "dateOfDeath":"2 May 1998",
-                "bloodStatus":"Half-blood",
-                "maritalStatus":"Married or widowed",
-                "titles":[
-                    "Prefect",
-                    "Professor"
-                ],
-                "species":"Human (Werewolf)",
-                "gender":"Male",
-                "family":[
-                    "Lyall Lupin (father)",
-                    "Hope Lupin (mother)",
-                    "Nymphadora Tonks (wife)",
-                    "Edward Lupin (son)"
-                ],
-                "occupation":[
-                    "Professor of Defence Against the Dark Arts at Hogwarts School of Witchcraft and Wizardry (1993-1994)"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Professor Remus John Lupin, also known as Moony, was a half-blood wizard and the only son of Lyall and Hope Lupin (née Howell). He was attacked by werewolf Fenrir Greyback when he was a child, a result of Greyback's revenge against Lyall, leaving Remus afflicted with lycanthropy for life. He attended Hogwarts School of Witchcraft and Wizardry from 1971 to 1978 and was sorted into Gryffindor House. During his school years he was one of the Marauders, best friends with Sirius Black, James Potter, and Peter Pettigrew. Together, they created the Marauder's Map.",
+                "After Hogwarts, Remus and his friends joined the original Order of the Phoenix and fought in the First Wizarding War. However, Pettigrew betrayed James and Lily Potter to Lord Voldemort a week after he was made the couples' Secret Keeper. Thus Remus had lost all of his closest friends in various ways by the end of the First Wizarding War. The loss of his friends devastated him, though he and Sirius Black later rekindled their friendship.",
+                "Remus taught at Hogwarts School of Witchcraft and Wizardry as Professor of Defence Against the Dark Arts during the 1993-1994 school year. Remus was regarded by students to be the best Defence teacher they have had thus far. He was also a professor of Harry Potter (James' son) whom he taught how to conjure a corporeal Patronus, but resigned after Severus Snape revealed to the public that Remus was a werewolf.",
+                "He fought against Death Eaters once more in the Second Wizarding War, during which he lost his friend Sirius. In 1997, Remus married fellow Order member Nymphadora Tonks and had a son, Edward Remus Lupin, of whom he named Harry the godfather. Remus fought at the Battle of Hogwarts on 2 May 1998, during which his wife was murdered by Bellatrix Lestrange. Remus was also murdered by Death Eater Antonin Dolohov, during the first half of the same battle. His death was avenged by Filius Flitwick.",
+                "Remus briefly appeared again through the Resurrection Stone for Harry, along with James Potter, Lily Potter, and Sirius Black on the same day of his death. After his death, his son was raised by Andromeda Tonks and Harry Potter."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character13.webp",
-            "name":"Bellatrix Lestrange",
+            "firstName":"Bellatrix",
+            "lastName":"Lestrange",
+            "dateOfBirth":"12 June 1951",
+            "alive":"false",
+            "dateOfDeath":"2 May 1998 ",
+            "bloodStatus":"Pure-blood",
+            "maritalStatus":"Married",
+            "titles":[
+                "Madam"
+            ],
+            "species":"Human",
+            "gender":"Female",
+            "family":[
+                "Narcissa Malfoy (sister)",
+                "Andromeda Tonks (sister)",
+                "Draco Malfoy (nephew)",
+                "Lucius Malfoy (brother-in-law)",
+                "Nymphadora Tonks (niece)",
+                "Rodolphus Lestrange (husband)",
+                "Delphini (daughter)"
+            ],
+            "occupation":[
+                "Death Eater"
+            ],
+            "house":"Slytherin",
             "quote":"\"Potter, you cannot win against me! I was and am the Dark Lord's most loyal servant. I learned the Dark Arts from him, and I know spells of such power that you, pathetic little boy, can never hope to compete!\" — Bellatrix about her loyalty and skills in the Dark Arts",
-            "description":"Bellatrix Lestrange is a fictional character in the Harry Potter book series written by J. K. Rowling. She evolved from an unnamed periphery character in Harry Potter and the Goblet of Fire into a major antagonist in subsequent novels. In the final installment of the story, Rowling established her as Lord Voldemort's \"last, best lieutenant\". Bellatrix was the first female Death Eater introduced in the books. Bellatrix had a ravaging obsession with the Dark Lord although she was clearly fearful of his magical abilities and absolute power over his forces.",
-            "personalDetails":{
-                "fullName":"Bellatrix Lestrange",
-                "dateOfBirth":"1951",
-                "alive":"false",
-                "dateOfDeath":"2 May 1998 ",
-                "bloodStatus":"Pure-blood",
-                "maritalStatus":"Married",
-                "titles":[
-                    "Madam"
-                ],
-                "species":"Human",
-                "gender":"Female",
-                "family":[
-                    "Narcissa Malfoy (sister)",
-                    "Andromeda Tonks (sister)",
-                    "Draco Malfoy (nephew)",
-                    "Lucius Malfoy (brother-in-law)",
-                    "Nymphadora Tonks (niece)",
-                    "Rodolphus Lestrange (husband)",
-                    "Delphini (daughter)"
-                ],
-                "occupation":[
-                    "Death Eater"
-                ],
-                "house":"Slytherin"
-            }
+            "description":[
+                "Bellatrix \"Bella\" Lestrange (née Black) was a British Pure-blood witch, the eldest daughter of Cygnus and Druella Black, cousin of Regulus and Sirius Black, and the elder sister of Andromeda Tonks and Narcissa Malfoy. She was a member of the House of Black, an old wizarding family and one of the Sacred Twenty-Eight. Bellatrix started her education at Hogwarts School of Witchcraft and Wizardry in the early sixties (either 1962 or 1963), and was Sorted into Slytherin House.",
+                "After graduating from Hogwarts, Bellatrix became a Death Eater. She was fanatically loyal to Lord Voldemort and was among the most dangerous and sadistic of his followers. All the Black sisters married pure-blood wizards, except for Andromeda who married Muggle-born Ted Tonks and was disowned by the family.",
+                "After Voldemort's fall from power, Bellatrix, her husband Rodolphus Lestrange, her brother-in-law Rabastan Lestrange, and Barty Crouch Jnr captured and tortured the Aurors Frank and Alice Longbottom, seeking information about Voldemort's whereabouts which eventually drove the two Aurors insane. The four Death Eaters were caught and sentenced to life imprisonment in Azkaban. Voldemort eventually returned to full strength in 1995 and Bellatrix, Rodolphus, and Rabastan escaped from Azkaban in the 1996 mass break-out, along with seven other Death Eaters.",
+                "Bellatrix participated in several battles of the Second Wizarding War, making it a particular goal to murder any relatives who were members of the Order of the Phoenix. She successfully murdered two, her cousin Sirius Black and niece Nymphadora Tonks. She also murdered the Malfoy family's former house-elf, Dobby, who had become a firm ally of Harry Potter. During the final battle, Bellatrix was the last Death Eater standing. She was eventually killed in a duel by Molly Weasley after her attempted murder of Ginny Weasley.",
+                "Before her death, Bellatrix secretly gave birth to an illegitimate daughter named Delphini, whom she conceived with her beloved master, Lord Voldemort. Delphini was conceived sometime after the Battle of the Department of Mysteries in 1996 and before the Skirmish at Malfoy Manor in 1998."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character14.webp",
-            "name":"Minerva McGonagall",
+            "firstName":"Minerva",
+            "lastName":"McGonagall",
+            "dateOfBirth":"4 October",
+            "alive":"true",
+            "dateOfDeath":"",
+            "bloodStatus":"Half-blood",
+            "maritalStatus":"Widowed",
+            "titles":[
+                "Prefect",
+                "Head Girl",
+                "Madam",
+                "Professor",
+                "Head of Transfiguration",
+                "Head of Gryffindor",
+                "Headmistress"
+            ],
+            "species":"Human",
+            "gender":"Female",
+            "family":[
+                "Robert McGonagall (father)",
+                "Isobel Ross (mother)",
+                "Malcolm McGonagall (brother)",
+                "Robert McGonagall Jr (brother)",
+                "Elphinstone Urquart (husband)"
+            ],
+            "occupation":[
+                "Department of Magical Law Enforcement employee",
+                "Professor of Transfiguration at Hogwarts School of Witchcraft and Wizardry",
+                "Head of Gryffindor House (1975-1998)",
+                "Deputy Headmistress of Hogwarts School of Witchcraft and Wizardry",
+                "Headmistress of Hogwarts School of Witchcraft and Wizardry"
+            ],
+            "house":"Gryffindor",
             "quote":"\"Transfiguration is some of the most complex and dangerous magic you will learn at Hogwarts. Anyone messing around in my class will leave and not come back. You have been warned.\" — McGonagall's sternness and belief in her field",
-            "description":"Professor Minerva McGonagall is a fictional character in J. K. Rowling's Harry Potter series. Professor McGonagall is a professor at Hogwarts School for Witchcraft and Wizardry, the head of Gryffindor House, the professor of Transfiguration, the Deputy Headmistress under Albus Dumbledore and a member of the Order of the Phoenix. Following Lord Voldemort's defeat at the hands of her student Harry Potter and the deaths of Headmasters Albus Dumbledore and Severus Snape, McGonagall takes the position of Headmistress.",
-            "personalDetails":{
-                "fullName":"Minerva McGonagall",
-                "dateOfBirth":"4 October",
-                "alive":"true",
-                "dateOfDeath":"",
-                "bloodStatus":"Half-blood",
-                "maritalStatus":"Widowed",
-                "titles":[
-                    "Prefect",
-                    "Head Girl",
-                    "Madam",
-                    "Professor",
-                    "Head of Transfiguration",
-                    "Head of Gryffindor",
-                    "Headmistress"
-                ],
-                "species":"Human",
-                "gender":"Female",
-                "family":[
-                   	"Robert McGonagall (father)",
-                    "Isobel Ross (mother)",
-                    "Malcolm McGonagall (brother)",
-                    "Robert McGonagall Jr (brother)",
-                    "Elphinstone Urquart (husband)"
-                ],
-                "occupation":[
-                    "Department of Magical Law Enforcement employee",
-                    "Professor of Transfiguration at Hogwarts School of Witchcraft and Wizardry",
-                    "Head of Gryffindor House (1975-1998)",
-                    "Deputy Headmistress of Hogwarts School of Witchcraft and Wizardry",
-                    "Headmistress of Hogwarts School of Witchcraft and Wizardry"
-                ],
-                "house":"Gryffindor"
-            }
+            "description":[
+                "Professor Minerva McGonagall, was a Scottish half-blood witch, the only daughter of Muggle Robert McGonagall and witch Isobel Ross. She also was the older sister of Malcolm and Robert Jnr. Minerva attended Hogwarts School of Witchcraft and Wizardry and was Sorted into Gryffindor House, but it took the Sorting Hat five and a half minutes to decide if she was Gryffindor or Ravenclaw, which made her a Hatstall. During her seventh year, she was appointed Head Girl.",
+                "After her education, Minerva worked for two years at the Ministry of Magic and later returned to Hogwarts, where she became Head of Gryffindor House and the Transfiguration professor. Though she wasn't a member of the Order of the Phoenix during the First Wizarding War, Minerva greatly helped the Ministry of Magic's resistance through spying on Death Eaters and bringing the Aurors crucial information on their activities.",
+                "Eventually, Minerva became concurrently, at differing times, Deputy Headmistress and Headmistress of Hogwarts. In 1995, she opposed Dolores Umbridge, the High Inquisitor of Hogwarts. She also protected the students from Alecto and Amycus Carrow from 1997 until 1998. As part of the Order of Phoenix's new resistance movement, Minerva fought in several battles of both wars, including the Battle of the Astronomy Tower and the Battle of Hogwarts, where she led the resistance against Lord Voldemort.",
+                "Minerva survived the Second Wizarding War and became Headmistress full time, a title she still held into the early 2020s."
+            ]
         },
         {
             "portraitURL":"./resources/images/characters/character15.webp",
-            "name":"Gellert Grindelwald",
+            "firstName":"Gellert",
+            "lastName":"Grindelwald",
+            "dateOfBirth":"14 July 1882",
+            "alive":"false",
+            "dateOfDeath":"28 March 1998",
+            "bloodStatus":"Pure-blood",
+            "maritalStatus":"Single",
+            "titles":[
+                "Supreme Mugwump"
+            ],
+            "species":"Human",
+            "gender":"Male",
+            "family":[
+                "Bathilda Bagshot (great-aunt)"
+            ],
+            "occupation":[
+                "Supreme Mugwump of the International Confederation of Wizards"
+            ],
+            "house":"None",
             "quote":"\"Listen to me, the disapproval of cowards is praise to the brave. Your name will be written in glory when wizards rule the world.\" — Gellert Grindelwald's fanatical ideology",
-            "description":"Gellert Grindelwald is a dark wizard who, on a list of \"Most Dangerous Dark Wizards of All Time\", would be second only to Voldemort, according to Rita Skeeter's book The Life and Lies of Albus Dumbledore. His name is first mentioned in Philosopher's Stone on a Chocolate Frog card which notes that Dumbledore defeated Grindelwald in 1945. The character is not mentioned again until Deathly Hallows where he plays a significant part of the subplot about Dumbledore's backstory.",
-            "personalDetails":{
-                "fullName":"Gellert Grindelwald",
-                "dateOfBirth":"Between summer 1882 and summer 1883",
-                "alive":"false",
-                "dateOfDeath":"Late March 1998",
-                "bloodStatus":"Pure-blood",
-                "maritalStatus":"Single",
-                "titles":[
-                    "Supreme Mugwump"
-                ],
-                "species":"Human",
-                "gender":"Male",
-                "family":[
-                   	"Bathilda Bagshot (great-aunt)"
-                ],
-                "occupation":[
-                    "Supreme Mugwump of the International Confederation of Wizards"
-                ],
-                "house":"None"
-            }
+            "description":[
+                "Gellert Grindelwald was a Dark wizard who was considered to be amongst the most powerful and notorious wizards of all time, his only superiors being Albus Dumbledore and Lord Voldemort. A student at Durmstrang Institute, Grindelwald was expelled for twisted, dark experiments and near-fatal attacks on students.",
+                "After leaving Durmstrang, he fostered a romantic relationship with a young Albus Dumbledore, making plans to find the Deathly Hallows and lead a Wizarding revolution to end the International Statute of Secrecy, and create a new wizard-led order that would dominate Muggles. At seventeen, their partnership fell apart after the two were involved in a three-way duel with Dumbledore's brother Aberforth that resulted in the death of Dumbledore's sister Ariana. Grindelwald left Britain and later stole the Elder Wand from Mykew Gregorovitch, proceeding alone with the revolution he and Dumbledore had planned.",
+                "Grindelwald was a complex figure, highly idealistic and talented, dedicated to achieve his ends at any cost. A revolutionary operating outside the law, he and his followers committed numerous crimes, including several murders. With violent acts in both the United States and Europe, Grindelwald ultimately established a power base at Nurmengard Castle in Austria. In 1945, at the height of Grindelwald's power, Dumbledore confronted and defeated him in a legendary duel. He was subsequently imprisoned in his own fortress for decades, and was finally slain there by Lord Voldemort in 1998 when he refused to give up the location of the Elder Wand."
+            ]
         }
     ]
 }
