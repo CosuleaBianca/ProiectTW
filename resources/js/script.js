@@ -36,19 +36,20 @@ class Character {
     }
 
     getFullName(){
-        let fullName = this.firstName+" " + this.lastName;
+        let fullName = this.firstName + " " + this.lastName;
         return fullName;
     }
 
     getDateOfDeath(){
-        if(this.alive == true) deathDate = "-";
+        if(this.alive == "true") var deathDate = "-";
         else{
-            bd = this.dateOfBirth.split(" ");
-            dd= this.dateOfDeath.split(" ");
-            years = parseInt(bd[2]) - parseInt(dd[2]);
+            let bd = this.dateOfBirth.split(" ");
+            let dd= this.dateOfDeath.split(" ");
+            let years = parseInt(dd[2]) - parseInt(bd[2]);
 
-            deathDate = this.dateOfDeath + "(" + years.toString() + ")";
+            var deathDate = this.dateOfDeath + " (" + years.toString() + " yrs)";
         }
+        return deathDate;
     }
 }
 
