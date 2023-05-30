@@ -7,8 +7,8 @@
             "name":"Harry Potter",
             "quote":"\"You are protected, in short, by your ability to love! The only protection that can possibly work against the lure of power like Voldemort's! In spite of all the temptation you have endured, all the suffering, you remain pure of heart, just as pure as you were at the age of eleven, when you stared into a mirror that reflected your heart's desire, and it showed you only the way to thwart Lord Voldemort, and not immortality or riches. Harry, have you any idea how few wizards could have seen what you saw in that mirror?\" — Albus Dumbledore describing Harry's rare nature",
             "description":"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard. Thus, he attends Hogwarts to practise magic under the guidance of the kindly headmaster Albus Dumbledore and other school professors along with his best friends Ron Weasley and Hermione Granger. Harry also discovers that he is already famous throughout the novel's magical community, and that his fate is tied with that of Lord Voldemort - the internationally feared Dark Wizard and murderer of his parents, James and Lily Potter. The book and film series revolve around Harry's struggle to adapt to the wizarding world and defeat Voldemort.",
-            "personal-details":{
-                "full-name":"Harry James Potter",
+            "personalDetails":{
+                "fullName":"Harry James Potter",
                 "dateOfBirth":"31 July 1980",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -46,8 +46,8 @@
             "name":"Hermione Granger",
             "quote":"Harry Potter: \"But why's she got to go to the library?\" \nRonald Weasley: \"Because that's what Hermione does. When in doubt, go to the library.\" — Hermione's dependency on books",
             "description":"Hermione Jean Granger is a fictional character in J. K. Rowling's Harry Potter series. She first appears in the novel Harry Potter and the Philosopher's Stone (1997), on the Hogwarts express as a first year student on her way to Hogwarts. After Harry and Ron save her from a mountain troll in the girls' restroom, she becomes best friends with them and often uses her quick wit, deft recall, and encyclopaedic knowledge to lend aid in dire situations. Rowling has stated that Hermione resembles herself as a young girl, with her insecurity and fear of failure.",
-            "personal-details":{
-                "full-name":"Hermione Jean Granger",
+            "personalDetails":{
+                "fullName":"Hermione Jean Granger",
                 "dateOfBirth":"19 September 1979",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -81,8 +81,8 @@
             "name":"Ron Weasley",
             "quote":"\"I'm the sixth in our family to go to Hogwarts. You could say I got a lot to live up to. Bill and Charlie have already left — Bill was Head Boy and Charlie was captain of Quidditch. Now Percy's a prefect. Fred and George mess around a lot, but they still get really good marks and everyone thinks they're really funny. Everyone expects me to do as well as the others, but if I do, it's no big deal, because they did it first.\" — Ron's family and others' expectations",
             "description":"Ronald Bilius Weasley is a fictional character in J. K. Rowling's Harry Potter fantasy novel series. His first appearance was in the first book of the series, Harry Potter and the Philosopher's Stone, as the best friend of Harry Potter and Hermione Granger. He is a member of the Weasley family, a pure blood family that resides in \"The Burrow\" outside Ottery St. Catchpole. Being the only member of the three main characters raised in magical society, he also provides insight into the Wizarding World's magical customs and traditions. Along with Harry and Hermione, he is a member of Gryffindor house and is present for most of the action throughout the series.",
-            "personal-details":{
-                "full-name":"Ronald Bilius Weasley",
+            "personalDetails":{
+                "fullName":"Ronald Bilius Weasley",
                 "dateOfBirth":"1 March 1980",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -116,8 +116,8 @@
             "name":"Ginny Weasley",
             "quote":"\"Yeah, size is no guarantee of power. Look at Ginny...\" — Ginny's impressive Bat-Bogey Hex",
             "description":"Ginny Weasley is a fictional character in J. K. Rowling's Harry Potter novel series. Ginny is introduced in the first book Harry Potter and the Philosopher's Stone, as the youngest sibling and only daughter of Arthur and Molly Weasley. She becomes Harry's main love interest and eventually marries him at the end of the series.",
-            "personal-details":{
-                "full-name":"Ginevra Molly Weasley",
+            "personalDetails":{
+                "fullName":"Ginevra Molly Weasley",
                 "dateOfBirth":"11 August 1981",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -153,8 +153,8 @@
             "name":"Albus Dumbledore",
             "quote":"\"Albus Dumbledore was never proud or vain; he could find something to value in anyone, however apparently insignificant or wretched, and I believe that his early losses endowed him with great humanity and sympathy. I shall miss his friendship more than I can say, but my loss is as nothing compared to the wizarding world's. That he was the most inspiring and the best loved of all Hogwarts headmasters cannot be in question. He died as he lived: working always for the greater good and, to his last hour, as willing to stretch out a hand to a small boy with dragon pox as he was on the day that I met him.\" — Albus Dumbledore's obituary by Elphias Doge",
             "description":"Prof. Albus Percival Wulfric Brian Dumbledore is a fictional character in J. K. Rowling's Harry Potter series. For most of the series, he is the headmaster of the wizarding school Hogwarts. As part of his backstory, it is revealed that he is the founder and leader of the Order of the Phoenix, an organisation dedicated to fighting Lord Voldemort, the main antagonist of the series.\n Rowling stated she chose the name Dumbledore, which is a dialectal word for \"bumblebee\", because of Dumbledore's love of music: she imagined him walking around \"humming to himself a lot\"",
-            "personal-details":{
-                "full-name":"Albus Percival Wulfric Brian Dumbledore",
+            "personalDetails":{
+                "fullName":"Albus Percival Wulfric Brian Dumbledore",
                 "dateOfBirth":"August 1881",
                 "alive":"false",
                 "dateOfDeath":"30 June 1997",
@@ -190,8 +190,8 @@
             "name":"Lord Voldemort",
             "quote":"\"You see? It was a name I was already using at Hogwarts, to my most intimate friends only, of course. You think I was going to use my filthy Muggle father's name forever? I, in whose veins runs the blood of Salazar Slytherin himself, through my mother's side? I, keep the name of a foul, common Muggle, who abandoned me even before I was born, just because he found out his wife was a witch? No, Harry. I fashioned myself a new name, a name I knew wizards everywhere would one day fear to speak, when I had become the greatest sorcerer in the world!\" — Tom Riddle's transformation into Lord Voldemort",
             "description":"Lord Voldemort is a sobriquet for Tom Marvolo Riddle, a character and the main antagonist in J. K. Rowling's series of Harry Potter novels. The character first appeared in Harry Potter and the Philosopher's Stone, which was published in 1997, and returned either in person or in flashbacks in each book and its film adaptation in the series except the third, Harry Potter and the Prisoner of Azkaban, in which he is only mentioned. \nVoldemort is the archenemy of Harry Potter, who according to a prophecy has \"the power to vanquish the Dark Lord\". He attempts to murder the boy, but instead kills his parents, Lily and James Potter, and leaves Harry with a scar on his forehead in the shape of a lightning bolt. Nearly every witch or wizard dares not utter his name and refers to him instead with such monikers as \"You-Know-Who\", \"He Who Must Not Be Named\", or \"the Dark Lord\". Voldemort's obsession with blood purity signifies his aim to rid the wizarding world of Muggle (non-magical) heritage and to conquer both worlds, Muggle and wizarding, to achieve pure-blood dominance. Through his mother's family, he is the last descendant of the wizard Salazar Slytherin, one of the four founders of Hogwarts School of Witchcraft and Wizardry. He is the leader of the Death Eaters, a group of evil wizards and witches dedicated to ridding the Wizarding World of Muggles and establishing Voldemort as its supreme ruler.",
-            "personal-details":{
-                "full-name":"Tom Marvolo Riddle",
+            "personalDetails":{
+                "fullName":"Tom Marvolo Riddle",
                 "dateOfBirth":"31 December 1926",
                 "alive":"false",
                 "dateOfDeath":"2 May 1998",
@@ -225,8 +225,8 @@
             "name":"Neville Longbottom",  
             "quote":"\"I'll join you when hell freezes over! Dumbledore's Army!\" — Neville bravely rejecting Voldemort's offer to join him",          
             "description":"Neville Longbottom is a fictional character in J. K. Rowling's Harry Potter book series. He is described as a round-faced Gryffindor student in the central character Harry Potter's year. Throughout the series, Neville is often portrayed as a bumbling and disorganised character, and a rather mediocre student, though he is highly gifted at Herbology. However, the character's personality appears to undergo a transition after he joins Dumbledore's Army in Harry Potter and the Order of the Phoenix. The encouragement he receives gives him confidence in his magical abilities, turning him into a more competent wizard. Eventually, Neville becomes the leader of Dumbledore's Army during Harry, Ron and Hermione's absence searching for Horcruxes. Neville is instrumental in the downfall of Lord Voldemort and eventually destroys the final Horcrux, which allows Harry to defeat The Dark Lord once and for all. ",
-            "personal-details":{
-                "full-name":"Neville Longbottom",
+            "personalDetails":{
+                "fullName":"Neville Longbottom",
                 "dateOfBirth":"30 July 1980",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -258,8 +258,8 @@
             "name":"Draco Malfoy",
             "quote":"\"I really don't think they should let the other sort in, do you? They're just not the same, they've never been brought up to know our ways. Some of them have never even heard of Hogwarts until they get the letter, I imagine. I think they should keep it in the old wizarding families.\" — Draco showing his prejudice at a young age",
             "description":"Draco Lucius Malfoy is a fictional character in J. K. Rowling's Harry Potter series. He is a student in Harry Potter's year belonging in the Slytherin house. He is frequently accompanied by his two cronies, Vincent Crabbe and Gregory Goyle, who act as henchmen. Draco is characterised as a cowardly bully who tricks and hurts people to get what he wants; he is also a cunning user of magic.",
-            "personal-details":{
-                "full-name":"Draco Lucius Malfoy",
+            "personalDetails":{
+                "fullName":"Draco Lucius Malfoy",
                 "dateOfBirth":"5 June 1980",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -291,8 +291,8 @@
             "name":"Severus Snape",
             "quote":"\"Albus Severus, you were named for two headmasters of Hogwarts. One of them was a Slytherin. And he was the bravest man I've ever known.\" — Harry Potter's high opinion of Snape's character",
             "description":"Severus Snape is a fictional character in J. K. Rowling's Harry Potter series. He is an exceptionally skilled wizard whose extremely cold and resentful exterior conceals deep emotions and anguish. A Professor at Hogwarts School of Witchcraft and Wizardry, Snape is hostile to Harry due to his resemblance to his father James Potter, who bullied Snape during their time together at Hogwarts. \n Snape's character has been widely acclaimed by readers and critics. Rowling described him as \"a gift of a character\" whose story she had known since the first book. Elizabeth Hand of The Washington Post explained that Snape's life \"is the most heartbreaking, surprising and satisfying of all of Rowling's achievements\".",
-            "personal-details":{
-                "full-name":"Severus Snape",
+            "personalDetails":{
+                "fullName":"Severus Snape",
                 "dateOfBirth":"9 January 1960",
                 "alive":"false",
                 "dateOfDeath":"2 May 1998",
@@ -323,8 +323,8 @@
             "name":"Rubeus Hagrid",
             "quote":"\"I would trust Hagrid with my life.\" — Albus Dumbledore's trust in Hagrid",
             "description":"Rubeus Hagrid is a fictional character in the Harry Potter book series written by J. K. Rowling. He is introduced in Harry Potter and the Philosopher's Stone as a half-giant and half-human who is the gamekeeper and Keeper of Keys and Grounds of Hogwarts, the primary setting for the first six novels. In the third novel Harry Potter and the Prisoner of Azkaban, Hagrid is promoted to Care of Magical Creatures professor, and is later revealed to be a member of the Order of the Phoenix. A loyal, friendly, softhearted personality who is easily brought to tears, he is also known for his thick West Country accent.",
-            "personal-details":{
-                "full-name":"Rubeus Hagrid",
+            "personalDetails":{
+                "fullName":"Rubeus Hagrid",
                 "dateOfBirth":"6 December 1928",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -352,8 +352,8 @@
             "name":"Sirius Black",
             "quote":"\"I don't know how I did it. I think the only reason I never lost my mind is that I knew I was innocent. That wasn't a happy thought, so the Dementors couldn't suck it out of me... but it kept me sane and knowing who I am... helped me keep my powers... so when it all became... too much... I could transform in my cell... become a dog.\" — How Sirius survived in Azkaban",
             "description":"Sirius Black is a character in J. K. Rowling's Harry Potter series. Sirius was first mentioned briefly in Harry Potter and the Philosopher's Stone as a wizard who lent Rubeus Hagrid a flying motorbike shortly after Lord Voldemort killed James and Lily Potter. His character becomes prominent in Harry Potter and the Prisoner of Azkaban, in which he is the titular prisoner, and is also revealed to be the godfather of the central character Harry Potter.",
-            "personal-details":{
-                "full-name":"Sirius Black III",
+            "personalDetails":{
+                "fullName":"Sirius Black III",
                 "dateOfBirth":"3 November 1959",
                 "alive":"false",
                 "dateOfDeath":"18 June 1996",
@@ -384,8 +384,8 @@
             "name":"Remus Lupin",
             "quote":"\"I was a very small boy when I received the bite. My parents tried everything, but in those days there was no cure. The Potion that Professor Snape has been making for me is a very recent discovery. It makes me safe, you see. As long as I take it in the week preceding the full moon, I keep my mind when I transform... I am able to curl up in my office, a harmless wolf, and wait for the moon to wane again. Before the Wolfsbane Potion was discovered, however, I became a fully fledged monster once a month. It seemed impossible that I would be able to come to Hogwarts. Other parents weren't likely to want their children exposed to me.\" — Lupin's life as a werewolf",
             "description":"Remus John Lupin is a fictional character in the Harry Potter book series written by J. K. Rowling. He first appears in Harry Potter and the Prisoner of Azkaban as the new Defence Against the Dark Arts professor. Lupin remains in the story following his resignation from this post, serving as a friend and ally of the central character, Harry Potter.",
-            "personal-details":{
-                "full-name":"Remus John Lupin",
+            "personalDetails":{
+                "fullName":"Remus John Lupin",
                 "dateOfBirth":"10 March 1960",
                 "alive":"false",
                 "dateOfDeath":"2 May 1998",
@@ -414,8 +414,8 @@
             "name":"Bellatrix Lestrange",
             "quote":"\"Potter, you cannot win against me! I was and am the Dark Lord's most loyal servant. I learned the Dark Arts from him, and I know spells of such power that you, pathetic little boy, can never hope to compete!\" — Bellatrix about her loyalty and skills in the Dark Arts",
             "description":"Bellatrix Lestrange is a fictional character in the Harry Potter book series written by J. K. Rowling. She evolved from an unnamed periphery character in Harry Potter and the Goblet of Fire into a major antagonist in subsequent novels. In the final installment of the story, Rowling established her as Lord Voldemort's \"last, best lieutenant\". Bellatrix was the first female Death Eater introduced in the books. Bellatrix had a ravaging obsession with the Dark Lord although she was clearly fearful of his magical abilities and absolute power over his forces.",
-            "personal-details":{
-                "full-name":"Bellatrix Lestrange",
+            "personalDetails":{
+                "fullName":"Bellatrix Lestrange",
                 "dateOfBirth":"1951",
                 "alive":"false",
                 "dateOfDeath":"2 May 1998 ",
@@ -446,8 +446,8 @@
             "name":"Minerva McGonagall",
             "quote":"\"Transfiguration is some of the most complex and dangerous magic you will learn at Hogwarts. Anyone messing around in my class will leave and not come back. You have been warned.\" — McGonagall's sternness and belief in her field",
             "description":"Professor Minerva McGonagall is a fictional character in J. K. Rowling's Harry Potter series. Professor McGonagall is a professor at Hogwarts School for Witchcraft and Wizardry, the head of Gryffindor House, the professor of Transfiguration, the Deputy Headmistress under Albus Dumbledore and a member of the Order of the Phoenix. Following Lord Voldemort's defeat at the hands of her student Harry Potter and the deaths of Headmasters Albus Dumbledore and Severus Snape, McGonagall takes the position of Headmistress.",
-            "personal-details":{
-                "full-name":"Minerva McGonagall",
+            "personalDetails":{
+                "fullName":"Minerva McGonagall",
                 "dateOfBirth":"4 October",
                 "alive":"true",
                 "dateOfDeath":"",
@@ -486,8 +486,8 @@
             "name":"Gellert Grindelwald",
             "quote":"\"Listen to me, the disapproval of cowards is praise to the brave. Your name will be written in glory when wizards rule the world.\" — Gellert Grindelwald's fanatical ideology",
             "description":"Gellert Grindelwald is a dark wizard who, on a list of \"Most Dangerous Dark Wizards of All Time\", would be second only to Voldemort, according to Rita Skeeter's book The Life and Lies of Albus Dumbledore. His name is first mentioned in Philosopher's Stone on a Chocolate Frog card which notes that Dumbledore defeated Grindelwald in 1945. The character is not mentioned again until Deathly Hallows where he plays a significant part of the subplot about Dumbledore's backstory.",
-            "personal-details":{
-                "full-name":"Gellert Grindelwald",
+            "personalDetails":{
+                "fullName":"Gellert Grindelwald",
                 "dateOfBirth":"Between summer 1882 and summer 1883",
                 "alive":"false",
                 "dateOfDeath":"Late March 1998",

@@ -1,3 +1,47 @@
+class Book {
+    constructor(book){
+        this.coverURL = book.coverURL;
+        this.title = book.title;
+        this.description = book.description;
+        this.numberOfPages = book.numberOfPages;
+        this.dateOfPublication = book.dateOfPublication;
+    }
+    // TODO: metode
+}
+
+class Character {
+    constructor(character){
+        this.portraitURL = character.portraitURL;  
+        this.name = character.name;
+        this.quote = character.quote;
+        this.description = character.description;
+            this.fullName = character.personalDetails.fullName;
+            this.dateOfBirth = character.personalDetails.dateOfBirth;
+            this.alive = character.personalDetails.alive;
+            this.dateOfDeath = character.personalDetails.dateOfDeath;
+            this.bloodStatus = character.personalDetails.bloodStatus;
+            this.maritalStatus = character.personalDetails.maritalStatus;
+            this.titles = character.personalDetails.titles;
+            this.species = character.personalDetails.species;
+            this.gender = character.personalDetails.gender;
+            this.family = character.personalDetails.family;
+            this.occupation = character.personalDetails.occupation;
+            this.house = character.personalDetails.house;
+    }
+    // TODO: metode
+}
+
+class Film {
+    constructor(film){
+        this.title = film.title;
+        this.coverURL = film.coverURL;
+        this.description = film.description;
+        this.releaseDate = film.releaseDate;
+        this.runtime = film.runtime;
+    }
+    // TODO: metode
+}
+
 const navButton = document.getElementById('nav-toggle');
 const navMenu = document.querySelector('div.options ul');
 //console.log(navMenu);
@@ -8,7 +52,7 @@ navButton.addEventListener('click', () => {
 })
 
 let navMenuOptions = navMenu.childNodes;
-console.log(navMenuOptions);
+//console.log(navMenuOptions);
 for(i=0;i<navMenuOptions.length;i++){
     let child=navMenuOptions[i];
     if(child.nodeName == 'LI'){
@@ -152,27 +196,28 @@ async function booksPageLoad(json){
 
     const books = data.books;
     for (let i = 0; i < books.length; i++) {
+        const book = new Book(books[i]);
         let divCard = document.createElement("div");
         divCard.classList.add("book-card");
         let h2 = document.createElement("h2");
-        h2.innerText = books[i].title;
+        h2.innerText = book.title;
         divCard.appendChild(h2);
 
         let img = document.createElement("img");
-        img.setAttribute("src",books[i].coverURL);
+        img.setAttribute("src",book.coverURL);
         img.setAttribute("alt","Book cover");
         divCard.appendChild(img);
 
         let div = document.createElement("div");
         div.classList.add("book-card-content");
         let p = document.createElement("p");
-        p.innerText = books[i].description;
+        p.innerText = book.description;
         div.appendChild(p);
         p = document.createElement("p");
-        p.innerText = books[i].numberOfPages + " pages";
+        p.innerText = book.numberOfPages + " pages";
         div.appendChild(p);
         p = document.createElement("p");
-        p.innerText ="First published " + books[i].dateOfPublication;
+        p.innerText ="First published " + book.dateOfPublication;
         div.appendChild(p);
         divCard.appendChild(div);
 
@@ -247,19 +292,24 @@ async function charactersPageLoad(json){
     div.classList.add('character-link');
     const characters = data.characters;
     for (let i = 0; i < characters.length; i++) {
+        const character = new Character(characters[i]);
+
         let li = document.createElement("li");
         let a = document.createElement("a");
         a.setAttribute("href","character.html");
         let img = document.createElement("img");
-        img.setAttribute("src",characters[i].portraitURL);
+        img.setAttribute("src",character.portraitURL);
         img.setAttribute("alt","Portrait");
         a.appendChild(img)
         let span = document.createElement("span");
-        span.innerText = characters[i].name;
+        span.innerText = character.name;
         a.appendChild(span);
         li.appendChild(a);
         li.setAttribute("id","ch"+i);
         ul.appendChild(li);
+        li.addEventListener('click',() => {
+            localStorage.setItem("character",JSON.stringify(character));
+        })
     }
     div.appendChild(ul);
     main.appendChild(div);
