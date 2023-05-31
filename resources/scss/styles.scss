@@ -82,14 +82,19 @@ nav{
     //background-color: $secondary-color;
 }
 
-main{
+#content{
     grid-area: content;
     display: flex;
     flex-direction: column;
-    //background-color: $section-bg-color;
-    padding: 5vh 10vw;
-    background-image: url(../images/bg//bg-bottom.webp)
+    background-color: $section-bg-color-light;
+    padding: 5vh 5vw;
+    // background-image: url(../images/bg//bg-bottom.webp)
+    border-radius: 10px;
+    margin: 20px 40px;
+}
 
+main {
+    background-image: url(../images/bg/bg-bottom.webp)
 }
 
 .house {
@@ -255,7 +260,7 @@ a{
 }
 
 .game-list ul {
-    -webkit-margin-before: 1em;
+    padding-top: 1em;
 }
 
 .game-container {
