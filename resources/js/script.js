@@ -464,6 +464,17 @@ function gamePageLoadXML(xml){
 
 function pageLoad(){
     drawLogo();
+
+    if(localStorage.getItem("theme")==null)
+        localStorage.setItem("theme","light");
+
+    let theme=localStorage.getItem("theme");
+    var body=document.querySelector("body");
+    body.className=theme;
+
+    if(theme == "light") drawMoon(svg);
+    else drawSun(svg);
+
     page=sessionStorage.getItem("section");
 
     if(page==2) loadDataJSON("./resources/data/books.json", booksPageLoad);
@@ -495,4 +506,105 @@ function drawLogo(){
         ctx.stroke();
         ctx.fillStyle = "#f5d018";
         ctx.fill();
+}
+
+
+function changeTheme(){
+    let theme=localStorage.getItem("theme");
+    var svg = document.getElementById('svg');
+    var body=document.querySelector("body");
+    if(theme == "light"){
+        body.className="dark";
+        localStorage.setItem("theme","dark");
+        drawSun(svg);
+    }
+    else{
+        body.className="light";
+        localStorage.setItem("theme","light");
+        drawMoon(svg);
+    }
+}
+
+var svgns = "http://www.w3.org/2000/svg";
+
+function drawMoon(svg){
+    svg.replaceChildren();
+
+    var shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 25);
+    shape.setAttributeNS(null, "cy", 25);
+    shape.setAttributeNS(null, "r",  23);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 38);
+    shape.setAttributeNS(null, "cy", 25);
+    shape.setAttributeNS(null, "r",  18);
+    shape.setAttributeNS(null, "fill", "black");
+    svg.appendChild(shape);
+
+}
+
+function drawSun(svg){
+    svg.replaceChildren();
+
+    var shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 25);
+    shape.setAttributeNS(null, "cy", 25);
+    shape.setAttributeNS(null, "r",  15);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 25);
+    shape.setAttributeNS(null, "cy", 3);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 25);
+    shape.setAttributeNS(null, "cy", 48);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 3);
+    shape.setAttributeNS(null, "cy", 25);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 48);
+    shape.setAttributeNS(null, "cy", 25);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 9);
+    shape.setAttributeNS(null, "cy", 9);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 42);
+    shape.setAttributeNS(null, "cy", 42);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 42);
+    shape.setAttributeNS(null, "cy", 9);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
+    shape = document.createElementNS(svgns, "circle");
+    shape.setAttributeNS(null, "cx", 9);
+    shape.setAttributeNS(null, "cy", 42);
+    shape.setAttributeNS(null, "r",  3);
+    shape.setAttributeNS(null, "fill", "white");
+    svg.appendChild(shape);
 }

@@ -1,3 +1,23 @@
+.light {
+  color: black;
+}
+.light header, .light footer {
+  background-color: #baf9a9;
+}
+.light nav {
+  background-color: #f49ae8;
+}
+
+.dark {
+  color: white;
+}
+.dark header, .dark footer {
+  background-color: #0A1A33;
+}
+.dark nav {
+  background-color: #570644;
+}
+
 body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -19,6 +39,16 @@ div.page-band {
   opacity: 0.3;
   z-index: 1000;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+div.page-band div {
+  display: flex;
+  flex-direction: row;
+}
+div.page-band svg {
+  padding-right: 30px;
 }
 
 div.page {
@@ -33,8 +63,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0A1A33;
-  color: white;
   max-width: 100vw;
 }
 
@@ -42,14 +70,12 @@ nav {
   grid-area: menu;
   display: flex;
   flex-direction: column;
-  background-color: #5D81BA;
 }
 
 main {
   grid-area: content;
   display: flex;
   flex-direction: column;
-  background-color: #c4c7cc;
   padding: 5vh 10vw;
   background-image: url(../images/bg//bg-bottom.webp);
 }
@@ -129,7 +155,6 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color: #0A1A33;
   color: white;
   padding: 20px 20px;
 }
