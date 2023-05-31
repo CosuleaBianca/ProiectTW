@@ -112,18 +112,6 @@ div.page-band{
     padding: 0px 10px;
 }
 
-.gryffindor {
-    background-color: $character-gryffindor-color;
-}
-
-.slytherin {
-    background-color: $character-slytherin-color;
-}
-
-.none {
-    background-color: $character-none-color;
-}
-
 .content {
     //flex-direction: column;
    // justify-content: center;
@@ -137,4 +125,39 @@ div.page-band{
 .title {
     padding: 10px 10px;
     margin: 0;
+}
+
+@media screen and (max-width: 768px){
+ .container {
+    padding: 10vh 5vw;
+    margin: 0;
+    border-radius: 0;
+ }
+ .info-box {
+    justify-content: initial;
+ }
+ .dark .info-box {
+    border: none;
+ }
+}
+
+@media screen and (max-width: 600px) {
+ .container{
+    margin: 0;
+    border-radius: 0;
+    flex-direction: column;
+
+ }
+
+ .info-box {
+    align-self: center;
+ }
+
+ .content {
+    width: 90svw;
+    padding: 10px;
+    p {
+        width: 90vw;;
+    }
+ }
 }
