@@ -48,47 +48,57 @@ function loadPage(){
     body.className=theme;
 
     let characterJSON = localStorage.getItem("character");
-    if(characterJSON != null) {
+    if(characterJSON == null) {
+        document.getElementById("name").innerText = "Pagina indisponibila!";
+        var q = document.getElementsByClassName("content");
+        var a = document.createElement("a");
+        a.setAttribute("href","/index.html");
+        a.innerText="Apasa aici.";
+        q[0].appendChild(a);
+        
+    }
+    else {
         var character = new Character(JSON.parse(localStorage.getItem("character")));
-    }
-    document.getElementById("portraitURL").setAttribute("src",character.portraitURL);
-    document.getElementById("full-name").innerText = character.getFullName();
-    document.getElementById("dateOfBirth").innerText = character.dateOfBirth;
-    document.getElementById("dateOfDeath").innerText = character.getDateOfDeath();
-    document.getElementById("bloodStatus").innerText = character.bloodStatus;
-    document.getElementById("maritalStatus").innerText = character.maritalStatus;
-    let titlesList = document.getElementById("titles");
-    titlesList.replaceChildren();
-    for(title of character.titles){
-        let li=document.createElement("li");
-        li.innerText = title;
-        titlesList.appendChild(li);
-    }
-    document.getElementById("species").innerText = character.species;
-    document.getElementById("gender").innerText = character.gender;
-    let familyList = document.getElementById("family");
-    familyList.replaceChildren();
-    for(member of character.family){
-        let li=document.createElement("li");
-        li.innerText = member;
-        familyList.appendChild(li);
-    }
-    let occupationList = document.getElementById("occupation");
-    occupationList.replaceChildren();
-    for(occupation of character.occupation){
-        let li=document.createElement("li");
-        li.innerText = occupation;
-        occupationList.appendChild(li);
-    }
-    document.getElementById("house").innerText = character.house;
-    document.getElementById("name").innerText = character.getShortName();
-    document.getElementById("quote").innerText = character.quote;
-    let descriptionList=document.getElementById("description");
-    descriptionList.replaceChildren();
-    for(description of character.description){
-        let p=document.createElement("p");
-        p.innerText = description;
-        descriptionList.appendChild(p);
+
+        document.getElementById("portraitURL").setAttribute("src",character.portraitURL);
+        document.getElementById("full-name").innerText = character.getFullName();
+        document.getElementById("dateOfBirth").innerText = character.dateOfBirth;
+        document.getElementById("dateOfDeath").innerText = character.getDateOfDeath();
+        document.getElementById("bloodStatus").innerText = character.bloodStatus;
+        document.getElementById("maritalStatus").innerText = character.maritalStatus;
+        let titlesList = document.getElementById("titles");
+        titlesList.replaceChildren();
+        for(title of character.titles){
+            let li=document.createElement("li");
+            li.innerText = title;
+            titlesList.appendChild(li);
+        }
+        document.getElementById("species").innerText = character.species;
+        document.getElementById("gender").innerText = character.gender;
+        let familyList = document.getElementById("family");
+        familyList.replaceChildren();
+        for(member of character.family){
+            let li=document.createElement("li");
+            li.innerText = member;
+            familyList.appendChild(li);
+        }
+        let occupationList = document.getElementById("occupation");
+        occupationList.replaceChildren();
+        for(occupation of character.occupation){
+            let li=document.createElement("li");
+            li.innerText = occupation;
+            occupationList.appendChild(li);
+        }
+        document.getElementById("house").innerText = character.house;
+        document.getElementById("name").innerText = character.getShortName();
+        document.getElementById("quote").innerText = character.quote;
+        let descriptionList=document.getElementById("description");
+        descriptionList.replaceChildren();
+        for(description of character.description){
+            let p=document.createElement("p");
+            p.innerText = description;
+            descriptionList.appendChild(p);
+        }
     }
 }
 

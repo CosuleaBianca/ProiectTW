@@ -6,7 +6,14 @@ class Book {
         this.numberOfPages = book.numberOfPages;
         this.dateOfPublication = book.dateOfPublication;
     }
-    // TODO: metode
+    
+    getVechime(){
+        const d = new Date();
+        let year = d.getFullYear();
+        let date = this.dateOfPublication.split(" ");
+        
+        return year-parseInt(date[2]);
+    }
 }
 
 class Character {
@@ -28,7 +35,7 @@ class Character {
         this.quote = character.quote;
         this.description = character.description;
     }
-    // TODO: metode
+
     getShortName(){
         let firstNames = this.firstName.split(" ");
         let shortName = firstNames[0] + " " + this.lastName;
@@ -61,7 +68,13 @@ class Film {
         this.releaseDate = film.releaseDate;
         this.runtime = film.runtime;
     }
-    // TODO: metode
+    
+    getVechime(){
+        const d = new Date();
+        let year = d.getFullYear();
+        
+        return year - parseInt(this.releaseDate);
+    }
 }
 
 const navButton = document.getElementById('nav-toggle');
@@ -73,41 +86,43 @@ navButton.addEventListener('click', () => {
     // console.log('ascund')  
 })
 
-let navMenuOptions = navMenu.childNodes;
-//console.log(navMenuOptions);
-for(i=0;i<navMenuOptions.length;i++){
-    let child=navMenuOptions[i];
-    if(child.nodeName == 'LI'){
-        //console.log(child);
-        child.addEventListener('click', () => {
-            if(child.innerText == 'Home'){
-                loadDataJSON("./resources/data/home.json", homePageLoad);
-                navMenu.classList.toggle('show');
-                //console.log('apas home')
-            }
-            else if(child.innerText == 'Books'){
-                loadDataJSON("./resources/data/books.json", booksPageLoad);
-                navMenu.classList.toggle('show');
-                //console.log('apas books')
-            }
-            else if(child.innerText == 'Films'){
-                loadDataJSON("./resources/data/films.json", filmsPageLoad);
-                navMenu.classList.toggle('show');
-                //console.log('apas films')
-            }
-            else if(child.innerText == 'Characters'){
-                loadDataJSON("./resources/data/characters.json", charactersPageLoad);
-                navMenu.classList.toggle('show');
-                //console.log('apas Characters')
-            }
-            else if(child.innerText == 'Game'){
-                loadDataXML("./resources/data/games.xml",gamePageLoadXML);
-                // loadDataJSON("./resources/data/game.json", gamePageLoad);
-                navMenu.classList.toggle('show');
-                //console.log('apas Games')
-            }
-            
-        })
+function addMenuOptionsEvent(){
+    let navMenuOptions = navMenu.childNodes;
+    //console.log(navMenuOptions);
+    for(i=0;i<navMenuOptions.length;i++){
+        let child=navMenuOptions[i];
+        if(child.nodeName == 'LI'){
+            //console.log(child);
+            child.addEventListener('click', () => {
+                if(child.innerText == 'Home'){
+                    loadDataJSON("./resources/data/home.json", homePageLoad);
+                    navMenu.classList.toggle('show');
+                    //console.log('apas home')
+                }
+                else if(child.innerText == 'Books'){
+                    loadDataJSON("./resources/data/books.json", booksPageLoad);
+                    navMenu.classList.toggle('show');
+                    //console.log('apas books')
+                }
+                else if(child.innerText == 'Films'){
+                    loadDataJSON("./resources/data/films.json", filmsPageLoad);
+                    navMenu.classList.toggle('show');
+                    //console.log('apas films')
+                }
+                else if(child.innerText == 'Characters'){
+                    loadDataJSON("./resources/data/characters.json", charactersPageLoad);
+                    navMenu.classList.toggle('show');
+                    //console.log('apas Characters')
+                }
+                else if(child.innerText == 'Game'){
+                    loadDataXML("./resources/data/games.xml",gamePageLoadXML);
+                    // loadDataJSON("./resources/data/game.json", gamePageLoad);
+                    navMenu.classList.toggle('show');
+                    //console.log('apas Games')
+                }
+                
+            })
+        }
     }
 }
 
@@ -241,7 +256,7 @@ async function booksPageLoad(json){
         p.innerText = book.numberOfPages + " pages";
         div.appendChild(p);
         p = document.createElement("p");
-        p.innerText ="First published " + book.dateOfPublication;
+        p.innerText ="First published " + book.dateOfPublication + " (" + book.getVechime() + " yrs ago)";
         div.appendChild(p);
         divCard.appendChild(div);
 
@@ -262,7 +277,8 @@ async function filmsPageLoad(json){
     main.appendChild(p);
 
     const films = data.films;
-    for(const film of films){
+    for (let i = 0; i < films.length; i++) {
+        const film = new Film(films[i]);
         let divCard = document.createElement("div");
         divCard.classList.add("film-card");
         let h2 = document.createElement("h2");
@@ -283,7 +299,7 @@ async function filmsPageLoad(json){
         p.innerText="Runtime: " + film.runtime;
         div.appendChild(p);
         p = document.createElement("p");
-        p.innerText="Release date " + film.releaseDate;
+        p.innerText="Release date " + film.releaseDate + " (" + film.getVechime() + " yrs ago)";
         div.appendChild(p);
         divCard.appendChild(div)
         
@@ -487,6 +503,8 @@ function pageLoad(){
     else loadDataJSON("./resources/data/home.json",homePageLoad);
 }
  
+addMenuOptionsEvent();
+
 function drawLogo(){
     var canvas = document.getElementById("logo");
         var ctx = canvas.getContext("2d");
