@@ -490,7 +490,7 @@ function drawLogo(){
         var ctx = canvas.getContext("2d");
 
         //fulger
-        ctx.strokeStyle = "#f5d018";
+        ctx.strokeStyle = "black";
         ctx.lineWidth=3;
         ctx.beginPath();
         
@@ -534,14 +534,14 @@ function drawMoon(svg){
     shape.setAttributeNS(null, "cx", 25);
     shape.setAttributeNS(null, "cy", 25);
     shape.setAttributeNS(null, "r",  23);
-    shape.setAttributeNS(null, "fill", "white");
+    shape.setAttributeNS(null, "fill", "black");
     svg.appendChild(shape);
 
     shape = document.createElementNS(svgns, "circle");
     shape.setAttributeNS(null, "cx", 38);
     shape.setAttributeNS(null, "cy", 25);
     shape.setAttributeNS(null, "r",  18);
-    shape.setAttributeNS(null, "fill", "black");
+    shape.setAttributeNS(null, "fill", "#BFC0C0");
     svg.appendChild(shape);
 
 }

@@ -2,10 +2,16 @@
   color: black;
 }
 .light header, .light footer {
-  background-color: #baf9a9;
+  background-color: #95B198;
 }
 .light nav {
-  background-color: #f49ae8;
+  background-color: #71B1C1;
+}
+.light .options ul li:hover {
+  background-color: #CEE7E6;
+}
+.light div.page-band {
+  background-color: #BFC0C0;
 }
 
 .dark {
@@ -33,9 +39,7 @@ div.page-band {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(15, 15, 15);
   padding: 10px;
-  color: white;
   opacity: 0.3;
   z-index: 1000;
   display: flex;
@@ -155,7 +159,6 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  color: white;
   padding: 20px 20px;
 }
 footer a {
@@ -187,10 +190,6 @@ ul {
 .options ul li {
   list-style-type: none;
   cursor: pointer;
-}
-
-.options ul li:hover {
-  background-color: antiquewhite;
 }
 
 a {
