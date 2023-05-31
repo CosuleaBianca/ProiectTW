@@ -15,7 +15,7 @@
 }
 
 .dark {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .dark header, .dark footer {
   background-color: #0A1A33;
@@ -76,12 +76,18 @@ nav {
   flex-direction: column;
 }
 
-main {
+#content {
   grid-area: content;
   display: flex;
   flex-direction: column;
-  padding: 5vh 10vw;
-  background-image: url(../images/bg//bg-bottom.webp);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5vh 5vw;
+  border-radius: 10px;
+  margin: 20px 40px;
+}
+
+main {
+  background-image: url(../images/bg/bg-bottom.webp);
 }
 
 .house {
@@ -125,7 +131,7 @@ main {
 }
 
 .book-card-content {
-  pad: 2px 16px;
+  padding: 2px 16px;
   text-align: justify;
 }
 
@@ -144,7 +150,7 @@ main {
 }
 
 .film-card-content {
-  pad: 2px 16px;
+  padding: 2px 16px;
   text-align: justify;
 }
 
@@ -246,7 +252,7 @@ a {
 }
 
 .game-list ul {
-  -webkit-margin-before: 1em;
+  padding-top: 1em;
 }
 
 .game-container {
