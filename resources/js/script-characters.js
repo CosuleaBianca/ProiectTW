@@ -47,18 +47,10 @@ function loadPage(){
     var body=document.querySelector("body");
     body.className=theme;
 
-    let characterJSON = localStorage.getItem("character");
-    if(characterJSON == null) {
-        document.getElementById("name").innerText = "Pagina indisponibila!";
-        var q = document.getElementsByClassName("content");
-        var a = document.createElement("a");
-        a.setAttribute("href","/index.html");
-        a.innerText="Apasa aici.";
-        q[0].appendChild(a);
-        
-    }
+    let characterJSON = sessionStorage.getItem("character");
+    if(characterJSON == null) window.location.assign('index.html');
     else {
-        var character = new Character(JSON.parse(localStorage.getItem("character")));
+        var character = new Character(JSON.parse(sessionStorage.getItem("character")));
 
         document.getElementById("portraitURL").setAttribute("src",character.portraitURL);
         document.getElementById("full-name").innerText = character.getFullName();

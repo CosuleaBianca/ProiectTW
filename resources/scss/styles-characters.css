@@ -67,6 +67,7 @@ div.page-band {
   padding: 10vh 10vw;
   margin: 0 5vw;
   border-radius: 10px;
+  align-items: flex-start;
 }
 
 #portraitURL {

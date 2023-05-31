@@ -340,7 +340,7 @@ async function charactersPageLoad(json){
         li.setAttribute("id","ch"+i);
         ul.appendChild(li);
         li.addEventListener('click',() => {
-            localStorage.setItem("character",JSON.stringify(character));
+            sessionStorage.setItem("character",JSON.stringify(character));
         })
     }
     div.appendChild(ul);
