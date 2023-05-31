@@ -6,7 +6,7 @@
     header,footer{
         background-color: $primary-color-light;
     }
-    nav{
+    nav,.options ul{
         background-color: $secondary-color-light;
     }
     .options ul li:hover{
@@ -15,6 +15,9 @@
     div.page-band{
         background-color: $page-band-color-light;
     }
+    #content{
+        background-color: $section-bg-color-light;
+    }
 }
 
 .dark{
@@ -22,8 +25,17 @@
     header,footer{
         background-color: $primary-color-dark;
     }
-    nav{
+    nav,.options ul{
         background-color: $secondary-color-dark;
+    }
+    .options ul li:hover{
+        background-color: $secondary-color-accent-dark;
+    }
+    div.page-band{
+        background-color: $page-band-color-dark;
+    }
+    #content{
+        background-color: $section-bg-color-dark;
     }
 }
 
@@ -41,9 +53,7 @@ div.page-band{
     position: fixed;
     top:0;
     width: 100%;
-    //background-color: rgba(15, 15, 15);
     padding: 10px;  
-    //color: white;
     opacity: 0.3;
     z-index: 1000;
     display: flex;
@@ -76,8 +86,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-   // background-color: $primary-color;
-   // color: $title-color;
     max-width: 100vw;
 }
 
@@ -85,16 +93,13 @@ nav{
     grid-area: menu;
     display: flex;
     flex-direction: column;
-    //background-color: $secondary-color;
 }
 
 #content{
     grid-area: content;
     display: flex;
     flex-direction: column;
-    background-color: $section-bg-color-light;
     padding: 5vh 5vw;
-    // background-image: url(../images/bg//bg-bottom.webp)
     border-radius: 10px;
     margin: 20px 40px;
 }
@@ -110,7 +115,6 @@ main {
     padding: 5vh 5vw;
     width: 55vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    color: white;
 }
 
 .gryffindor {
@@ -168,10 +172,7 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    //background-color: $primary-color;
-    //color: white;
     padding: 20px 20px;
-    
     a{
         padding: 0;
     }
@@ -213,11 +214,9 @@ a{
     padding: 20px 20px;
 }
 
-
 .character-link ul {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .character-link ul li {
@@ -232,7 +231,6 @@ a{
     height: 200px;
     border-radius: 100%;
     border: 5px solid $character-card-color;
-
 }
 
 .character-link ul li a span {
@@ -278,7 +276,6 @@ h4,p .game-container {
 }   
 
 .game-container img{
-  //  justify-content: center;
   width: 50vw;
 }
 
@@ -386,7 +383,7 @@ h4,p .game-container {
 
     .options ul{
         display: none;
-        background-color: bisque;
+        //background-color: bisque;
         position: absolute;
     }
 

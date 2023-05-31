@@ -1,27 +1,65 @@
 @import "variables";
 @import "mixins";
 
+.light{
+    color:$text-color-light;
+    body {
+        background-color: $secondary-color-light;
+    }
+    div.page-band{
+        background-color: $page-band-color-light;
+    }
+    .container {
+        background-color: $primary-color-light;
+    }
+    .info-box {
+        border: 2px solid $secondary-color-accent-light; 
+    }
+    .info-box-content {
+        border-top: 2px solid $secondary-color-accent-light;
+    }
+    .info-box h3{
+        border-top: 2px solid $secondary-color-accent-light;
+    }
+}
+
+.dark{
+    color:$text-color-dark;
+    body {
+        background-color: $secondary-color-dark;
+    }
+    div.page-band{
+        background-color: $page-band-color-dark;
+    }
+    .container {
+        background-color: $primary-color-dark;
+    }
+    .info-box {
+        border: 2px solid $secondary-color-accent-dark; 
+    }
+    .info-box-content {
+        border-top: 2px solid $secondary-color-accent-dark;
+    }
+    .info-box h3{
+        border-top: 2px solid $secondary-color-accent-dark;
+    }
+}
+
 body {
     @include setup;
-    background-color: $secondary-color;
-    color:aliceblue;
 }
 
 div.page-band{
     width: 100%;
-    background-color: rgba(15, 15, 15);
     padding: 20px;  
-    color: white;
 }
 
 .container {
     @include flex(row);
     justify-content:space-between;
     padding: 10vh 10vw;
-    background-color: $primary-color;
     margin: 0 5vw;
     border-radius: 10px;
-    
 }
 
 #portraitURL {
@@ -38,9 +76,7 @@ div.page-band{
     width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: 2px solid $secondary-color     
-
+    justify-content: center;  
 }
 
 .info-box h2,h3 {
@@ -57,7 +93,6 @@ div.page-band{
 }
 
 .info-box h3{
-    border-top: 2px solid $secondary-color;
     margin: 0;
     padding: 10px 0;
 }
@@ -72,15 +107,12 @@ div.page-band{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid $secondary-color;
     padding: 0px 10px;
-    
 }
 
 .gryffindor {
     background-color: $character-gryffindor-color;
 }
-
 
 .slytherin {
     background-color: $character-slytherin-color;

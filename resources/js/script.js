@@ -541,7 +541,7 @@ function drawMoon(svg){
     shape.setAttributeNS(null, "cx", 38);
     shape.setAttributeNS(null, "cy", 25);
     shape.setAttributeNS(null, "r",  18);
-    shape.setAttributeNS(null, "fill", "#BFC0C0");
+    shape.setAttributeNS(null, "fill", "#C8C8A7");
     svg.appendChild(shape);
 
 }

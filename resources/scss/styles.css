@@ -4,14 +4,17 @@
 .light header, .light footer {
   background-color: #95B198;
 }
-.light nav {
+.light nav, .light .options ul {
   background-color: #71B1C1;
 }
 .light .options ul li:hover {
   background-color: #CEE7E6;
 }
 .light div.page-band {
-  background-color: #BFC0C0;
+  background-color: #C8C8A7;
+}
+.light #content {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .dark {
@@ -20,8 +23,17 @@
 .dark header, .dark footer {
   background-color: #0A1A33;
 }
-.dark nav {
+.dark nav, .dark .options ul {
   background-color: #570644;
+}
+.dark .options ul li:hover {
+  background-color: #CEE7E6;
+}
+.dark div.page-band {
+  background-color: #C8C8A7;
+}
+.dark #content {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -80,7 +92,6 @@ nav {
   grid-area: content;
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.3);
   padding: 5vh 5vw;
   border-radius: 10px;
   margin: 20px 40px;
@@ -98,7 +109,6 @@ main {
   padding: 5vh 5vw;
   width: 55vw;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  color: white;
 }
 
 .gryffindor {
@@ -358,7 +368,6 @@ h4, p .game-container {
   }
   .options ul {
     display: none;
-    background-color: bisque;
     position: absolute;
   }
   .show {
