@@ -21,25 +21,25 @@
 }
 
 .dark {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 .dark body {
-  background-color: #570644;
+  background-color: #073749;
 }
 .dark div.page-band {
-  background-color: #C8C8A7;
+  background-color: #001F29;
 }
 .dark .container {
-  background-color: #0A1A33;
+  background-color: #1A3825;
 }
 .dark .info-box {
-  border: 2px solid #CEE7E6;
+  border: 2px solid #107FA8;
 }
 .dark .info-box-content {
-  border-top: 2px solid #CEE7E6;
+  border-top: 2px solid #107FA8;
 }
 .dark .info-box h3 {
-  border-top: 2px solid #CEE7E6;
+  border-top: 2px solid #107FA8;
 }
 
 body {

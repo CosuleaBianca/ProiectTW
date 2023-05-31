@@ -18,22 +18,25 @@
 }
 
 .dark {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 .dark header, .dark footer {
-  background-color: #0A1A33;
+  background-color: #1A3825;
 }
 .dark nav, .dark .options ul {
-  background-color: #570644;
+  background-color: #073749;
 }
 .dark .options ul li:hover {
-  background-color: #CEE7E6;
+  background-color: #107FA8;
 }
 .dark div.page-band {
-  background-color: #C8C8A7;
+  background-color: #001F29;
 }
 .dark #content {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(56, 55, 55, 0.3);
+}
+.dark #nav-toggle {
+  color: white;
 }
 
 body {
