@@ -56,8 +56,8 @@ main{
     display: flex;
     flex-direction: column;
     background-color: $section-bg-color;
-    //color: $section-bg-color;
     padding: 5vh 10vw;
+    background-image: url(../images/bg//bg-bottom.webp)
 
 }
 
@@ -124,9 +124,15 @@ main{
 footer{
     grid-area: footer;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-color: $primary-color;
     color: white;
+    padding: 20px 20px;
+    
+    a{
+        padding: 0;
+    }
 }
 
 #nav-toggle {
@@ -229,7 +235,7 @@ a{
     margin: auto;
 }
 
-.game-container h4,p {
+h4,p .game-container {
     align-self: center;
 }   
 
@@ -254,6 +260,30 @@ a{
     padding: 10px 10px;
     text-align: center;
 }
+
+.social-icons {
+    display: inline-block;
+    width: 62.5px; 
+    height: 62.5px;
+    background-image: url(../images/social-media-sprites.png);
+    background-repeat: no-repeat;
+  }
+  
+  .facebook-icon {
+    background-position: 0px 0px; /* Position of the Facebook icon in the sprite */
+  }
+  
+  .instagram-icon {
+    background-position: -125px 0px; /* Position of the Twitter icon in the sprite */
+  }
+  
+  .pinterest-icon {
+    background-position: 0px -125px; /* Position of the Instagram icon in the sprite */
+  }
+
+  .twitch-icon {
+    background-position: -62.5px -125px;
+  }
 
 @media screen and (max-width: 768px){
     

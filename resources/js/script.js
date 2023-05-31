@@ -363,7 +363,6 @@ function gamePageLoadXML(xml){
     const game = xml.getElementsByTagName("game")[0];
     let title = game.getElementsByTagName("title")[0].innerHTML;
     let subtitileImg = game.getElementsByTagName("subtitleImg")[0].innerHTML;
-    let backgroundImg = game.getElementsByTagName("backgroundImg")[0].innerHTML;
     let details = game.getElementsByTagName("details")[0];
     let name = details.getElementsByTagName("name")[0].innerHTML;
     let developer = details.getElementsByTagName("developer")[0].innerHTML;
@@ -380,7 +379,7 @@ function gamePageLoadXML(xml){
 
     const main = document.getElementById("content");
     main.replaceChildren();
-    main.setAttribute("style","background-image: "+backgroundImg)
+    //main.setAttribute("style","background-image: "+backgroundImg)
     
     let div = document.createElement("div");
     div.className = "game-details";
