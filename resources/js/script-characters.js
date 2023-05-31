@@ -30,7 +30,7 @@ class Character {
     }
 
     getDateOfDeath(){
-        if(this.alive == "true") var deathDate = "-";
+        if(this.alive == true) var deathDate = "-";
         else{
             let bd = this.dateOfBirth.split(" ");
             let dd= this.dateOfDeath.split(" ");
@@ -43,6 +43,10 @@ class Character {
 }
 
 function loadPage(){
+    let theme=localStorage.getItem("theme");
+    var body=document.querySelector("body");
+    body.className=theme;
+
     let characterJSON = localStorage.getItem("character");
     if(characterJSON != null) {
         var character = new Character(JSON.parse(localStorage.getItem("character")));

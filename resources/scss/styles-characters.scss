@@ -3,9 +3,7 @@
 
 .light{
     color:$text-color-light;
-    body {
-        background-color: $secondary-color-light;
-    }
+    background-color: $page-band-color-light;
     div.page-band{
         background-color: $page-band-color-light;
     }
@@ -21,18 +19,23 @@
     .info-box h3{
         border-top: 2px solid $secondary-color-accent-light;
     }
+    .info-box-content:nth-child(even){
+        background-color: $secondary-color-light;
+    }
+    
+    .info-box-content:nth-child(odd){
+        background-color: $secondary-color-accent-light;
+    }
 }
 
 .dark{
     color:$text-color-dark;
-    body {
-        background-color: $secondary-color-dark;
-    }
+    background-color: $primary-color-dark;
     div.page-band{
         background-color: $page-band-color-dark;
     }
     .container {
-        background-color: $primary-color-dark;
+        background-color: $page-band-color-dark;
     }
     .info-box {
         border: 2px solid $secondary-color-accent-dark; 
@@ -42,6 +45,13 @@
     }
     .info-box h3{
         border-top: 2px solid $secondary-color-accent-dark;
+    }
+    .info-box-content:nth-child(even){
+        background-color: $secondary-color-dark;
+    }
+    
+    .info-box-content:nth-child(odd){
+        background-color: $secondary-color-accent-dark;
     }
 }
 
@@ -82,14 +92,6 @@ div.page-band{
 .info-box h2,h3 {
     display: inherit;
     justify-content: inherit
-}
-
-.section:nth-child(even){
-    background-color: #0f0f0f;
-}
-
-.section div:nth-child(odd){
-    background-color: #050505;
 }
 
 .info-box h3{
