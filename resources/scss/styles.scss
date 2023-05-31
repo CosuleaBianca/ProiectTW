@@ -16,10 +16,11 @@ div.page-band{
     top:0;
     width: 100%;
     background-color: rgba(15, 15, 15);
-    padding: 20px;  
+    padding: 10px;  
     color: white;
     opacity: 0.3;
     z-index: 1000;
+    display: flex;
 }
 
 
@@ -53,7 +54,7 @@ nav{
 main{
     grid-area: content;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     background-color: $section-bg-color;
     //color: $section-bg-color;
     padding: 5vh 10vw;
@@ -147,7 +148,7 @@ ul {
     display: flex;
     flex-direction: column;
     position:sticky;
-    top:58px;
+    top:100px;
 }
 
 .options ul li{
@@ -273,6 +274,13 @@ a{
         position: absolute;
     }
 
+    nav {
+        height: 60px;
+        position:sticky;
+        top:100px;
+        z-index: 1000;
+    }
+
     .house {
         margin-bottom: 10px;
         padding: 5vh 5vw;
@@ -319,10 +327,8 @@ a{
     }
     
     nav {
-        padding: 10px;
-        position:sticky;
-        top:58px;
-        z-index: 1000;
+        padding: 20px;
+        height: 20px;
     }
 
     .logo{

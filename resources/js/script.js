@@ -464,6 +464,7 @@ function gamePageLoadXML(xml){
 }
 
 function pageLoad(){
+    drawLogo();
     page=sessionStorage.getItem("section");
 
     if(page==2) loadDataJSON("./resources/data/books.json", booksPageLoad);
@@ -474,3 +475,25 @@ function pageLoad(){
     else loadDataJSON("./resources/data/home.json",homePageLoad);
 }
  
+function drawLogo(){
+    var canvas = document.getElementById("logo");
+        var ctx = canvas.getContext("2d");
+
+        //fulger
+        ctx.strokeStyle = "#f5d018";
+        ctx.lineWidth=3;
+        ctx.beginPath();
+        
+        ctx.moveTo(30, 10);
+        ctx.lineTo(10, 44);
+        ctx.lineTo(24, 40);
+        ctx.lineTo(22, 60);
+        ctx.lineTo(40, 26);
+        ctx.lineTo(26, 30);
+        ctx.lineTo(30, 10);
+
+        ctx.closePath();
+        ctx.stroke();
+        ctx.fillStyle = "#f5d018";
+        ctx.fill();
+}
