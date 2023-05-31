@@ -445,6 +445,7 @@ function gamePageLoadXML(xml){
     for(let i=0;i<featuresArray.length;i++){
         let divCard = document.createElement("div");
         divCard.className = "game-card";
+        let div = document.createElement("div");
         let h4 = document.createElement("h4");
         h4.innerText = featuresArray[i].getElementsByTagName("title")[0].innerHTML;
         let p = document.createElement("p");
@@ -452,8 +453,9 @@ function gamePageLoadXML(xml){
         let img = document.createElement("img");
         img.setAttribute("src",featuresArray[i].getElementsByTagName("image")[0].innerHTML);
         divCard.appendChild(img);
-        divCard.appendChild(h4);
-        divCard.appendChild(p);
+        div.appendChild(h4);
+        div.appendChild(p);
+        divCard.appendChild(div)
         divCards.appendChild(divCard);
     }
     divContainer.appendChild(divCards);

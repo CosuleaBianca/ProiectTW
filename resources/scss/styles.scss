@@ -336,6 +336,11 @@ h4,p .game-container {
         "content"
         "footer";
     }
+
+    #content {
+        margin: 0;
+        border-radius: 0;
+    }
     
     .options ul{
         display: flex;
@@ -435,4 +440,34 @@ h4,p .game-container {
     margin: auto;
     border-radius: 100%;
     }
+
+    .game-details{
+        flex-direction: column;
+    }
+
+    .game-container {
+        //margin: 0;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .game-cards {
+        display: flex;
+        flex-direction: column;
+        }
+    
+    .game-card {
+        display: flex;
+        flex-direction: row;
+        padding: 2vw;
+    }
+    
+    .game-card img{
+        width: 150px;
+        height: 200px;
+        padding: 20px 20px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
 }
